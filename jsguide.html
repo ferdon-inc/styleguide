@@ -71,7 +71,7 @@
 
             <p>
                 Example code in this document is <strong>non-normative</strong>.
-                That is, while the examples are in Google Style, they may not
+                That is, while the examples are in Ferdon Style, they may not
                 illustrate the <em>only</em> stylish way to represent the code.
                 Optional formatting choices made in examples must not be
                 enforced as rules.
@@ -172,8 +172,8 @@ const units = '\u03bcs';
 
             <p>
                 All new source files should either be a
-                <code>goog.module</code> file (a file containing a
-                <code>goog.module</code> call) or an ECMAScript (ES) module
+                <code>ferdon.module</code> file (a file containing a
+                <code>ferdon.module</code> call) or an ECMAScript (ES) module
                 (uses <code>import</code> and <code>export</code> statements).
                 Files consist of the following, <strong>in order</strong>:
             </p>
@@ -181,15 +181,7 @@ const units = '\u03bcs';
             <ol>
                 <li>License or copyright information, if present</li>
                 <li><code>@fileoverview</code> JSDoc, if present</li>
-                <li>
-                    <code>goog.module</code> statement, if a
-                    <code>goog.module</code> file
-                </li>
                 <li>ES <code>import</code> statements, if an ES module</li>
-                <li>
-                    <code>goog.require</code> and
-                    <code>goog.requireType</code> statements
-                </li>
                 <li>The file&#8217;s implementation</li>
             </ol>
 
@@ -217,28 +209,28 @@ const units = '\u03bcs';
                 formatting rules.
             </p>
 
-            <h3 id="file-goog-module">
-                3.3 <code>goog.module</code> statement
+            <!-- <h3 id="file-goog-module">
+                3.3 <code>ferdon.module</code> statement
             </h3>
 
             <p>
-                All <code>goog.module</code> files must declare exactly one
-                <code>goog.module</code> name on a single line: lines containing
-                a <code>goog.module</code> declaration must not be wrapped, and
-                are therefore an exception to the 80-column limit.
+                All <code>ferdon.module</code> files must declare exactly one
+                <code>ferdon.module</code> name on a single line: lines
+                containing a <code>ferdon.module</code> declaration must not be
+                wrapped, and are therefore an exception to the 80-column limit.
             </p>
 
             <p>
-                The entire argument to goog.module is what defines a namespace.
-                It is the package name (an identifier that reflects the fragment
-                of the directory structure where the code lives) plus,
-                optionally, the main class/enum/interface that it defines
+                The entire argument to ferdon.module is what defines a
+                namespace. It is the package name (an identifier that reflects
+                the fragment of the directory structure where the code lives)
+                plus, optionally, the main class/enum/interface that it defines
                 concatenated to the end.
             </p>
 
             <p>Example</p>
 
-            <pre><code class="language-js prettyprint">goog.module('search.urlHistory.UrlHistoryService');
+            <pre><code class="language-js prettyprint">ferdon.module('search.urlHistory.UrlHistoryService');
 </code></pre>
 
             <h4 id="naming-hierarchy">3.3.1 Hierarchy</h4>
@@ -250,8 +242,8 @@ const units = '\u03bcs';
 
             <p>Disallowed:</p>
 
-            <pre><code class="language-js prettyprint badcode">goog.module('foo.bar');   // 'foo.bar.qux' would be fine, though
-goog.module('foo.bar.baz');
+            <pre><code class="language-js prettyprint badcode">ferdon.module('foo.bar');   // 'foo.bar.qux' would be fine, though
+ferdon.module('foo.bar.baz');
 </code></pre>
 
             <p>
@@ -263,38 +255,39 @@ goog.module('foo.bar.baz');
             </p>
 
             <h4 id="file-declare-legacy-namespace">
-                3.3.2 <code>goog.module.declareLegacyNamespace</code>
+                3.3.2 <code>ferdon.module.declareLegacyNamespace</code>
             </h4>
 
             <p>
-                The single <code>goog.module</code> statement may optionally be
-                followed by a call to
-                <code>goog.module.declareLegacyNamespace();</code>. Avoid
-                <code>goog.module.declareLegacyNamespace()</code> when possible.
+                The single <code>ferdon.module</code> statement may optionally
+                be followed by a call to
+                <code>ferdon.module.declareLegacyNamespace();</code>. Avoid
+                <code>ferdon.module.declareLegacyNamespace()</code> when
+                possible.
             </p>
 
             <p>Example:</p>
 
-            <pre><code class="language-js prettyprint">goog.module('my.test.helpers');
-goog.module.declareLegacyNamespace();
-goog.setTestOnly();
+            <pre><code class="language-js prettyprint">ferdon.module('my.test.helpers');
+ferdon.module.declareLegacyNamespace();
+ferdon.setTestOnly();
 </code></pre>
 
             <p>
-                <code>goog.module.declareLegacyNamespace</code> exists to ease
+                <code>ferdon.module.declareLegacyNamespace</code> exists to ease
                 the transition from traditional object hierarchy-based
                 namespaces but comes with some naming restrictions. As the child
                 module name must be created after the parent namespace, this
                 name <strong>must not</strong> be a child or parent of any other
-                <code>goog.module</code> (for example,
-                <code>goog.module('parent');</code> and
-                <code>goog.module('parent.child');</code> cannot both exist
-                safely, nor can <code>goog.module('parent');</code> and
-                <code>goog.module('parent.child.grandchild');</code>).
-            </p>
+                <code>ferdon.module</code> (for example,
+                <code>ferdon.module('parent');</code> and
+                <code>ferdon.module('parent.child');</code> cannot both exist
+                safely, nor can <code>ferdon.module('parent');</code> and
+                <code>ferdon.module('parent.child.grandchild');</code>).
+            </p> -->
 
             <h3 id="file-goog-module-exports">
-                3.3.3 <code>goog.module</code> Exports
+                3.3 <code>ferdon.module</code> Exports
             </h3>
 
             <p>
@@ -304,9 +297,9 @@ goog.setTestOnly();
                 else declared locally and exported separately. Symbols are only
                 exported if they are meant to be used outside the module.
                 Non-exported module-local symbols are not declared
-                <code>@private</code> nor do their names end with an underscore.
-                There is no prescribed ordering for exported and module-local
-                symbols.
+                <code>@private</code> nor do their names start with an
+                underscore. There is no prescribed ordering for exported and
+                module-local symbols.
             </p>
 
             <p>Examples:</p>
@@ -364,16 +357,15 @@ exports = {exportedFunction};
 
             <p>
                 ES module files must use the <code>import</code> statement to
-                import other ES module files. Do not
-                <code>goog.require</code> another ES module.
+                import other ES module files.
             </p>
 
-            <pre><code class="language-js prettyprint external">import './sideeffects.js';
+            <pre><code class="language-js prettyprint external">import './sideeffects';
 
-import * as goog from '../closure/goog/goog.js';
-import * as parent from '../parent.js';
+import * as goog from '../closure/goog/goog';
+import * as parent from '../parent';
 
-import {name} from './sibling.js';
+import {name} from './sibling';
 </code></pre>
 
             <p><span id="es6-import-paths-file-extension"></span></p>
@@ -383,14 +375,14 @@ import {name} from './sibling.js';
             </h6>
 
             <p>
-                The <code>.js</code> file extension is not optional in import
-                paths and must always be included.
+                The <code>.js</code> file extension is optional in import paths
+                and must not be included.
             </p>
 
-            <pre><code class="language-js badcode prettyprint">import '../directory/file';
-</code></pre>
-
-            <pre><code class="language-js good prettyprint">import '../directory/file.js';
+            <pre><code class="language-js good prettyprint">/* Not recommended */
+import '../directory/file';
+/* Recommended */
+import '../directory/file';
 </code></pre>
 
             <h5 id="importing-the-same-file-multiple-times">
@@ -403,8 +395,8 @@ import {name} from './sibling.js';
             </p>
 
             <pre><code class="language-js badcode prettyprint">// Imports have the same path, but since it doesn't align it can be hard to see.
-import {short} from './long/path/to/a/file.js';
-import {aLongNameThatBreaksAlignment} from './long/path/to/a/file.js';
+import {short} from './long/path/to/a/file';
+import {aLongNameThatBreaksAlignment} from './long/path/to/a/file';
 </code></pre>
 
             <p><span id="naming-es6-imports"></span></p>
@@ -419,14 +411,14 @@ import {aLongNameThatBreaksAlignment} from './long/path/to/a/file.js';
                 imported file name.
             </p>
 
-            <pre><code class="language-js prettyprint">import * as fileOne from '../file-one.js';
-import * as fileTwo from '../file_two.js';
-import * as fileThree from '../filethree.js';
+            <pre><code class="language-js prettyprint">import * as fileOne from '../file-one';
+import * as fileTwo from '../file_two';
+import * as fileThree from '../filethree';
 </code></pre>
 
-            <pre><code class="language-js prettyprint">import * as libString from './lib/string.js';
-import * as math from './math/math.js';
-import * as vectorMath from './vector/math.js';
+            <pre><code class="language-js prettyprint">import * as libString from './lib/string';
+import * as math from './math/math';
+import * as vectorMath from './vector/math';
 </code></pre>
 
             <h6 id="naming-default-imports">
@@ -439,9 +431,9 @@ import * as vectorMath from './vector/math.js';
                 <a href="#naming-rules-by-identifier-type">??</a>.
             </p>
 
-            <pre><code class="language-js prettyprint">import MyClass from '../my-class.js';
-import myFunction from '../my_function.js';
-import SOME_CONSTANT from '../someconstant.js';
+            <pre><code class="language-js prettyprint">import MyClass from '../my-class';
+import myFunction from '../my_function';
+import SOME_CONSTANT from '../someconstant';
 </code></pre>
 
             <p>
@@ -463,8 +455,8 @@ import SOME_CONSTANT from '../someconstant.js';
                 (<code>import *</code>) or renaming the exports themselves.
             </p>
 
-            <pre><code class="language-js prettyprint">import * as bigAnimals from './biganimals.js';
-import * as domesticatedAnimals from './domesticatedanimals.js';
+            <pre><code class="language-js prettyprint">import * as bigAnimals from './biganimals';
+import * as domesticatedAnimals from './domesticatedanimals';
 
 new bigAnimals.Cat();
 new domesticatedAnimals.Cat();
@@ -475,8 +467,8 @@ new domesticatedAnimals.Cat();
                 imported module's file name or path in the resulting alias.
             </p>
 
-            <pre><code class="language-js prettyprint">import {Cat as BigCat} from './biganimals.js';
-import {Cat as DomesticatedCat} from './domesticatedanimals.js';
+            <pre><code class="language-js prettyprint">import {Cat as BigCat} from './biganimals';
+import {Cat as DomesticatedCat} from './domesticatedanimals';
 
 new BigCat();
 new DomesticatedCat();
@@ -623,8 +615,8 @@ export function setMutateFoo(mutateFoo) {
                 to both <code>export from</code> flavors.
             </p>
 
-            <pre><code class="language-js">export {specificName} from './other.js';
-export * from './another.js';
+            <pre><code class="language-js">export {specificName} from './other';
+export * from './another';
 </code></pre>
 
             <h4 id="es-module-circular-dependencies">
@@ -639,25 +631,25 @@ export * from './another.js';
             </p>
 
             <pre><code class="language-js badcode prettyprint">// a.js
-import './b.js';
+import './b';
 </code></pre>
 
             <pre><code class="language-js badcode prettyprint">// b.js
-import './a.js';
+import './a';
 
 // `export from` can cause circular dependencies too!
-export {x} from './c.js';
+export {x} from './c';
 </code></pre>
 
             <pre><code class="language-js badcode prettyprint">// c.js
-import './b.js';
+import './b';
 
 export let x;
 </code></pre>
 
             <p><span id="es6-module-closure-interop"></span></p>
 
-            <h4 id="es-module-closure-interop">
+            <!-- <h4 id="es-module-closure-interop">
                 3.4.4 Interoperating with Closure
             </h4>
 
@@ -667,40 +659,40 @@ export let x;
 
             <p>
                 To reference the Closure <code>goog</code> namespace, import
-                Closure's <code>goog.js</code>.
+                Closure's <code>ferdon.js</code>.
             </p>
 
-            <pre><code class="language-js good prettyprint external">import * as goog from '../closure/goog/goog.js';
+            <pre><code class="language-js good prettyprint external">import * as goog from '../closure/goog/goog';
 
-const name = goog.require('a.name');
+const name = ferdon.require('a.name');
 
 export const CONSTANT = name.compute();
 </code></pre>
 
             <p>
-                <code>goog.js</code> exports only a subset of properties from
+                <code>ferdon.js</code> exports only a subset of properties from
                 the global <code>goog</code> that can be used in ES modules.
             </p>
 
             <p><span id="goog-require-in-es6-module"></span></p>
 
             <h5 id="goog-require-in-es-module">
-                3.4.4.2 goog.require in ES modules
+                3.4.4.2 ferdon.require in ES modules
             </h5>
 
             <p>
-                <code>goog.require</code> in ES modules works as it does in
-                <code>goog.module</code> files. You can require any Closure
+                <code>ferdon.require</code> in ES modules works as it does in
+                <code>ferdon.module</code> files. You can require any Closure
                 namespace symbol (i.e., symbols created by
-                <code>goog.provide</code> or <code>goog.module</code>) and
-                <code>goog.require</code> will return the value.
+                <code>ferdon.provide</code> or <code>ferdon.module</code>) and
+                <code>ferdon.require</code> will return the value.
             </p>
 
-            <pre><code class="language-js prettyprint external">import * as goog from '../closure/goog/goog.js';
-import * as anEsModule from './anEsModule.js';
+            <pre><code class="language-js prettyprint external">import * as goog from '../closure/goog/goog';
+import * as anEsModule from './anEsModule';
 
-const GoogPromise = goog.require('goog.Promise');
-const myNamespace = goog.require('my.namespace');
+const GoogPromise = ferdon.require('ferdon.Promise');
+const myNamespace = ferdon.require('my.namespace');
 </code></pre>
 
             <p><span id="closure-module-id-in-es6-module"></span></p>
@@ -710,96 +702,97 @@ const myNamespace = goog.require('my.namespace');
             </h5>
 
             <p>
-                <code>goog.declareModuleId</code> can be used within ES modules
-                to declare a <code>goog.module</code>-like module ID. This means
-                that this module ID can be <code>goog.require</code>d,
-                <code>goog.module.get</code>d,
-                <code>goog.forwardDeclare</code>'d, etc. as if it were a
-                <code>goog.module</code> that did not call
-                <code>goog.module.declareLegacyNamespace</code>. It does not
+                <code>ferdon.declareModuleId</code> can be used within ES
+                modules to declare a <code>ferdon.module</code>-like module ID.
+                This means that this module ID can be
+                <code>ferdon.require</code>d, <code>ferdon.module.get</code>d,
+                <code>ferdon.forwardDeclare</code>'d, etc. as if it were a
+                <code>ferdon.module</code> that did not call
+                <code>ferdon.module.declareLegacyNamespace</code>. It does not
                 create the module ID as a globally available JavaScript symbol.
             </p>
 
             <p>
-                A <code>goog.require</code> (or <code>goog.module.get</code>)
-                for a module ID from <code>goog.declareModuleId</code> will
-                always return the module object (as if it was
-                <code>import *</code>'d). As a result, the argument to
-                <code>goog.declareModuleId</code> should always end with a
+                A <code>ferdon.require</code> (or
+                <code>ferdon.module.get</code>) for a module ID from
+                <code>ferdon.declareModuleId</code> will always return the
+                module object (as if it was <code>import *</code>'d). As a
+                result, the argument to
+                <code>ferdon.declareModuleId</code> should always end with a
                 <code>lowerCamelCaseName</code>.
             </p>
 
             <p>
                 Note: It is an error to call
-                <code>goog.module.declareLegacyNamespace</code> in an ES module,
-                it can only be called from <code>goog.module</code> files. There
-                is no direct way to associate a <q>legacy</q> namespace with an
-                ES module.
+                <code>ferdon.module.declareLegacyNamespace</code> in an ES
+                module, it can only be called from
+                <code>ferdon.module</code> files. There is no direct way to
+                associate a <q>legacy</q> namespace with an ES module.
             </p>
 
             <p>
-                <code>goog.declareModuleId</code> should only be used to upgrade
-                Closure files to ES modules in place, where named exports are
-                used.
+                <code>ferdon.declareModuleId</code> should only be used to
+                upgrade Closure files to ES modules in place, where named
+                exports are used.
             </p>
 
-            <pre><code class="language-js prettyprint external">import * as goog from '../closure/goog.js';
+            <pre><code class="language-js prettyprint external">import * as goog from '../closure/goog';
 
-goog.declareModuleId('my.esm');
+ferdon.declareModuleId('my.esm');
 
 export class Class {};
 </code></pre>
 
-            <h3 id="file-set-test-only">3.5 <code>goog.setTestOnly</code></h3>
+            <h3 id="file-set-test-only">3.5 <code>ferdon.setTestOnly</code></h3>
 
             <p>
-                In a <code>goog.module</code> file the
-                <code>goog.module</code> statement may optionally be followed by
-                a call to <code>goog.setTestOnly()</code>.
+                In a <code>ferdon.module</code> file the
+                <code>ferdon.module</code> statement may optionally be followed
+                by a call to <code>ferdon.setTestOnly()</code>.
             </p>
 
             <p>
                 In an ES module the <code>import</code> statements may
                 optionally be followed by a call to
-                <code>goog.setTestOnly()</code>.
+                <code>ferdon.setTestOnly()</code>.
             </p>
 
             <h3 id="file-goog-require">
-                3.6 <code>goog.require</code> and
-                <code>goog.requireType</code> statements
+                3.6 <code>ferdon.require</code> and
+                <code>ferdon.requireType</code> statements
             </h3>
 
             <p>
-                Imports are done with <code>goog.require</code> and
-                <code>goog.requireType</code> statements. The names imported by
-                a <code>goog.require</code> statement may be used both in code
-                and in type annotations, while those imported by a
-                <code>goog.requireType</code> may be used in type annotations
+                Imports are done with <code>ferdon.require</code> and
+                <code>ferdon.requireType</code> statements. The names imported
+                by a <code>ferdon.require</code> statement may be used both in
+                code and in type annotations, while those imported by a
+                <code>ferdon.requireType</code> may be used in type annotations
                 only.
             </p>
 
             <p>
-                The <code>goog.require</code> and
-                <code>goog.requireType</code> statements form a contiguous block
-                with no empty lines. This block follows the
-                <code>goog.module</code> declaration separated
+                The <code>ferdon.require</code> and
+                <code>ferdon.requireType</code> statements form a contiguous
+                block with no empty lines. This block follows the
+                <code>ferdon.module</code> declaration separated
                 <a href="#source-file-structure">by a single empty line</a>. The
-                entire argument to <code>goog.require</code> or
-                <code>goog.requireType</code> is a namespace defined by a
-                <code>goog.module</code> in a separate file.
-                <code>goog.require</code> and
-                <code>goog.requireType</code> statements may not appear anywhere
-                else in the file.
+                entire argument to <code>ferdon.require</code> or
+                <code>ferdon.requireType</code> is a namespace defined by a
+                <code>ferdon.module</code> in a separate file.
+                <code>ferdon.require</code> and
+                <code>ferdon.requireType</code> statements may not appear
+                anywhere else in the file.
             </p>
 
             <p>
-                Each <code>goog.require</code> or
-                <code>goog.requireType</code> is assigned to a single constant
+                Each <code>ferdon.require</code> or
+                <code>ferdon.requireType</code> is assigned to a single constant
                 alias, or else destructured into several constant aliases. These
                 aliases are the only acceptable way to refer to dependencies in
                 type annotations or code. Fully qualified namespaces must not be
                 used anywhere, except as an argument to
-                <code>goog.require</code> or <code>goog.requireType</code>.
+                <code>ferdon.require</code> or <code>ferdon.requireType</code>.
             </p>
 
             <p>
@@ -838,19 +831,19 @@ export class Class {};
             </p>
 
             <p>
-                A file should not contain both a <code>goog.require</code> and a
-                <code>goog.requireType</code> statement for the same namespace.
-                If the imported name is used both in code and in type
+                A file should not contain both a <code>ferdon.require</code> and
+                a <code>ferdon.requireType</code> statement for the same
+                namespace. If the imported name is used both in code and in type
                 annotations, it should be imported by a single
-                <code>goog.require</code> statement.
+                <code>ferdon.require</code> statement.
             </p>
 
             <p>
                 If a module is imported only for its side effects, the call must
-                be a <code>goog.require</code> (not a
-                <code>goog.requireType</code>) and assignment may be omitted. A
-                comment is required to explain why this is needed and suppress a
-                compiler warning.
+                be a <code>ferdon.require</code> (not a
+                <code>ferdon.requireType</code>) and assignment may be omitted.
+                A comment is required to explain why this is needed and suppress
+                a compiler warning.
             </p>
 
             <p>
@@ -877,70 +870,70 @@ export class Class {};
             <p>Example:</p>
 
             <pre><code class="language-js prettyprint">// Standard alias style.
-const MyClass = goog.require('some.package.MyClass');
-const MyType = goog.requireType('some.package.MyType');
+const MyClass = ferdon.require('some.package.MyClass');
+const MyType = ferdon.requireType('some.package.MyType');
 // Namespace-based alias used to disambiguate.
-const NsMyClass = goog.require('other.ns.MyClass');
+const NsMyClass = ferdon.require('other.ns.MyClass');
 // Namespace-based alias used to prevent masking native type.
-const RendererElement = goog.require('web.renderer.Element');
+const RendererElement = ferdon.require('web.renderer.Element');
 // Out of sequence namespace-based aliases used to improve readability.
 // Also, require lines longer than 80 columns must not be wrapped.
-const SomeDataStructureModel = goog.requireType('identical.package.identifiers.models.SomeDataStructure');
-const SomeDataStructureProto = goog.require('proto.identical.package.identifiers.SomeDataStructure');
+const SomeDataStructureModel = ferdon.requireType('identical.package.identifiers.models.SomeDataStructure');
+const SomeDataStructureProto = ferdon.require('proto.identical.package.identifiers.SomeDataStructure');
 // Standard alias style.
-const asserts = goog.require('goog.asserts');
+const asserts = ferdon.require('ferdon.asserts');
 // Namespace-based alias used to disambiguate.
-const testingAsserts = goog.require('goog.testing.asserts');
+const testingAsserts = ferdon.require('ferdon.testing.asserts');
 // Standard destructuring into aliases.
-const {clear, clone} = goog.require('goog.array');
-const {Rgb} = goog.require('goog.color');
+const {clear, clone} = ferdon.require('ferdon.array');
+const {Rgb} = ferdon.require('ferdon.color');
 // Namespace-based destructuring into aliases in order to disambiguate.
-const {SomeType: FooSomeType} = goog.requireType('foo.types');
-const {clear: objectClear, clone: objectClone} = goog.require('goog.object');
-// goog.require without an alias in order to trigger side effects.
+const {SomeType: FooSomeType} = ferdon.requireType('foo.types');
+const {clear: objectClear, clone: objectClone} = ferdon.require('ferdon.object');
+// ferdon.require without an alias in order to trigger side effects.
 /** @suppress {extraRequire} Initializes MyFramework. */
-goog.require('my.framework.initialization');
+ferdon.require('my.framework.initialization');
 </code></pre>
 
             <p>Discouraged:</p>
 
             <pre><code class="language-js badcode prettyprint">// If necessary to disambiguate, prefer PackageClass over SomeClass as it is
 // closer to the format of the module name.
-const SomeClass = goog.require('some.package.Class');
+const SomeClass = ferdon.require('some.package.Class');
 </code></pre>
 
             <p>Disallowed:</p>
 
             <pre><code class="language-js badcode prettyprint">// Extra terms must come from the namespace.
-const MyClassForBizzing = goog.require('some.package.MyClass');
+const MyClassForBizzing = ferdon.require('some.package.MyClass');
 // Alias must include the entire final namespace component.
-const MyClass = goog.require('some.package.MyClassForBizzing');
+const MyClass = ferdon.require('some.package.MyClassForBizzing');
 // Alias must not mask native type (should be `const JspbMap` here).
-const Map = goog.require('jspb.Map');
-// Don't break goog.require lines over 80 columns.
+const Map = ferdon.require('jspb.Map');
+// Don't break ferdon.require lines over 80 columns.
 const SomeDataStructure =
-    goog.require('proto.identical.package.identifiers.SomeDataStructure');
+    ferdon.require('proto.identical.package.identifiers.SomeDataStructure');
 // Alias must be based on the namespace.
-const randomName = goog.require('something.else');
+const randomName = ferdon.require('something.else');
 // Missing a space after the colon.
-const {Foo:FooProto} = goog.require('some.package.proto.Foo');
-// goog.requireType without an alias.
-goog.requireType('some.package.with.a.Type');
+const {Foo:FooProto} = ferdon.require('some.package.proto.Foo');
+// ferdon.requireType without an alias.
+ferdon.requireType('some.package.with.a.Type');
 
 
 /**
  * @param {!some.unimported.Dependency} param All external types used in JSDoc
- *     annotations must be goog.require'd, unless declared in externs.
+ *     annotations must be ferdon.require'd, unless declared in externs.
  */
 function someFunction(param) {
-  // goog.require lines must be at the top level before any other code.
-  const alias = goog.require('my.long.name.alias');
+  // ferdon.require lines must be at the top level before any other code.
+  const alias = ferdon.require('my.long.name.alias');
   // ...
 }
-</code></pre>
+</code></pre> -->
 
             <h3 id="file-implementation">
-                3.7 The file&#8217;s implementation
+                3.5 The file&#8217;s implementation
             </h3>
 
             <p>
@@ -1302,12 +1295,12 @@ some.reallyLongFunctionCall(arg1, arg2, arg3)
             <p><strong>Exceptions:</strong></p>
 
             <ol>
-                <li>
-                    <code>goog.module</code>, <code>goog.require</code> and
-                    <code>goog.requireType</code> statements (see
+                <!-- <li>
+                    <code>ferdon.module</code>, <code>ferdon.require</code> and
+                    <code>ferdon.requireType</code> statements (see
                     <a href="#file-goog-module">??</a> and
                     <a href="#file-goog-require">??</a>).
-                </li>
+                </li> -->
                 <li>
                     ES module <code>import</code> and
                     <code>export from</code> statements (see
@@ -1390,7 +1383,7 @@ some.reallyLongFunctionCall(arg1, arg2, arg3)
                 <li>
                     When a line is broken at an operator the break comes after
                     the symbol. (Note that this is not the same practice used in
-                    Google style for Java.)
+                    Ferdon Style for Java.)
                     <ol>
                         <li>
                             This does not apply to the
@@ -1473,10 +1466,10 @@ some.reallyLongFunctionCall(arg1, arg2, arg3)
                     method in a class or object literal (neither encouraged nor
                     discouraged).
                 </li>
-                <li>
+                <!-- <li>
                     As required by other sections of this document (e.g.
                     <a href="#file-goog-require">??</a>).
-                </li>
+                </li> -->
             </ol>
 
             <p>
@@ -1567,7 +1560,7 @@ some.reallyLongFunctionCall(arg1, arg2, arg3)
 
             <p>
                 This practice is permitted, but it is
-                <strong>generally discouraged</strong> by Google Style. It is
+                <strong>generally discouraged</strong> by Ferdon Style. It is
                 not even required to <em>maintain</em> horizontal alignment in
                 places where it was already used.
             </p>
@@ -2128,12 +2121,13 @@ function computedKey({a, b, [a + b]: c}) {};
 function nontrivialDefault({a, b} = {a: 2, b: 4}) {};
 </code></pre>
 
-            <p>
+            <!-- <p>
                 Destructuring may also be used for
-                <code>goog.require</code> statements, and in this case must not
-                be wrapped: the entire statement occupies one line, regardless
-                of how long it is (see <a href="#file-goog-require">??</a>).
-            </p>
+                <code>ferdon.require</code> statements, and in this case must
+                not be wrapped: the entire statement occupies one line,
+                regardless of how long it is (see
+                <a href="#file-goog-require">??</a>).
+            </p> -->
 
             <h4 id="features-objects-enums">5.3.8 Enums</h4>
 
@@ -2185,7 +2179,7 @@ const Option = {
                 never reassigned with <code>@const</code> (these need not be
                 deeply immutable). Annotate non-public fields with the proper
                 visibility annotation (<code>@private</code>,
-                <code>@protected</code>, <code>@package</code>), and end all
+                <code>@protected</code>, <code>@package</code>), and start all
                 <code>@private</code> fields' names with an underscore. Fields
                 are never set on a concrete class' <code>prototype</code>.
             </p>
@@ -2195,7 +2189,7 @@ const Option = {
             <pre><code class="language-js prettyprint">class Foo {
   constructor() {
     /** @private @const {!Bar} */
-    this.bar_ = computeBar();
+    this._bar = computeBar();
 
     /** @protected @const {!Baz} */
     this.baz = computeBaz();
@@ -2297,37 +2291,10 @@ Sub.foo();  // Disallowed: don't call static methods on subclasses that don't de
             </p>
 
             <p>
-                <code>goog.defineClass</code> allows for a class-like definition
-                similar to ES6 class syntax:
+                Traditional syntax is allowed.
             </p>
 
-            <pre><code class="language-javascript">let C = goog.defineClass(S, {
-  /**
-   * @param {string} value
-   */
-  constructor(value) {
-    S.call(this, 2);
-    /** @const */
-    this.prop = value;
-  },
-
-  /**
-   * @param {string} param
-   * @return {number}
-   */
-  method(param) {
-    return 0;
-  },
-});
-</code></pre>
-
-            <p>
-                Alternatively, while <code>goog.defineClass</code> should be
-                preferred for all new code, more traditional syntax is also
-                allowed.
-            </p>
-
-            <pre><code class="language-javascript">/**
+            <pre><code class="language-js prettyprint">/**
   * @constructor @extends {S}
   * @param {string} value
   */
@@ -2336,7 +2303,8 @@ function C(value) {
   /** @const */
   this.prop = value;
 }
-goog.inherits(C, S);
+
+_.extend(C.prototype, S.prototype);
 
 /**
  * @param {string} param
@@ -2352,15 +2320,6 @@ C.prototype.method = function(param) {
                 after the call to the super class constructor, if there is a
                 super class. Methods should be defined on the prototype of the
                 constructor.
-            </p>
-
-            <p>
-                Defining constructor prototype hierarchies correctly is harder
-                than it first appears! For that reason, it is best to use
-                <code>goog.inherits</code> from
-                <a href="http://code.google.com/closure/library/"
-                    >the Closure Library </a
-                >.
             </p>
 
             <h4 id="features-classes-prototypes">
@@ -2476,8 +2435,7 @@ class Frobnicator {
 
             <p>
                 Use abstract classes when appropriate. Abstract classes and
-                methods must be annotated with <code>@abstract</code>. Do not
-                use <code>goog.abstractMethod</code>. See
+                methods must be annotated with <code>@abstract</code>. See
                 <a
                     href="https://github.com/google/closure-compiler/wiki/@abstract-classes-and-methods"
                     >abstract classes and methods</a
@@ -2538,7 +2496,7 @@ exports = {processString};
             <p>
                 Prefer arrow functions over other <code>this</code> scoping
                 approaches such as <code>f.bind(this)</code>,
-                <code>goog.bind(f, this)</code>, and
+                <code>ferdon.bind(f, this)</code>, and
                 <code>const self = this</code>. Arrow functions are particularly
                 useful for calling into callbacks as they permit explicitly
                 specifying which parameters to pass to the callback whereas
@@ -2590,13 +2548,13 @@ getValue((result) =&gt; void alert(`Got ${result}`));
 class CallbackExample {
   constructor() {
     /** @private {number} */
-    this.cachedValue_ = 0;
+    this._cachedValue = 0;
 
     // For inline callbacks, you can use inline typing for parameters.
     // Uses a block statement because the value of the single expression should
     // not be returned and the expression is not a single function call.
     getNullableValue((/** ?number */ result) =&gt; {
-      this.cachedValue_ = result == null ? 0 : result;
+      this._cachedValue = result == null ? 0 : result;
     });
   }
 }
@@ -2835,9 +2793,9 @@ ${a} / ${b} = ${a / b}`;
 
             <p>Instead, write</p>
 
-            <pre><code class="language-js prettyprint">const longString = 'This is a very long string that far exceeds the 80 ' +
-    'column limit. It does not contain long stretches of spaces since ' +
-    'the concatenated strings are cleaner.';
+            <pre><code class="language-js prettyprint">const longString = `This is a very long string that far exceeds the 80 
+    column limit. It does not contain long stretches of spaces since
+    the concatenated strings are cleaner.`;
 </code></pre>
 
             <h3 id="features-number-literals">5.7 Number literals</h3>
@@ -3218,13 +3176,13 @@ kSecondsPerDay      // Do not use Hungarian notation.
 
             <p>
                 Method names are written in <code>lowerCamelCase</code>. Names
-                for <code>@private</code> methods must end with a trailing
+                for <code>@private</code> methods must start with a trailing
                 underscore.
             </p>
 
             <p>
                 Method names are typically verbs or verb phrases. For example,
-                <code>sendMessage</code> or <code>stop_</code>. Getter and
+                <code>sendMessage</code> or <code>_stop</code>. Getter and
                 setter methods for properties are never required, but if they
                 are used they should be named <code>getFoo</code> (or optionally
                 <code>isFoo</code> or <code>hasFoo</code> for booleans), or
@@ -3287,7 +3245,7 @@ class MyClass { constructor() { /** @const {string} */ this.nonStatic = 'non-sta
 /** @type {string} */ MyClass.staticButMutable = 'not @const, can be reassigned';
 const /** Set&lt;string&gt; */ mutableCollection = new Set();
 const /** ImmutableSet&lt;SomeMutableType&gt; */ mutableElements = ImmutableSet.of(mutable);
-const Foo = goog.require('my.Foo');  // mirrors imported name
+const Foo = ferdon.require('my.Foo');  // mirrors imported name
 const logger = log.getLogger('loggers.are.not.immutable');
 </code></pre>
 
@@ -3298,7 +3256,7 @@ const logger = log.getLogger('loggers.are.not.immutable');
             <p>
                 Local aliases should be used whenever they improve readability
                 over fully-qualified names. Follow the same rules as
-                <code>goog.require</code>s (<a href="#file-goog-require">??</a
+                <code>ferdon.require</code>s (<a href="#file-goog-require">??</a
                 >), maintaining the last part of the aliased name. Aliases may
                 also be used within functions. Aliases must be
                 <code>const</code>.
@@ -3323,7 +3281,7 @@ const {assert, assertInstanceof} = asserts;
 
             <p>
                 These names are typically nouns or noun phrases. For example,
-                <code>computedValues</code> or <code>index_</code>.
+                <code>computedValues</code> or <code>_index</code>.
             </p>
 
             <h4 id="naming-parameter-names">6.2.7 Parameter names</h4>
@@ -3370,7 +3328,7 @@ const {assert, assertInstanceof} = asserts;
 
             <p>
                 Module-local names that are not exported are implicitly private.
-                They are not marked <code>@private</code> and do not end in an
+                They are not marked <code>@private</code> and do not start in an
                 underscore. This applies to classes, functions, variables,
                 constants, enums, and other module-local identifiers.
             </p>
@@ -3381,7 +3339,7 @@ const {assert, assertInstanceof} = asserts;
                 Sometimes there is more than one reasonable way to convert an
                 English phrase into camel case, such as when acronyms or unusual
                 constructs like <q>IPv6</q> or <q>iOS</q> are present. To
-                improve predictability, Google Style specifies the following
+                improve predictability, Ferdon Style specifies the following
                 (nearly) deterministic scheme.
             </p>
 
@@ -3571,7 +3529,7 @@ this.foo_ = foo;
             <h3 id="jsdoc-tags">7.3 JSDoc tags</h3>
 
             <p>
-                Google style allows a subset of JSDoc tags. See
+                Ferdon style allows a subset of JSDoc tags. See
                 <a href="#appendices-jsdoc-tag-reference">??</a> for the
                 complete list. Most tags must occupy their own line, with the
                 tag at the beginning of the line.
@@ -3618,7 +3576,7 @@ class MyClass {
                 order, but be consistent.
             </p>
 
-            <p>
+            <!-- <p>
                 For general information about annotating types in JavaScript see
                 <a
                     href="https://github.com/google/closure-compiler/wiki/Annotating-JavaScript-for-the-Closure-Compiler"
@@ -3629,7 +3587,7 @@ class MyClass {
                     href="https://github.com/google/closure-compiler/wiki/Types-in-the-Closure-Type-System"
                     >Types in the Closure Type System</a
                 >.
-            </p>
+            </p> -->
 
             <h3 id="jsdoc-line-wrapping">7.4 Line wrapping</h3>
 
@@ -3897,10 +3855,10 @@ class MyClass {
   /** @param {string=} someString */
   constructor(someString = 'default string') {
     /** @private @const {string} */
-    this.someString_ = someString;
+    this._someString = someString;
 
     /** @private @const {!OtherType} */
-    this.someOtherThing_ = functionThatReturnsAThing();
+    this._someOtherThing = functionThatReturnsAThing();
 
     /**
      * Maximum number of things per pane.
@@ -3991,13 +3949,8 @@ const /** ?SomeCamelCaseName */ n = ...;
 
             <p>
                 In cases where the compiler doesn't accurately infer the type of
-                an expression, and the assertion functions in
-                <a
-                    href="https://google.github.io/closure-library/api/goog.asserts.html"
-                    >goog.asserts</a
-                >
-                cannot remedy it , it is possible to tighten the type by adding
-                a type annotation comment and enclosing the expression in
+                an expression, it is possible to tighten the type by adding a
+                type annotation comment and enclosing the expression in
                 parentheses. Note that the parentheses are required.
             </p>
 
@@ -4069,7 +4022,7 @@ const /** !Object&lt;string, *&gt; */ mapOfEverything = {};
             </p>
 
             <pre><code class="language-js prettyprint">  /** @private {function(string): string} */
-  this.idGenerator_ = googFunctions.identity;
+  this._idGenerator = thirdPartyFunctions.identity;
 </code></pre>
 
             <p>
@@ -4159,13 +4112,13 @@ function foo(inputFunction1, inputFunction2) {...}
                 in a <code>@fileoverview</code> block, or on any exported symbol
                 or property. Do not specify visibility for local variables,
                 whether within a function or at the top level of a module. All
-                <code>@private</code> names must end with an underscore.
+                <code>@private</code> names must start with an underscore.
             </p>
 
             <h2 id="policies">8 Policies</h2>
 
             <h3 id="policies-be-consistent">
-                8.1 Issues unspecified by Google Style: Be Consistent!
+                8.1 Issues unspecified by Ferdon Style: Be Consistent!
             </h3>
 
             <p>
@@ -4259,14 +4212,14 @@ function fn() {
             </p>
 
             <h3 id="policies-code-not-in-google-style">
-                8.4 Code not in Google Style
+                8.4 Code not in Ferdon Style
             </h3>
 
             <p>
                 You will occasionally encounter files in your codebase that are
-                not in proper Google Style. These may have come from an
-                acquisition, or may have been written before Google Style took a
-                position on some issue, or may be in non-Google Style for any
+                not in proper Ferdon Style. These may have come from an
+                acquisition, or may have been written before Ferdon Style took a
+                position on some issue, or may be in non-Ferdon Style for any
                 other reason.
             </p>
 
@@ -4287,27 +4240,28 @@ function fn() {
                     evolve over time and these kinds of tweaks to maintain
                     compliance would create unnecessary churn. However, if
                     significant changes are being made to a file it is expected
-                    that the file will be in Google Style.
+                    that the file will be in Ferdon Style.
                 </li>
                 <li>
                     Be careful not to allow opportunistic style fixes to muddle
-                    the focus of a CL. If you find yourself making a lot of
-                    style changes that aren&#8217;t critical to the central
-                    focus of a CL, promote those changes to a separate CL.
+                    the focus of a changelist. If you find yourself making a lot
+                    of style changes that aren&#8217;t critical to the central
+                    focus of a changelist, promote those changes to a separate
+                    changelist.
                 </li>
             </ol>
 
             <h4 id="policies-newly-added-code-use-google-style">
-                8.4.2 Newly added code: use Google Style
+                8.4.2 Newly added code: use Ferdon Style
             </h4>
 
             <p>
-                Brand new files use Google Style, regardless of the style
+                Brand new files use Ferdon Style, regardless of the style
                 choices of other files in the same package.
             </p>
 
             <p>
-                When adding new code to a file that is not in Google Style,
+                When adding new code to a file that is not in Ferdon Style,
                 reformatting the existing code first is recommended, subject to
                 the advice in
                 <a href="#policies-reformatting-existing-code">??</a>.
@@ -4337,7 +4291,7 @@ function fn() {
 
             <p>
                 Source code generated by the build process is not required to be
-                in Google Style. However, any generated identifiers that will be
+                in Ferdon Style. However, any generated identifiers that will be
                 referenced from hand-written source code must follow the naming
                 requirements. As a special exception, such identifiers are
                 allowed to contain underscores, which may help to avoid
@@ -4396,31 +4350,31 @@ function fn() {
                     href="http://code.google.com/p/jsdoc-toolkit/wiki/TagReference"
                     >JSDoc Toolkit Tag Reference</a
                 >
-                but are not considered part of valid Google style.
+                .
             </p>
 
             <section class="zippy">
                 <h5>
                     9.1.2.1 <code>@author</code> or <code>@owner</code> -
-                    <em>Not recommended.</em>
+                    <em>Recommended.</em>
                 </h5>
 
-                <p><strong>Not recommended.</strong></p>
+                <p><strong>Recommended.</strong></p>
 
                 <p>
                     Syntax:
-                    <code>@author username@google.com (First Last)</code>
+                    <code>@author username@ferdon.io (First Last)</code>
                 </p>
 
                 <pre><code class="language-js prettyprint">/**
  * @fileoverview Utilities for handling textareas.
- * @author kuth@google.com (Uthur Pendragon)
+ * @author phuonglan@ferdon.io (Phuong Lan)
  */
 </code></pre>
 
                 <p>
                     Documents the author of a file or the owner of a test,
-                    generally only used in the
+                    generally can used in the
                     <code>@fileoverview</code> comment. The
                     <code>@owner</code> tag is used by the unit test dashboard
                     to determine who owns the test results.
@@ -4494,7 +4448,7 @@ function processBatchItems() {}
                 <p>Syntax: <code>@desc Message description</code></p>
 
                 <pre><code class="language-js prettyprint">/** @desc Notifying a user that their account has been created. */
-exports.MSG_ACCOUNT_CREATED = goog.getMsg(
+exports.MSG_ACCOUNT_CREATED = ferdon.getMsg(
     'Your account has been successfully created.');
 </code></pre>
             </section>
@@ -4536,8 +4490,8 @@ class ApplicationEvent {}
                 <pre><code class="language-js prettyprint">/**
  * Adds a single item, recklessly.
  * @see #addSafely
- * @see goog.Collect
- * @see goog.RecklessAdder#add
+ * @see ferdon.Collect
+ * @see ferdon.RecklessAdder#add
  */
 </code></pre>
 
@@ -4644,7 +4598,7 @@ class ApplicationEvent {}
 
             <p>
                 Here is a collection of lesser-known or commonly misunderstood
-                facts about Google Style for JavaScript. (The following are true
+                facts about Ferdon Style for JavaScript. (The following are true
                 statements; this is not a list of <q>myths.</q>)
             </p>
 
@@ -4680,10 +4634,10 @@ class ApplicationEvent {}
                 </li>
             </ul>
 
-            <h3 id="appendices-style-related-tools">9.3 Style-related tools</h3>
+            <!-- <h3 id="appendices-style-related-tools">9.3 Style-related tools</h3>
 
             <p>
-                The following tools exist to support various aspects of Google
+                The following tools exist to support various aspects of Ferdon
                 Style.
             </p>
 
@@ -4702,7 +4656,7 @@ class ApplicationEvent {}
             </h4>
 
             <p>
-                This program reformats JavaScript source code into Google Style,
+                This program reformats JavaScript source code into Ferdon Style,
                 and also follows a number of non-required but frequently
                 readability-enhancing formatting practices. The output produced
                 by <code>clang-format</code> is compliant with the style guide.
@@ -4865,9 +4819,8 @@ class ApplicationEvent {}
 </code></pre>
 
             <h4 id="appendices-legacy-exceptions-goog-provide">
-                9.4.4 Dependency management with <code>goog.provide</code>/<code
-                    >goog.require</code
-                >
+                9.4.4 Dependency management with
+                <code>ferdon.provide</code>/<code>ferdon.require</code>
             </h4>
 
             <h5 id="appendices-legacy-exceptions-goog-provide-summary">
@@ -4876,42 +4829,42 @@ class ApplicationEvent {}
 
             <p>
                 <strong
-                    >WARNING: <code>goog.provide</code> dependency management is
-                    deprecated.</strong
+                    >WARNING: <code>ferdon.provide</code> dependency management
+                    is deprecated.</strong
                 >
                 All new files, even in projects using
-                <code>goog.provide</code> for older files, should use
-                <a href="#source-file-structure"><code>goog.module</code></a
+                <code>ferdon.provide</code> for older files, should use
+                <a href="#source-file-structure"><code>ferdon.module</code></a
                 >. The following rules are for pre-existing
-                <code>goog.provide</code> files only.
+                <code>ferdon.provide</code> files only.
             </p>
 
             <ul>
                 <li>
-                    Place all <code>goog.provide</code>s first,
-                    <code>goog.require</code>s second. Separate provides from
+                    Place all <code>ferdon.provide</code>s first,
+                    <code>ferdon.require</code>s second. Separate provides from
                     requires with an empty line.
                 </li>
                 <li>Sort the entries alphabetically (uppercase first).</li>
                 <li>
-                    Don't wrap <code>goog.provide</code> and
-                    <code>goog.require</code> statements. Exceed 80 columns if
+                    Don't wrap <code>ferdon.provide</code> and
+                    <code>ferdon.require</code> statements. Exceed 80 columns if
                     necessary.
                 </li>
                 <li>Only provide top-level symbols.</li>
             </ul>
 
             <p>
-                <code>goog.provide</code> statements should be grouped together
-                and placed first. All <code>goog.require</code> statements
-                should follow. The two lists should be separated with an empty
-                line.
+                <code>ferdon.provide</code> statements should be grouped
+                together and placed first. All
+                <code>ferdon.require</code> statements should follow. The two
+                lists should be separated with an empty line.
             </p>
 
             <p>
                 Similar to import statements in other languages,
-                <code>goog.provide</code> and
-                <code>goog.require</code> statements should be written in a
+                <code>ferdon.provide</code> and
+                <code>ferdon.require</code> statements should be written in a
                 single line, even if they exceed the 80 column line length
                 limit.
             </p>
@@ -4921,14 +4874,14 @@ class ApplicationEvent {}
                 letters coming first:
             </p>
 
-            <pre><code class="language-js prettyprint">goog.provide('namespace.MyClass');
-goog.provide('namespace.helperFoo');
+            <pre><code class="language-js prettyprint">ferdon.provide('namespace.MyClass');
+ferdon.provide('namespace.helperFoo');
 
-goog.require('an.extremelyLongNamespace.thatSomeoneThought.wouldBeNice.andNowItIsLonger.Than80Columns');
-goog.require('goog.dom');
-goog.require('goog.dom.TagName');
-goog.require('goog.dom.classes');
-goog.require('goog.dominoes');
+ferdon.require('an.extremelyLongNamespace.thatSomeoneThought.wouldBeNice.andNowItIsLonger.Than80Columns');
+ferdon.require('ferdon.dom');
+ferdon.require('ferdon.dom.TagName');
+ferdon.require('ferdon.dom.classes');
+ferdon.require('ferdon.dominoes');
 
 </code></pre>
 
@@ -4941,63 +4894,65 @@ goog.require('goog.dominoes');
 
             <p>Do this:</p>
 
-            <pre><code class="language-js prettyprint">goog.provide('namespace.MyClass');
+            <pre><code class="language-js prettyprint">ferdon.provide('namespace.MyClass');
 </code></pre>
 
             <p>Not this:</p>
 
-            <pre><code class="language-js prettyprint badcode">goog.provide('namespace.MyClass');
-goog.provide('namespace.MyClass.CONSTANT');
-goog.provide('namespace.MyClass.Enum');
-goog.provide('namespace.MyClass.InnerClass');
-goog.provide('namespace.MyClass.TypeDef');
-goog.provide('namespace.MyClass.staticMethod');
+            <pre><code class="language-js prettyprint badcode">ferdon.provide('namespace.MyClass');
+ferdon.provide('namespace.MyClass.CONSTANT');
+ferdon.provide('namespace.MyClass.Enum');
+ferdon.provide('namespace.MyClass.InnerClass');
+ferdon.provide('namespace.MyClass.TypeDef');
+ferdon.provide('namespace.MyClass.staticMethod');
 </code></pre>
 
             <p>Members on namespaces may also be provided:</p>
 
-            <pre><code class="language-js prettyprint">goog.provide('foo.bar');
-goog.provide('foo.bar.CONSTANT');
-goog.provide('foo.bar.method');
+            <pre><code class="language-js prettyprint">ferdon.provide('foo.bar');
+ferdon.provide('foo.bar.CONSTANT');
+ferdon.provide('foo.bar.method');
 </code></pre>
 
             <h5 id="appendices-legacy-exceptions-goog-scope">
-                9.4.4.2 Aliasing with <code>goog.scope</code>
+                9.4.4.2 Aliasing with <code>ferdon.scope</code>
             </h5>
 
             <p>
-                <strong>WARNING: <code>goog.scope</code> is deprecated.</strong>
-                New files should not use <code>goog.scope</code> even in
-                projects with existing <code>goog.scope</code> usage.
+                <strong
+                    >WARNING: <code>ferdon.scope</code> is deprecated.</strong
+                >
+                New files should not use <code>ferdon.scope</code> even in
+                projects with existing <code>ferdon.scope</code> usage.
             </p>
 
             <p>
-                <code>goog.scope</code> may be used to shorten references to
-                namespaced symbols in code using <code>goog.provide</code>/<code
-                    >goog.require</code
-                >
+                <code>ferdon.scope</code> may be used to shorten references to
+                namespaced symbols in code using
+                <code>ferdon.provide</code>/<code>ferdon.require</code>
                 dependency management.
             </p>
 
             <p>
-                Only one <code>goog.scope</code> invocation may be added per
+                Only one <code>ferdon.scope</code> invocation may be added per
                 file. Always place it in the global scope.
             </p>
 
             <p>
-                The opening <code>goog.scope(function() {</code> invocation must
-                be preceded by exactly one blank line and follow any
-                <code>goog.provide</code> statements,
-                <code>goog.require</code> statements, or top-level comments. The
-                invocation must be closed on the last line in the file. Append
-                <code>// goog.scope</code> to the closing statement of the
-                scope. Separate the comment from the semicolon by two spaces.
+                The opening <code>ferdon.scope(function() {</code> invocation
+                must be preceded by exactly one blank line and follow any
+                <code>ferdon.provide</code> statements,
+                <code>ferdon.require</code> statements, or top-level comments.
+                The invocation must be closed on the last line in the file.
+                Append <code>// ferdon.scope</code> to the closing statement of
+                the scope. Separate the comment from the semicolon by two
+                spaces.
             </p>
 
             <p>
                 Similar to C++ namespaces, do not indent under
-                <code>goog.scope</code> declarations. Instead, continue from the
-                0 column.
+                <code>ferdon.scope</code> declarations. Instead, continue from
+                the 0 column.
             </p>
 
             <p>
@@ -5006,8 +4961,8 @@ goog.provide('foo.bar.method');
                 Do not do this (see below for how to alias a constructor):
             </p>
 
-            <pre><code class="language-js prettyprint badcode">goog.scope(function() {
-var Button = goog.ui.Button;
+            <pre><code class="language-js prettyprint badcode">ferdon.scope(function() {
+var Button = ferdon.ui.Button;
 
 Button = function() { ... };
 ...
@@ -5018,14 +4973,14 @@ Button = function() { ... };
                 they are aliasing.
             </p>
 
-            <pre><code class="language-js prettyprint">goog.provide('my.module.SomeType');
+            <pre><code class="language-js prettyprint">ferdon.provide('my.module.SomeType');
 
-goog.require('goog.dom');
-goog.require('goog.ui.Button');
+ferdon.require('ferdon.dom');
+ferdon.require('ferdon.ui.Button');
 
-goog.scope(function() {
-var Button = goog.ui.Button;
-var dom = goog.dom;
+ferdon.scope(function() {
+var Button = ferdon.ui.Button;
+var dom = ferdon.dom;
 
 // Alias new types after the constructor declaration.
 my.module.SomeType = function() { ... };
@@ -5037,36 +4992,37 @@ SomeType.prototype.findButton = function() {
   this.button = new Button(dom.getElement('my-button'));
 };
 ...
-});  // goog.scope
+});  // ferdon.scope
 </code></pre>
 
             <h5 id="appendices-legacy-exceptions-forward-declare">
-                9.4.4.3 <code>goog.forwardDeclare</code>
+                9.4.4.3 <code>ferdon.forwardDeclare</code>
             </h5>
 
             <p>
-                Prefer to use <code>goog.requireType</code> instead of
-                <code>goog.forwardDeclare</code> to break circular dependencies
-                between files in the same library. Unlike
-                <code>goog.require</code>, a
-                <code>goog.requireType</code> statement is allowed to import a
+                Prefer to use <code>ferdon.requireType</code> instead of
+                <code>ferdon.forwardDeclare</code> to break circular
+                dependencies between files in the same library. Unlike
+                <code>ferdon.require</code>, a
+                <code>ferdon.requireType</code> statement is allowed to import a
                 namespace before it is defined.
             </p>
 
             <p>
-                <code>goog.forwardDeclare</code> may still be used in legacy
+                <code>ferdon.forwardDeclare</code> may still be used in legacy
                 code to break circular references spanning across library
                 boundaries, but newer code should be structured to avoid it.
             </p>
 
             <p>
-                <code>goog.forwardDeclare</code> statements must follow the same
-                style rules as <code>goog.require</code> and
-                <code>goog.requireType</code>. The entire block of
-                <code>goog.forwardDeclare</code>, <code>goog.require</code> and
-                <code>goog.requireType</code> statements is sorted
+                <code>ferdon.forwardDeclare</code> statements must follow the
+                same style rules as <code>ferdon.require</code> and
+                <code>ferdon.requireType</code>. The entire block of
+                <code>ferdon.forwardDeclare</code>,
+                <code>ferdon.require</code> and
+                <code>ferdon.requireType</code> statements is sorted
                 alphabetically.
-            </p>
+            </p> -->
         </div>
     </body>
 </html>
