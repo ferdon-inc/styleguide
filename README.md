@@ -12,7 +12,8 @@ style guidelines we use for Ferdon code. If you are modifying a project that
 originated at Ferdon, you may be pointed to this page to see the style guides
 that apply to that project.
 
-This project holds the [Java Style Guide][java], [HTML/CSS Style Guide][htmlcss], [JavaScript Style Guide][js].
+This project holds the [HTML/CSS Style Guide][htmlcss], [JavaScript Style Guide][js], [React Style Guide][react]. 
+<!-- [Java Style Guide][java] -->
 
 <!-- There are some style guide which we have not implement yet [C++ Style Guide][cpp], [C# Style Guide][csharp],
 [Swift Style Guide][swift], [Objective-C Style Guide][objc], [Python Style Guide][py], [R Style Guide][r], [Shell Style Guide][sh], [AngularJS Style Guide][angular],
@@ -53,3 +54,4 @@ See [https://creativecommons.org/licenses/by/3.0/][ccl] for more details.
 [go]: https://golang.org/wiki/CodeReviewComments
 [dart]: https://www.dartlang.org/guides/language/effective-dart
 [ccl]: https://creativecommons.org/licenses/by/3.0/
+[react]: https://ferdon-inc.github.io/styleguide/javascript/react/README.md
