@@ -54,4 +54,4 @@ See [https://creativecommons.org/licenses/by/3.0/][ccl] for more details.
 [go]: https://golang.org/wiki/CodeReviewComments
 [dart]: https://www.dartlang.org/guides/language/effective-dart
 [ccl]: https://creativecommons.org/licenses/by/3.0/
-[react]: https://ferdon-inc.github.io/styleguide/javascript/react/README.md
+[react]: https://ferdon-inc.github.io/styleguide/javascript/react/
