@@ -7,7 +7,7 @@ consistent style.
 
 “Style” covers a lot of ground, from “use camelCase for variable names” to
 “never use global variables” to “never use exceptions.” This project
-([Ferdon/styleguide](https://github.com/tuvalusoftware/styleguide)) links to the
+([Ferdon/styleguide](https://github.com/ferdon-inc/styleguide)) links to the
 style guidelines we use for Ferdon code. If you are modifying a project that
 originated at Ferdon, you may be pointed to this page to see the style guides
 that apply to that project.
@@ -34,22 +34,22 @@ See [https://creativecommons.org/licenses/by/3.0/][ccl] for more details.
 
 <a rel="license" href="https://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a>
 
-[cpp]: https://tuvalusoftware.github.io/styleguide/cppguide.html
-[csharp]: https://tuvalusoftware.github.io/styleguide/csharp-style.html
-[swift]: https://tuvalusoftware.github.io/swift/
+[cpp]: https://ferdon-inc.github.io/styleguide/cppguide.html
+[csharp]: https://ferdon-inc.github.io/styleguide/csharp-style.html
+[swift]: https://ferdon-inc.github.io/swift/
 [objc]: objcguide.md
-[java]: https://tuvalusoftware.github.io/styleguide/javaguide.html
-[py]: https://tuvalusoftware.github.io/styleguide/pyguide.html
-[r]: https://tuvalusoftware.github.io/styleguide/Rguide.html
-[sh]: https://tuvalusoftware.github.io/styleguide/shellguide.html
-[htmlcss]: https://tuvalusoftware.github.io/styleguide/htmlcssguide.html
-[js]: https://tuvalusoftware.github.io/styleguide/jsguide.html
-[angular]: https://tuvalusoftware.github.io/styleguide/angularjs-google-style.html
-[cl]: https://tuvalusoftware.github.io/styleguide/lispguide.xml
-[vim]: https://tuvalusoftware.github.io/styleguide/vimscriptguide.xml
-[cpplint]: https://github.com/tuvalusoftware/styleguide/tree/gh-pages/cpplint
+[java]: https://ferdon-inc.github.io/styleguide/javaguide.html
+[py]: https://ferdon-inc.github.io/styleguide/pyguide.html
+[r]: https://ferdon-inc.github.io/styleguide/Rguide.html
+[sh]: https://ferdon-inc.github.io/styleguide/shellguide.html
+[htmlcss]: https://ferdon-inc.github.io/styleguide/htmlcssguide.html
+[js]: https://ferdon-inc.github.io/styleguide/jsguide.html
+[angular]: https://ferdon-inc.github.io/styleguide/angularjs-google-style.html
+[cl]: https://ferdon-inc.github.io/styleguide/lispguide.xml
+[vim]: https://ferdon-inc.github.io/styleguide/vimscriptguide.xml
+[cpplint]: https://github.com/ferdon-inc/styleguide/tree/gh-pages/cpplint
 [emacs]: https://raw.githubusercontent.com/google/styleguide/gh-pages/google-c-style.el
-[xml]: https://tuvalusoftware.github.io/styleguide/xmlstyle.html
+[xml]: https://ferdon-inc.github.io/styleguide/xmlstyle.html
 [go]: https://golang.org/wiki/CodeReviewComments
 [dart]: https://www.dartlang.org/guides/language/effective-dart
 [ccl]: https://creativecommons.org/licenses/by/3.0/
