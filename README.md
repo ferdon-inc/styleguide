@@ -1,58 +1,78 @@
-# Ferdon Style Guides
+# Generate Doc
 
-Every major project has its own style guide: a set of conventions
-(sometimes arbitrary) about how to write code for that project. It is much
-easier to understand a large codebase when all the code in it is in a
-consistent style.
+## Usage
 
-“Style” covers a lot of ground, from “use camelCase for variable names” to
-“never use global variables” to “never use exceptions.” This project
-([Ferdon/styleguide](https://github.com/ferdon-vn/styleguide)) links to the
-style guidelines we use for Ferdon code. If you are modifying a project that
-originated at Ferdon, you may be pointed to this page to see the style guides
-that apply to that project.
+### Previewing the theme locally
 
-This project holds the [HTML/CSS Style Guide][htmlcss], [JavaScript Style Guide][js], [React Style Guide][react].
+If you'd like to preview the theme locally (for example, in the process of proposing a change):
 
-<!-- [Java Style Guide][java] -->
+1. Clone down this repository.
+2. `cd` into the theme's directory
+3. Run `script/bootstrap` to install the necessary dependencies
+4. Run `bundle exec jekyll serve` to start the preview server
+5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
 
-<!-- There are some style guide which we have not implement yet [C++ Style Guide][cpp], [C# Style Guide][csharp],
-[Swift Style Guide][swift], [Objective-C Style Guide][objc], [Python Style Guide][py], [R Style Guide][r], [Shell Style Guide][sh], [AngularJS Style Guide][angular],
-[Common Lisp Style Guide][cl], and [Vimscript Style Guide][vim]. This project
-also contains [cpplint][cpplint], a tool to assist with style guide compliance,
-and [google-c-style.el][emacs], an Emacs settings file for Google style. -->
+### Running tests
 
-If your project requires that you create a new XML document format, the [XML
-Document Format Style Guide][xml] may be helpful. In addition to actual style
-rules, it also contains advice on designing your own vs. adapting an existing
-format, on XML instance document formatting, and on elements vs. attributes.
+The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` one before the test script will work.
 
-The style guides in this project are licensed under the CC-By 3.0 License,
-which encourages you to share these documents.
-See [https://creativecommons.org/licenses/by/3.0/][ccl] for more details.
+## Customizing
 
-<!-- The following Google style guides live outside of this project:
-[Go Code Review Comments][go] and [Effective Dart][dart]. -->
+### Configuration variables
 
-<a rel="license" href="https://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a>
+Architect will respect the following variables, if set in your site's `_config.yml`:
 
-[cpp]: https://ferdon-vn.github.io/styleguide/cppguide.html
-[csharp]: https://ferdon-vn.github.io/styleguide/csharp-style.html
-[swift]: https://ferdon-vn.github.io/swift/
-[objc]: objcguide.md
-[java]: https://ferdon-vn.github.io/styleguide/javaguide.html
-[py]: https://ferdon-vn.github.io/styleguide/pyguide.html
-[r]: https://ferdon-vn.github.io/styleguide/Rguide.html
-[sh]: https://ferdon-vn.github.io/styleguide/shellguide.html
-[htmlcss]: https://ferdon-vn.github.io/styleguide/htmlcssguide.html
-[js]: https://ferdon-vn.github.io/styleguide/jsguide.html
-[angular]: https://ferdon-vn.github.io/styleguide/angularjs-google-style.html
-[cl]: https://ferdon-vn.github.io/styleguide/lispguide.xml
-[vim]: https://ferdon-vn.github.io/styleguide/vimscriptguide.xml
-[cpplint]: https://github.com/ferdon-vn/styleguide/tree/gh-pages/cpplint
-[emacs]: https://raw.githubusercontent.com/google/styleguide/gh-pages/google-c-style.el
-[xml]: https://ferdon-vn.github.io/styleguide/xmlstyle.html
-[go]: https://golang.org/wiki/CodeReviewComments
-[dart]: https://www.dartlang.org/guides/language/effective-dart
-[ccl]: https://creativecommons.org/licenses/by/3.0/
-[react]: https://ferdon-vn.github.io/styleguide/javascript/react/
+```yml
+title: [The title of your site]
+description: [A short description of your site's purpose]
+```
+
+Additionally, you may choose to set the following optional variables:
+
+```yml
+show_downloads: ["true" or "false" to indicate whether to provide a download URL]
+google_analytics: [Your Google Analytics tracking ID]
+```
+
+### Stylesheet
+
+If you'd like to add your own custom styles:
+
+1. Create a file called `/assets/css/style.scss` in your site
+2. Add the following content to the top of the file, exactly as shown:
+
+    ```scss
+    ---
+    ---
+
+    @import "{{ site.theme }}";
+    ```
+
+3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
+
+_Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet._
+
+### Layouts
+
+If you'd like to change the theme's HTML layout:
+
+1. Create a file called `/_layouts/default.html` in your site
+2. Paste the default layout content copied in the first step
+3. Customize the layout as you'd like
+
+### Overriding GitHub-generated URLs
+
+Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
+
+1. Look at [the template source](https://github.com/pages-themes/architect/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
+2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
+    ```yml
+    github:
+        zip_url: http://example.com/download.zip
+        another_url: another value
+    ```
+3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
+
+_Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`._
+
+For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).

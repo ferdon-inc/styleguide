@@ -5,5 +5,49 @@
 
 // Hide “This site is open source. Improve this page.”
 .footer {
-  display: none;
+    display: none;
+}
+body.body-with-sidebar {
+    display: flex;
+    height: 100vh;
+    .sidebar {
+        width: 260px;
+        background-color: #05264c;
+        position: sticky;
+        top: 0;
+        padding-bottom: 32px;
+        overflow-y: auto;
+        height: 100vh;
+        flex-shrink: 0;
+        ul {
+            list-style-type: none;
+            li {
+                padding: 5px;
+            }
+            li.active > a {
+                color: #79b8ff;
+            }
+        }
+        a {
+            color: #c8e1ff;
+            opacity: 0.8;
+        }
+    }
+    > div {
+        height: 100vh;
+        overflow: auto;
+    }
+
+    .content {
+        flex: 1;
+        header {
+            h1,
+            h2 {
+                margin-left: 50px;
+            }
+        }
+        #content-wrapper {
+            padding-left: 50px;
+        }
+    }
 }
