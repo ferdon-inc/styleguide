@@ -77,7 +77,7 @@ Following the [Creating Projects](#creating-projects) process, if you are viewin
 
 For more detailed information about the layer’s types, see [Layer Levels & User Permissions](#layer-levels-&-user-permissions).
 
-![](/assets/images/lokahi/image31.png)
+![](assets/images/image31.png)
 
 Figure 1
 
@@ -97,7 +97,7 @@ Note: You can use the same name for multiple layers of this project. Also, if a 
 
 Once you have created a new Contract layer, you are now able to design a process on the workboard to  build the Contract using the pre-configured Element blocks from the ‘Add Component Menu’ in the sidebar. Contract is what gets created in the Contract layer.
 
-![](/assets/images/lokahi/image7.png)
+![](assets/images/image7.png)
 
 Figure 2
 
@@ -106,7 +106,7 @@ Procedure
 1.  After creating a Contract, access the Contract’s workboard to define the process.
 2.  To make a connection between two Element blocks, drag and drop one Element block from the “Add Component” sidebar on the left hand side of the screen onto the workboard.  Now drag and drop a 2nd Element block onto the workboard nearby.
 3.  To connect the two blocks, hover over the first Element block and ‘click and drag’ on one of the 4 squares that appear and drag the line to one of the 4 squares that appear on the 2nd block and release, which will create an arrow between the two blocks linking them together. For more information, see [Connecting Blocks on the Workboard](<#connecting-blocks-on-the-workboard-(drag-an-arrow)>).
-4.  The next step is to configure the connection on the arrow between 2 Elements at Element/Contract’s workboard to create the parameters for a deployment. [Click on the yellow arrow](#click-on-an-arrow) and a blue box will appear around the arrow, with an “Add Component” ![](/assets/images/lokahi/image23.png) icon that allows you to configure the connection. Click on the “Add Component” ![](/assets/images/lokahi/image23.png) icon.  The “Step 1: Make Your Connection” screen appears.  Two columns are displayed with inputs and outputs. You can click on each shape to see the description at the bottom of that screen that describes the function.
+4.  The next step is to configure the connection on the arrow between 2 Elements at Element/Contract’s workboard to create the parameters for a deployment. [Click on the yellow arrow](#click-on-an-arrow) and a blue box will appear around the arrow, with an “Add Component” ![](assets/images/image23.png) icon that allows you to configure the connection. Click on the “Add Component” ![](assets/images/image23.png) icon.  The “Step 1: Make Your Connection” screen appears.  Two columns are displayed with inputs and outputs. You can click on each shape to see the description at the bottom of that screen that describes the function.
 5.  Next, drag an input/output shape in column 1 to the desired output/input shape in column 2 to define the input/output connection. When a connection is successful, the table on the right side ("My connections" table), will list the connections that have been created. We need to connect at least 1 connection to enable the \[Next\] button at the bottom of the window.
 6.  Once connected, click the \[Next\] button. The “Step 2: Define your connection” screen appears.
 7.  In the left table, depending on your connection type you have made you will see the “[Variable](#variable)” screen, “[Edit Expression](#edit-expression)” screen or “Merge Component” screen. If you have more than 1 connection, you can then click on the next connection in the “My Connections” tab and repeat.  When you finish clicking on all the connections, the \[Done\] button will enable you to click.
@@ -142,7 +142,7 @@ Note: You can use the same name among multiple Elements in the same project. For
 
 #### Configuring An Element (Workboard)
 
-After you have [created a new Element](<#creating-a-new-element-layer-(dashboard)>), you are now able to configure the Element on the workboard. Element is what gets created in the Element layer.![](/assets/images/lokahi/image82.png)
+After you have [created a new Element](<#creating-a-new-element-layer-(dashboard)>), you are now able to configure the Element on the workboard. Element is what gets created in the Element layer.![](assets/images/image82.png)
 
 Figure 3
 
@@ -152,9 +152,9 @@ Procedure
 2.  To make a connection between two Logit blocks, drag and drop one Logit block from the “Add Component” sidebar on the left hand side of the screen onto the workboard.  Now drag and drop a 2nd Logit block onto the workboard nearby.
 3.  To connect the two blocks, hover over the first Logit block and ‘click and drag’ on one of the 4 squares that appear and drag the line to one of the 4 squares that appear on the 2nd block and release, which will create an arrow between the two blocks linking them together. For more information, see [Connecting Blocks on the Workboard](<#connecting-blocks-on-the-workboard-(drag-an-arrow)>).
 4.  To make a connection between two Logit blocks, drag and drop one Logit block from the “Add Component” sidebar on the left hand side of the screen onto the workboard.  Now drag and drop a 2nd Logit block onto the workboard nearby.
-5.  The next step is to configure the connection on the arrow between 2 Logits at Element workboard to create the parameters for a deployment. [Click on the yellow arrow](#click-on-an-arrow) and a blue box will appear around the arrow, with an “Add Component” ![](/assets/images/lokahi/image23.png) icon that allows you to configure the connection. Click on the “Add Component” ![](/assets/images/lokahi/image23.png) icon.  The “Step 1: Make Your Connection” screen appears.  Two columns are displayed with inputs and outputs. You can click on each shape to see the description at the bottom of that screen that describes the function.
+5.  The next step is to configure the connection on the arrow between 2 Logits at Element workboard to create the parameters for a deployment. [Click on the yellow arrow](#click-on-an-arrow) and a blue box will appear around the arrow, with an “Add Component” ![](assets/images/image23.png) icon that allows you to configure the connection. Click on the “Add Component” ![](assets/images/image23.png) icon.  The “Step 1: Make Your Connection” screen appears.  Two columns are displayed with inputs and outputs. You can click on each shape to see the description at the bottom of that screen that describes the function.
 
-![](/assets/images/lokahi/image61.png)
+![](assets/images/image61.png)
 
 Figure 4
 
@@ -177,7 +177,7 @@ For more information about the “Recommendation” feature, see [Recommendation
 
 Tip:  When you are on the Contract, you can quickly move down to the workplace of any Element by double clicking on any block icon on the workboard.
 
-Tip: You can group Elements by clicking and dragging to highlight any group of Element blocks to create a new Element.  Once you release the selection, the group of Elements will be highlighted in a blue box and you can click “Add Component” ![](/assets/images/lokahi/image23.png) icon which will bring up the [Configure Port](#configure-port) screen. You can configure inputs/outputs, name, category and choose an icon for the new Element and then click the \[Create\] button to finish the creation of a new Element process.
+Tip: You can group Elements by clicking and dragging to highlight any group of Element blocks to create a new Element.  Once you release the selection, the group of Elements will be highlighted in a blue box and you can click “Add Component” ![](assets/images/image23.png) icon which will bring up the [Configure Port](#configure-port) screen. You can configure inputs/outputs, name, category and choose an icon for the new Element and then click the \[Create\] button to finish the creation of a new Element process.
 
 ### Creating Logit
 
@@ -213,14 +213,14 @@ Procedure
 8.  Once you are finished, click the \[Save\] button and you will be returned to the workboard.  This automatically makes the Logit available at the Element layer.
 9.  Next, you can edit and configure your model.
 10. With the “Register” blocks, you can choose the types that are defined at “[Define Type](#define-type)” screen by clicking on the “Register” block then choose the “Edit Markings” option once clicked “Add Markings” icon. Then choose what “Register” block is allowed to [add data](#add-data-sidebar) at Element or Contract. For more details about the process to choose type and configure for a “Register” block,  go here [Edit Markings](#edit-markings).
-11. Click on the arrow connect from “Register” block to “Operation” block then click “Add Variable”![](/assets/images/lokahi/image14.png) icon, the “Variable” screen appears to let you choose the variables of the message of the “Register” block. For more details about the process to choose variable, go here [Variable](#variable).
-12. With the “Operation” blocks, you can set the condition for transition of the variables of the message in the “Register” block by clicking on “Operation” block then choose “Edit Guard” option once clicked “Add Guard” ![](/assets/images/lokahi/image22.png) icon. For more detail about the process to set the condition for transition, go here [Edit Guard](#edit-guard).
-13. Click on the arrow connect from “Operation” block to “Register” block then click “Add Expression”![](/assets/images/lokahi/image20.png) icon, the “Edit Expression” screen appears to let you regulate the output of the “Operation” block, by creating a new message and depending on the condition of the output, the type of message can then be created. For more detail about the process to regulate the output of the “Operation” block, go here [Edit Expression](#edit-expression).
+11. Click on the arrow connect from “Register” block to “Operation” block then click “Add Variable”![](assets/images/image14.png) icon, the “Variable” screen appears to let you choose the variables of the message of the “Register” block. For more details about the process to choose variable, go here [Variable](#variable).
+12. With the “Operation” blocks, you can set the condition for transition of the variables of the message in the “Register” block by clicking on “Operation” block then choose “Edit Guard” option once clicked “Add Guard” ![](assets/images/image22.png) icon. For more detail about the process to set the condition for transition, go here [Edit Guard](#edit-guard).
+13. Click on the arrow connect from “Operation” block to “Register” block then click “Add Expression”![](assets/images/image20.png) icon, the “Edit Expression” screen appears to let you regulate the output of the “Operation” block, by creating a new message and depending on the condition of the output, the type of message can then be created. For more detail about the process to regulate the output of the “Operation” block, go here [Edit Expression](#edit-expression).
 14. Now, you finish creating Logits which is what gets created in the Logit layer.
 
 Tip:  You can move between layers by double clicking on any block icon on the workboard.
 
-Tip: You can group a part of Logit by clicking and dragging to highlight any group of Logit’s blocks to create a new Logit.  Once you release the selection, the group of Logit’s blocks will be highlighted in a blue box and you can click “Add Component” ![](/assets/images/lokahi/image23.png) icon which will bring up the [Configure Port](#configure-port) screen. You can configure inputs/outputs, name, category and choose an icon for the new Logit and then click the \[Create\] button to finish the creation of a new Logit process.
+Tip: You can group a part of Logit by clicking and dragging to highlight any group of Logit’s blocks to create a new Logit.  Once you release the selection, the group of Logit’s blocks will be highlighted in a blue box and you can click “Add Component” ![](assets/images/image23.png) icon which will bring up the [Configure Port](#configure-port) screen. You can configure inputs/outputs, name, category and choose an icon for the new Logit and then click the \[Create\] button to finish the creation of a new Logit process.
 
 ## FORMALLY VERIFYING AGREEMENTS
 
@@ -240,12 +240,12 @@ Procedure
 2.  The “Recommendation” button in the bottom toolbar displays the number of recommendations to create a complete flow graph. Click on the \[Recommendation\] button at the bottom toolbar to open the “Recommendation” sidebar. For more information about the “Recommendation” feature, see [Recommendation](#recommendation-feature), including how to use the “Show” and the “Fix it” functions.
 3.  The “Recommendation” feature will require you to create a model of blocks in the workboard. The first time, you are required to “Drag at least one Logit/Element block onto the workboard”. The Logit created at the logit between “Register” block(s) and “Operation” block(s) could have hashtags and the Recommendation feature would inform you to define a relationship between blocks with hashtag requirements. For more information about the Hashtag, the way to define a hashtag and how to add a hashtag, see [Define Hashtag](#manage-hashtags) and [Manage Tag](#manage-hashtags).
 
-![](/assets/images/lokahi/image30.png)  
+![](assets/images/image30.png)  
 Figure 5
 
 4.  Once defined and you’ve resolved the recommendations, you can click the \[Flow Graph\] button in the bottom toolbar to open the “Flow Graph” screen. If that block in the workboard contains a model of “Register” and “Operation” blocks confirmed as valid, the “Flow Graph” screen will display a connection model of the shapes. For more definition about the State Shape(s), see [Flow](#flow-graph-overview) [Graph](#flow-graph-overview).
 
-![](/assets/images/lokahi/image17.png)
+![](assets/images/image17.png)
 
 Figure 6
 
@@ -273,7 +273,7 @@ Note: We can add more hashtags for a State shape in the “Flow Graph” screen 
 
 Now that you have [Created a Project](#creating-projects), [Created a Contract](#creating-contract) and [added the Business](<#add-business-logic-to-a-contract-layer-(workboard)>) [Logit](<#add-business-logic-to-a-contract-layer-(workboard)>) to the Contract you are ready to deploy. If once used an Element is invalid on the workboard of the Contract, then click the \[Deploy\] button, an error message under the \[Deploy\] button warning that "Deployed failed! Your model has not been completed. Please finish all the tasks on the recommendation list to deploy" to let you know you have to choose another Element block or have to finish all tasks on “Recommendation” sidebar.
 
-![](/assets/images/lokahi/image13.png)
+![](assets/images/image13.png)
 
 Figure 7
 
@@ -302,7 +302,7 @@ For more information about the “Show more transactions” window, go to [View 
 
 ### Menus & Buttons on the Dashboard
 
-![](/assets/images/lokahi/image97.png)
+![](assets/images/image97.png)
 
 Figure 8
 
@@ -310,13 +310,13 @@ Figure 8
 
 \-Easily create a [New Project](#create-new-project-on-the-dashboard) on the dashboard by clicking the circular (+) button.
 
-![](/assets/images/lokahi/image27.png)
+![](assets/images/image27.png)
 
 Figure 9
 
 #### (2) Project Menu
 
-![](/assets/images/lokahi/image36.png)
+![](assets/images/image36.png)
 
 Figure 10
 
@@ -327,11 +327,11 @@ Hover over any individual project on the Dashboard to reveal the “Project Menu
 
 #### (3) Search & Filter Projects
 
-![](/assets/images/lokahi/image28.png)
+![](assets/images/image28.png)
 
 Figure 11
 
-![](/assets/images/lokahi/image83.png)
+![](assets/images/image83.png)
 
 Figure 12
 
@@ -342,7 +342,7 @@ Figure 12
 
 #### (4) Layers Menu On Dashboard (Contract)
 
-![](/assets/images/lokahi/image84.png)  
+![](assets/images/image84.png)  
 Figure 13
 
 Manipulate layer within a project easily from dashboard view
@@ -356,7 +356,7 @@ Manipulate layer within a project easily from dashboard view
 
 #### (5) Elements Menu On Dashboard (Elements)
 
-![](/assets/images/lokahi/image105.png)  
+![](assets/images/image105.png)  
 Figure 15
 
 Manipulate Elements within a layer easily from the dashboard view
@@ -368,7 +368,7 @@ Manipulate Elements within a layer easily from the dashboard view
 
 #### (6) Adjust Themes
 
-![](/assets/images/lokahi/image102.png)
+![](assets/images/image102.png)
 
 Figure 16
 
@@ -376,7 +376,7 @@ Easily adjust the colour scheme of the Lokahi platform to suit your environment 
 
 #### (7) User Profile & Settings
 
-![](/assets/images/lokahi/image57.png)
+![](assets/images/image57.png)
 
 Figure 17  
 Configure your account and settings.
@@ -391,12 +391,12 @@ Configure your account and settings.
 
 On the Lokahi dashboard, you can create a new project by clicking on the \[New Project +\] button in the upper right hand side of the screen.
 
-![](/assets/images/lokahi/image27.png)  
+![](assets/images/image27.png)  
 Figure 18
 
 A “New Project” screen appears, where you can enter a name then you choose a source for the project:
 
-![](/assets/images/lokahi/image88.png)  
+![](assets/images/image88.png)  
 Figure 19
 
 Procedure
@@ -460,7 +460,7 @@ Creating layers on the dashboard can be done easily by navigating to a specific 
 
 After you have [created a project](#create-new-project-on-the-dashboard) on the dashboard the “Create New Component or Contract” screen is displayed and you can skip to step 2 below if you are at that point.  Starting with step 1 guides you through the process of creating a new Contract layer from any project on the dashboard.
 
-![](/assets/images/lokahi/image94.png)
+![](assets/images/image94.png)
 
 Figure 20
 
@@ -612,7 +612,7 @@ Note: You cannot reverse the Logit deletion, so consider carefully before deleti
 
 You can check the deployment history of a Contract that has deployed on the dashboard.
 
-![](/assets/images/lokahi/image45.png)  
+![](assets/images/image45.png)  
 Figure 21: The rocket icon indicates a Contract agreement has a deployment history
 
 Procedure
@@ -621,7 +621,7 @@ Procedure
 
 2.  A screen pops up with the title "Transactions". The default filter is set to ALL in the "Filter by:" section that includes 4 options {All; Success; Pending; Failed}.
 
-![](/assets/images/lokahi/image77.png)  
+![](assets/images/image77.png)  
 Figure 22
 
 3.  The view in the middle of the screen has 6 columns {Name; Version; Address/TxHash; Blockchain; Age; Status} with the following descriptions:  
@@ -648,7 +648,7 @@ You can filter the projects or layers by using the filter group on the Dashboard
 
 For more information about the layer’s types, see [Layer Levels & User Permissions](#layer-levels-&-user-permissions).
 
-![](/assets/images/lokahi/image29.png)
+![](assets/images/image29.png)
 
 Figure 23
 
@@ -667,7 +667,7 @@ Procedure
 
 You can search for project(s) or layer(s) by typing into the “Search” input frame at the top of the Dashboard page.
 
-![](/assets/images/lokahi/image3.png)
+![](assets/images/image3.png)
 
 Figure 24
 
@@ -688,7 +688,7 @@ Note: When the search doesn't return a result, the dashboard page won't display 
 
 The dashboard default view shows a limited number of projects per page, but you are able to change the number of rows displayed with the dropdown menu, or scroll right and left through the pages of projects.
 
-![](/assets/images/lokahi/image55.png)
+![](assets/images/image55.png)
 
 Figure 25
 
@@ -703,7 +703,7 @@ Procedure
 
 With the projects that have more than 6 layers on the Dashboard, you can scroll to the right to the 6th project and a frame will display the number of additional layers available.  Hover over the frame and click on “Show more” or click on project name and the project will expand to a full screen view of all the layers in that one project. The Project Full Screen page has a very similar layout and navigation to the dashboard functions.  Scroll to the right to reveal the last frame with the number of additional layers.
 
-![](/assets/images/lokahi/image4.png)  
+![](assets/images/image4.png)  
 Figure 26: Click ‘Show More’ to navigate to the Project Full Screen Page
 
 Procedure
@@ -716,7 +716,7 @@ Procedure
 
 You can filter layers by using the filter group on the Project Full Screen Page. The filter can be based on the layer type {Logit; Element; Contract}, the status of Contract {Deployed; Not Deployed}, the created date of the layer, the order by time and by alphabetical order of the layer’s name.
 
-![](/assets/images/lokahi/image51.png)  
+![](assets/images/image51.png)  
 Figure 27: Project Full Screen displays all layers in one project and Filter frame
 
 For more information about the layer’s types, see [Layer Levels & User Permissions](#layer-levels-&-user-permissions).
@@ -757,7 +757,7 @@ Procedure
 
 You can add the diagram and description for your project at Full Screen Page of that project.
 
-![](/assets/images/lokahi/image8.png)
+![](assets/images/image8.png)
 
 Figure 28
 
@@ -781,19 +781,19 @@ Procedure to change the password at “My Profile” tab
 
 1.  Click on the account icon at Dashboard page then choose “My Profile” option.
 
-![](/assets/images/lokahi/image43.png)
+![](assets/images/image43.png)
 
 Figure 29
 
 2.  Click on the sentence “Change Password”.
 
-![](/assets/images/lokahi/image64.png)
+![](assets/images/image64.png)
 
 Figure 30
 
 3.  A “Change Password” dialog appears.
 
-![](/assets/images/lokahi/image66.png)
+![](assets/images/image66.png)
 
 Figure 31
 
@@ -816,14 +816,14 @@ Procedure to add new user at “User Management” tab
 1.  Click on the account icon at Dashboard page then choose “My Profile” option.
 2.  Choose the “User Management” tab.
 
-![](/assets/images/lokahi/image25.png)
+![](assets/images/image25.png)
 
 Figure 32
 
 3.  Click on the \[Add New User\] button.
 4.  The next tab has a direction which is “User Management / Add User” displays.
 
-![](/assets/images/lokahi/image49.png)
+![](assets/images/image49.png)
 
 Figure 33
 
@@ -870,20 +870,20 @@ Procedure to add new organization at “Organizations” tab
 
 1.  Click on the account icon at Dashboard page then choose “Organizations” option.
 
-![](/assets/images/lokahi/image38.png)
+![](assets/images/image38.png)
 
 Figure 34
 
 2.  It opens the “Organizations” tab.
 
-![](/assets/images/lokahi/image37.png)
+![](assets/images/image37.png)
 
 Figure 35
 
 3.  Click on the \[Add Organization\] button.
 4.  It shows the "New Organizations" dialog box.
 
-![](/assets/images/lokahi/image15.png)
+![](assets/images/image15.png)
 
 Figure 36
 
@@ -916,7 +916,7 @@ Procedure to assign or revoke or remove member at “Organizations” tab
 3.  Hover on the row contains that organization’s information.
 4.  Click on the three dots icon button.
 
-![](/assets/images/lokahi/image73.png)
+![](assets/images/image73.png)
 
 Figure 37
 
@@ -948,14 +948,14 @@ Procedure to show more projects that organization owned at “Organizations” t
 3.  Hover on the row contains that organization’s information.
 4.  Click on the three dots icon button.
 
-![](/assets/images/lokahi/image101.png)
+![](assets/images/image101.png)
 
 Figure 38
 
 5.  Choose the “Show details” option. Or click on that organization name.
 6.  Once clicked on the "Show more" button at "Projects Owned by {Organization's name}" form, it accesses the "Projects" tab and shows all the projects of that organization is owning.
 
-![](/assets/images/lokahi/image35.png)
+![](assets/images/image35.png)
 
 Figure 39
 
@@ -965,7 +965,7 @@ At the “Projects” tab, you can see all projects of that account are created 
 
 Note: Only the user owned that project or the user as admin role of an organization owned that project can see the group of buttons \[Add Collaborator\], \[Transfer Project\], \[Delete Project\]. If it doesn't belong to any case above, it cannot do any feature of those buttons.
 
-![](/assets/images/lokahi/image12.png)
+![](assets/images/image12.png)
 
 Figure 40
 
@@ -1035,14 +1035,14 @@ Procedure to delete project is owned by a user or an organization at “Projects
 
 The Workboard is the primary area to design Contracts and Elements.
 
-![](/assets/images/lokahi/image104.png)
+![](assets/images/image104.png)
 
 Figure 41
 
 #### (1) Add Component: Groups Menu (Contract)
 
 On the Contract workboard, you can edit the name, icon, duplicate and delete Element blocks.  
-![](/assets/images/lokahi/image50.png)
+![](assets/images/image50.png)
 
 Figure 42
 
@@ -1056,7 +1056,7 @@ Figure 42
 
 On the Element workboard, you can edit the name, icon, duplicate and delete Elements.
 
-![](/assets/images/lokahi/image52.png)
+![](assets/images/image52.png)
 
 Figure 43
 
@@ -1068,7 +1068,7 @@ Figure 43
 
 #### (3) Add Component: Groups Menu (Logit Element)
 
-#### ![](/assets/images/lokahi/image99.png)
+#### ![](assets/images/image99.png)
 
 Figure 44
 
@@ -1076,7 +1076,7 @@ Figure 44
 
 On the Contract workboard Layers dropdown Menu you can create new and edit existing layers.
 
-![](/assets/images/lokahi/image93.png)
+![](assets/images/image93.png)
 
 Figure 45
 
@@ -1084,7 +1084,7 @@ Figure 45
 
 #### (5) Layers Dropdown Menu (Elements)
 
-![](/assets/images/lokahi/image16.png)
+![](assets/images/image16.png)
 
 Figure 46
 
@@ -1096,7 +1096,7 @@ Figure 46
 
 #### (6) Accessing The System Tray Icons
 
-![](/assets/images/lokahi/image18.png)
+![](assets/images/image18.png)
 
 Figure 47
 
@@ -1111,14 +1111,14 @@ Figure 47
 
 #### (7) Edit Logit Element Settings
 
-![](/assets/images/lokahi/image46.png)
+![](assets/images/image46.png)
 
 Figure 48  
 [Bottom Left Settings Icon on Workboard Screen](#h.qhwk13qfkym6)
 
 #### (8) Edit Element Settings
 
-![](/assets/images/lokahi/image46.png)
+![](assets/images/image46.png)
 
 Figure 49
 
@@ -1126,14 +1126,14 @@ Figure 49
 
 #### (9) Edit Contract Settings
 
-![](/assets/images/lokahi/image46.png)
+![](assets/images/image46.png)
 
 Figure 50  
 [Bottom Left Settings Icon on Workboard Screen](#h.qhwk13qfkym6)
 
 #### (10) Access Help Center
 
-![](/assets/images/lokahi/image42.png)
+![](assets/images/image42.png)
 
 Figure 51
 
@@ -1198,7 +1198,7 @@ Procedure
 1.  After creating a Contract layer, access the Contract’s workboard to define the process.
 2.  To make a connection between two Element blocks, drag and drop one Element block from the “Add Component” sidebar on the left hand side of the screen onto the workboard.  Now drag and drop a 2nd Element block onto the workboard nearby.  You can use the [Recommendation feature](#h.hn8dssee8jg2) to guide you.
 3.  To connect the two blocks, hover over the first Element block and ‘click and drag’ on one of the 4 squares that appear and drag the line to one of the 4 squares that appear on the 2nd block and release, which will create an arrow between the two blocks linking them together. For more information, see [Connecting Blocks on the Workboard](<#connecting-blocks-on-the-workboard-(drag-an-arrow)>).
-4.  The next step is to configure the connection created by the arrow to create the parameters for a deployment. [Click on the yellow arrow](#click-on-an-arrow) and a blue blox will appear around the arrow, with an “Add Component” ![](/assets/images/lokahi/image23.png) icon that allows you to configure the connection. Click on the “Add Component” ![](/assets/images/lokahi/image23.png) icon.  The “Step 1: Make Your Connection” screen appears.  Two columns are displayed with inputs and outputs. You can click on each shape to see the description at the bottom of that screen that describes the function.
+4.  The next step is to configure the connection created by the arrow to create the parameters for a deployment. [Click on the yellow arrow](#click-on-an-arrow) and a blue blox will appear around the arrow, with an “Add Component” ![](assets/images/image23.png) icon that allows you to configure the connection. Click on the “Add Component” ![](assets/images/image23.png) icon.  The “Step 1: Make Your Connection” screen appears.  Two columns are displayed with inputs and outputs. You can click on each shape to see the description at the bottom of that screen that describes the function.
 5.  Next, drag an input shape in column 1 to the desired output shape in column 2 to define the input/output connection. When a connection is successful, the table on the right side ("My connections" table), will list the connections that have been created. We need to connect at least 1 connection to enable the \[Next\] button at the bottom of the window.
 6.  Once connected, click the \[Next\] button. The “Step 2: Define your connection” screen appears.
 7.  In the left table, depending on your connection type you have made you will see the “[Variable](#variable)” screen, “[Edit Expression](#edit-expression)” screen or “Merge Component” screen. If you have more than 1 connection, you can then click on the next connection in the “My Connections” tab and repeat.  When you finish clicking on all the connections, the \[Done\] button will enable so you can click.
@@ -1228,7 +1228,7 @@ Procedure
 3.  To connect the two blocks, hover over the first Logit block and ‘click and drag’ on one of the 4 squares that appear and drag the line to one of the 4 squares that appear on the 2nd block and release, which will create an arrow between the two blocks linking them together. For more information, see [Connecting Blocks on the Workboard](<#connecting-blocks-on-the-workboard-(drag-an-arrow)>).
 4.  To make a connection between two Logit blocks, drag and drop one Logit block from the “Add Component” sidebar on the left hand side of the screen onto the workboard.  Now drag and drop a 2nd Logit block onto the workboard nearby.
 5.  To connect the two blocks, hover over the first Logit block and ‘click and drag’ on one of the 4 squares that appear and drag the line to one of the 4 squares that appear on the 2nd block and release, which will create an arrow between the two blocks linking them together. For more information, see [Connecting Blocks on the Workboard](<#connecting-blocks-on-the-workboard-(drag-an-arrow)>).
-6.  The next step is to configure the connection on the arrow between 2 Logit at Element’s workboard to create the parameters for a deployment. [Click on the yellow arrow](#click-on-an-arrow) and a blue box will appear around the arrow, with an “Add Component” ![](/assets/images/lokahi/image23.png) icon that allows you to configure the connection. Click on the “Add Component” ![](/assets/images/lokahi/image23.png) icon.  The “Step 1: Make Your Connection” screen appears.  Two columns are displayed with inputs and outputs. You can click on each shape to see the description at the bottom of that screen that describes the function.
+6.  The next step is to configure the connection on the arrow between 2 Logit at Element’s workboard to create the parameters for a deployment. [Click on the yellow arrow](#click-on-an-arrow) and a blue box will appear around the arrow, with an “Add Component” ![](assets/images/image23.png) icon that allows you to configure the connection. Click on the “Add Component” ![](assets/images/image23.png) icon.  The “Step 1: Make Your Connection” screen appears.  Two columns are displayed with inputs and outputs. You can click on each shape to see the description at the bottom of that screen that describes the function.
 7.  Next, drag an input shape in column 1 to the desired output shape in column 2 to define the input/output connection. When a connection is successful, the table on the right side ("My connections" table), will list the connections that have been created. We need to connect at least 1 connection to enable the \[Next\] button at the bottom of the window.
 8.  Once connected, click the \[Next\] button. The “Step 2: Define your connection” screen appears.
 9.  In the left table, depending on your connection type you have made you will see the “[Variable](#variable)” screen, “[Edit Expression](#edit-expression)” screen or “Merge Component” screen. If you have more than 1 connection, you can then click on the next connection in the “My Connections” tab and repeat.  When you finish clicking on all the connections, the \[Done\] button will enable so you can click.
@@ -1246,7 +1246,7 @@ For more information about the “Recommendation” feature, see [Recommendation
 15. Once you are finished, click the \[Save\] button and you will be returned to the workboard.  This automatically makes the Element available at the Contract for use at the Contract level.
 16. Now, you finish creating Elements which is what gets created in the Element.
 
-Tip:  When you are on the Contract, you can quickly move down to the workplace of any Element by double clicking on any block icon on the workboard.Tip: You can group Elements by clicking and dragging to highlight any group of Element blocks to create a new Element.  Once you release the selection, the group of Elements will be highlighted in a blue box and you can click “Add Component” ![](/assets/images/lokahi/image23.png) icon which will bring up the [Configure Port](#configure-port) screen.  You can configure inputs/outputs, name, category and choose an icon for the new Element and then click the \[Create\] button to finish the creation of a new Element process.
+Tip:  When you are on the Contract, you can quickly move down to the workplace of any Element by double clicking on any block icon on the workboard.Tip: You can group Elements by clicking and dragging to highlight any group of Element blocks to create a new Element.  Once you release the selection, the group of Elements will be highlighted in a blue box and you can click “Add Component” ![](assets/images/image23.png) icon which will bring up the [Configure Port](#configure-port) screen.  You can configure inputs/outputs, name, category and choose an icon for the new Element and then click the \[Create\] button to finish the creation of a new Element process.
 
 #### Configuring A Logit Layer On The Workboard
 
@@ -1266,13 +1266,13 @@ Attention: A valid model cannot have an “Operation” block at the end point o
 7.  At the top of the window, click on the “Component info” tab. You can rename and choose a group category and change the icon for the Element you are configuring.
 8.  Once you are finished, click the \[Save\] button and you will be returned to the workboard.  This automatically makes the Logit available at the Element layer.
 9.  Next, you can edit and configure your model.
-10. With the “Register” blocks, you can choose the types are defined at “[Define Type](#define-type)” screen by clicking on “Register” block then choose “Edit Markings” option once clicked “Add Marking” ![](/assets/images/lokahi/image2.png) icon. Then choose what “Register” block is allowed to [add data](#add-data-sidebar) at Element or Contract. For more details about the process to choose type and configure for a “Register” block,  go here [Edit Markings](#edit-markings).
-11. Click on the arrow connect from “Register” block to “Operation” block then click “Add Variable”![](/assets/images/lokahi/image14.png) icon, the “Variable” screen appears to let you choose the variables of the message of the “Register” block. For more details about the process to choose variables, go here [Variable](#variable).
-12. With the “Operation” blocks, you can set the condition for transition of the variables of the message in the “Register” block by clicking on “Operation” block then choose “Edit Guard” option once clicked “Add Guard” ![](/assets/images/lokahi/image22.png)icon. For more detail about the process to set the condition for transition, go here [Edit Guard](#edit-guard).
-13. Click on the arrow connect from “Operation” block to “Register” block then click “Add Expression”![](/assets/images/lokahi/image20.png) icon, the “Edit Expression” screen appears to let you regulate the output of the “Operation” block, by creating a new message and depending on the condition of the output, the type of message can then be created. For more detail about the process to regulate the output of the “Operation” block, go here [Edit Expression](#edit-expression).
+10. With the “Register” blocks, you can choose the types are defined at “[Define Type](#define-type)” screen by clicking on “Register” block then choose “Edit Markings” option once clicked “Add Marking” ![](assets/images/image2.png) icon. Then choose what “Register” block is allowed to [add data](#add-data-sidebar) at Element or Contract. For more details about the process to choose type and configure for a “Register” block,  go here [Edit Markings](#edit-markings).
+11. Click on the arrow connect from “Register” block to “Operation” block then click “Add Variable”![](assets/images/image14.png) icon, the “Variable” screen appears to let you choose the variables of the message of the “Register” block. For more details about the process to choose variables, go here [Variable](#variable).
+12. With the “Operation” blocks, you can set the condition for transition of the variables of the message in the “Register” block by clicking on “Operation” block then choose “Edit Guard” option once clicked “Add Guard” ![](assets/images/image22.png)icon. For more detail about the process to set the condition for transition, go here [Edit Guard](#edit-guard).
+13. Click on the arrow connect from “Operation” block to “Register” block then click “Add Expression”![](assets/images/image20.png) icon, the “Edit Expression” screen appears to let you regulate the output of the “Operation” block, by creating a new message and depending on the condition of the output, the type of message can then be created. For more detail about the process to regulate the output of the “Operation” block, go here [Edit Expression](#edit-expression).
 14. Now, you finish creating Logits which is what gets created in the Logit layer.
 
-Tip: You can group a part of Logit by clicking and dragging to highlight any group of Logit’s blocks to create a new Logit.  Once you release the selection, the group of Logit’s blocks will be highlighted in a blue box and you can click “Add Component” ![](/assets/images/lokahi/image23.png) icon which will bring up the [Configure Port](#configure-port) screen. You can configure inputs/outputs, name, category and choose an icon for the new Logit and then click the \[Create\] button to finish the creation of a new Logit process.
+Tip: You can group a part of Logit by clicking and dragging to highlight any group of Logit’s blocks to create a new Logit.  Once you release the selection, the group of Logit’s blocks will be highlighted in a blue box and you can click “Add Component” ![](assets/images/image23.png) icon which will bring up the [Configure Port](#configure-port) screen. You can configure inputs/outputs, name, category and choose an icon for the new Logit and then click the \[Create\] button to finish the creation of a new Logit process.
 
 #### Duplicate A Contract On The Workboard
 
@@ -1346,7 +1346,7 @@ Procedure
 
 The “Add Component” sidebar contains all of the Element blocks available within the project for use on the workboard.
 
-![](/assets/images/lokahi/image79.png)
+![](assets/images/image79.png)
 
 Figure 52
 
@@ -1367,7 +1367,7 @@ Procedure
 
 You can change the name, icon or category and configure the ports of the current component from the settings button in the bottom left hand corner of the Add Component sidebar.
 
-![](/assets/images/lokahi/image72.png)
+![](assets/images/image72.png)
 
 Figure 53
 
@@ -1379,7 +1379,7 @@ Case 1: After clicking the "Edit" button the "Configure Port and Component info"
 
 Case 2:  When you click the "Edit" button the "Configure Port and Component info" screen appears.  If you have placed component blocks on the workboard but have not configured a port yet,  the “Configure Port” screen will display the blocks on the left with the message "You must configure at least one input or output port. Please configure a port for one of these components". You can follow the [Configure Port](#configure-port) instructions to configure and then click the \[Save\] button, and when complete a popup displays the message "Update Successfully".
 
-![](/assets/images/lokahi/image32.png)
+![](assets/images/image32.png)
 
 Figure 54
 
@@ -1387,7 +1387,7 @@ Case 3:  After clicking the "Edit" button the "Configure Port and Component inf
 
 Additional: In the "Component info” tab, the name of the layer is used as the default in the "Name" field and the group is listed in the "Category” field.
 
-![](/assets/images/lokahi/image53.png)
+![](assets/images/image53.png)
 
 Figure 55
 
@@ -1414,7 +1414,7 @@ Procedure
 2.  Add your account address on the Ethereum blockchain or create a new one.
 3.  Access to the Lokahi, and it will appear a dialog to let you know that you have to connect “Lokahi” with the “Metamask”. Click the “Connect” button on the dialog to connect with the “Metamask”.
 
-![](/assets/images/lokahi/image58.png)
+![](assets/images/image58.png)
 
 4.  On the “Metamask” dialog, click on the selection box which is displaying the name of the blockchain. You can choose the Mainnet “Ethereum” or the other Testnet. Or you can add your private Ethereum.
 5.  To add the private Ethereum on the Metamask click on the selection box which is displaying the name of the blockchain.
@@ -1426,7 +1426,7 @@ Procedure
 
 You can deploy a Contract from the workboard once you have gone through formal verification, selected the blockchain destination and entered the pertinent account details \[address and private key for Ethereum, for example\] and click the “Deploy” button in the upper right hand corner of the workboard.
 
-![](/assets/images/lokahi/image67.png)
+![](assets/images/image67.png)
 
 Figure 56
 
@@ -1459,7 +1459,7 @@ Note:  If An Element is invalid on the Contract's workboard, and you click the 
 
 You can check the deployment history of a Contract from the workboard dashboard.
 
-![](/assets/images/lokahi/image19.png)
+![](assets/images/image19.png)
 
 Figure 57
 
@@ -1488,7 +1488,7 @@ Tip:  You can copy the Constract Address of a deployment by clicking on the doc
 
 The workboard toolbar is in the top right of the screen next to the Deploy button, and contains the “Download Icon”, “Formal Analysis Icon”, “Print/Save Icon” and the “Find Icon”.
 
-![](/assets/images/lokahi/image60.png)
+![](assets/images/image60.png)
 
 Figure 58
 
@@ -1507,7 +1507,7 @@ The workboard toolbar is in the top right of the screen next to the Deploy butto
 
 Procedure
 
-1.  Click on the “Transaction” icon ![](/assets/images/lokahi/image103.png)
+1.  Click on the “Transaction” icon ![](assets/images/image103.png)
 2.  Go to the [View Deployment History Of A Contract On The Dashboard](#view-deployment-history-of-a-contract-on-the-dashboard) to see the screen of Transaction history.
 
 #### Print / Save PDF Icon
@@ -1542,7 +1542,7 @@ Procedure
 
 You can zoom in or zoom out the workboard by using the zoom button in the bottom right part of the screen.
 
-![](/assets/images/lokahi/image86.png)
+![](assets/images/image86.png)
 
 Figure 59
 
@@ -1565,7 +1565,7 @@ Note: The default zoom area is the top-left of the workboard.
 
 This is recognized by a "Lock" icon appearing at the top of the "Add Component" menu and a message box in the workboard announce that "THIS PROJECT HAS BEEN LOCKED! You can not edit this project because another user is working on it.". There are some cases to become the “Lock” state:
 
-![](/assets/images/lokahi/image9.png)
+![](assets/images/image9.png)
 
 Figure 60
 
@@ -1629,7 +1629,7 @@ Procedure right click on a block
 
 1.  Right-click on a block in the workboard.  Four green squares appear on the top, bottom, left and right of that block and the block is invisible and disabled.
 
-![](/assets/images/lokahi/image21.png)
+![](assets/images/image21.png)
 
 Figure 61
 
@@ -1643,7 +1643,7 @@ Procedure hover on a block
 
 1.  The name of the block appears and four (4) small squares appear on the top, bottom, left and right of that block.
 
-![](/assets/images/lokahi/image10.png)
+![](assets/images/image10.png)
 
 Figure 62
 
@@ -1671,7 +1671,7 @@ Procedure rename for a block at Workplace
 4.  We can enter any character and blank space in that input and the input once clicked on the "Description" button. This description of the Register block will appear under the Register's name on the [Dapp](#dapp) page at the Contract tab.
 5.  You can change the name then click “tick” to save. Or click the “X” icon to close the dialog and don’t save the name.
 
-![](/assets/images/lokahi/image92.png)
+![](assets/images/image92.png)
 
 Figure 63
 
@@ -1683,7 +1683,7 @@ Procedure click on a block
 
 1.  When you click on a block a blue border surrounds that block and has "x" icon display.  Click the "x" icon to delete the block.
 
-![](/assets/images/lokahi/image96.png)
+![](assets/images/image96.png)
 
 Figure 64
 
@@ -1693,13 +1693,13 @@ You can click, or double click on a Logit block to manipulate or configure that 
 
 Procedure: click on a block
 
-1.  Case A: When you click on a block a blue border surrounds that block and has an "x" icon display.  Click the "x" icon to delete the block.  In the Element’s workboard, an "x" and "Add Component" ![](/assets/images/lokahi/image23.png) icons appear as well when you click on a block. Click the "Add Component" ![](/assets/images/lokahi/image23.png) icon, and a “Configure port and Component info” screen appears as described in [Edit Elements / Element Blocks on The Workboard](#edit-layer-on-the-workboard).
+1.  Case A: When you click on a block a blue border surrounds that block and has an "x" icon display.  Click the "x" icon to delete the block.  In the Element’s workboard, an "x" and "Add Component" ![](assets/images/image23.png) icons appear as well when you click on a block. Click the "Add Component" ![](assets/images/image23.png) icon, and a “Configure port and Component info” screen appears as described in [Edit Elements / Element Blocks on The Workboard](#edit-layer-on-the-workboard).
 
-![](/assets/images/lokahi/image95.png)
+![](assets/images/image95.png)
 
 Figure 65
 
-Case B: In the "[Lock](#the-“lock”-status) state:  A locked state means you cannot configure the block. When you still allow you to click on a block, but you cannot see the “x” icon. In the Element, and can click on the "Add Component" ![](/assets/images/lokahi/image23.png) icon to open “Configure port and Component info” screen but you cannot create new Logit from this block because it is locked.
+Case B: In the "[Lock](#the-“lock”-status) state:  A locked state means you cannot configure the block. When you still allow you to click on a block, but you cannot see the “x” icon. In the Element, and can click on the "Add Component" ![](assets/images/image23.png) icon to open “Configure port and Component info” screen but you cannot create new Logit from this block because it is locked.
 
 #### Definition Of A Register And Operation Block (At Logit Layer)
 
@@ -1709,7 +1709,7 @@ Definition of a “Register” block
 
 1.  The “Register” block is a place where you can add the message and contains the message is sent from the “Operation” block.
 
-![](/assets/images/lokahi/image69.png)
+![](assets/images/image69.png)
 
 Figure 66
 
@@ -1717,7 +1717,7 @@ Definition of a “Operation” block
 
 1.  The “Operation” block is a place where you can add the condition so if the message is satisfied, the message can go through from the “Register” blocks to the other.
 
-![](/assets/images/lokahi/image98.png)
+![](assets/images/image98.png)
 
 Figure 67
 
@@ -1727,15 +1727,15 @@ You can click, or right click on a “Register” or “Operation” block to ma
 
 Procedure: click on a block
 
-1.  Case A: When you click on a block a blue border surrounds that block and has an "x" icon display.  Click the "x" icon to delete the block.  In the Logit’s workboard, the "x", "Manage Hashtag"![](/assets/images/lokahi/image6.png), "Add Markings"![](/assets/images/lokahi/image2.png), "Add Component" ![](/assets/images/lokahi/image23.png) icons appear as well when you click on a “Register” block. And the "x", "Manage Hashtag"![](/assets/images/lokahi/image6.png), "Add Guard" ![](/assets/images/lokahi/image22.png)icons appear as well when you click on a “Operation” block. Click on "Manage Hashtag"![](/assets/images/lokahi/image6.png) and "Add Markings"![](/assets/images/lokahi/image2.png) to open the "Manage Hashtag" and "Edit Markings" screen. Click the "Add Component" ![](/assets/images/lokahi/image23.png) icon, and a “Configure port and Component info” screen appears as described in [Edit Elements / Element Blocks on The Workboard](#edit-layer-on-the-workboard).
+1.  Case A: When you click on a block a blue border surrounds that block and has an "x" icon display.  Click the "x" icon to delete the block.  In the Logit’s workboard, the "x", "Manage Hashtag"![](assets/images/image6.png), "Add Markings"![](assets/images/image2.png), "Add Component" ![](assets/images/image23.png) icons appear as well when you click on a “Register” block. And the "x", "Manage Hashtag"![](assets/images/image6.png), "Add Guard" ![](assets/images/image22.png)icons appear as well when you click on a “Operation” block. Click on "Manage Hashtag"![](assets/images/image6.png) and "Add Markings"![](assets/images/image2.png) to open the "Manage Hashtag" and "Edit Markings" screen. Click the "Add Component" ![](assets/images/image23.png) icon, and a “Configure port and Component info” screen appears as described in [Edit Elements / Element Blocks on The Workboard](#edit-layer-on-the-workboard).
 
-    Case B: In the "[Lock](#the-“lock”-status)" state: When you click on a block, you cannot see "x" icon at three layer types. In the Logit layer, you can see the icons: "Manage Hashtag"![](/assets/images/lokahi/image6.png), "Add Markings"![](/assets/images/lokahi/image2.png), "Add Guard"![](/assets/images/lokahi/image22.png), and "Add Component"![](/assets/images/lokahi/image23.png). You can click on "Add Component" ![](/assets/images/lokahi/image23.png) icon to open the “Configure port and Component info” screen but cannot create a new Logit layer or edit it from this block. And you can click on the "Manage Hashtag"![](/assets/images/lokahi/image6.png), "Add Markings"![](/assets/images/lokahi/image2.png), "Add Guard"![](/assets/images/lokahi/image22.png) icons to see and can edit but once reloaded the page it does not change anything.
+    Case B: In the "[Lock](#the-“lock”-status)" state: When you click on a block, you cannot see "x" icon at three layer types. In the Logit layer, you can see the icons: "Manage Hashtag"![](assets/images/image6.png), "Add Markings"![](assets/images/image2.png), "Add Guard"![](assets/images/image22.png), and "Add Component"![](assets/images/image23.png). You can click on "Add Component" ![](assets/images/image23.png) icon to open the “Configure port and Component info” screen but cannot create a new Logit layer or edit it from this block. And you can click on the "Manage Hashtag"![](assets/images/image6.png), "Add Markings"![](assets/images/image2.png), "Add Guard"![](assets/images/image22.png) icons to see and can edit but once reloaded the page it does not change anything.
 
 #### Connecting Blocks On The Workboard (Drag An Arrow)
 
 You can connect the blocks on the workboard by hovering over a block to reveal 4 squares and then ‘click and drag’ an arrow from any of the 4 squares to another block to create a connection.
 
-![](/assets/images/lokahi/image76.png)
+![](assets/images/image76.png)
 
 Figure 68
 
@@ -1755,7 +1755,7 @@ Note:
 
 You can adjust an arrow to add a corner or angle to the arrow by double clicking on the arrow to place a draggable spot on the arrow and then drag to adjust the shape.
 
-![](/assets/images/lokahi/image91.png)
+![](assets/images/image91.png)
 
 Figure 69
 
@@ -1768,7 +1768,7 @@ Procedure
 
 You can begin to define your connection when you click on an arrow.
 
-![](/assets/images/lokahi/image71.png)
+![](assets/images/image71.png)
 
 Figure 70
 
@@ -1776,8 +1776,8 @@ Procedure
 
 1.  On the workboard, when an arrow (port connection) between 2 blocks is yellow, it means the connection has not been defined yet.
 
-Case A: "Not in "[lock](#the-“lock”-status) state": When you click on an arrow, that arrow is highlighted, a blue rectangle box contains that arrow, and displays beside the "Connection"![](/assets/images/lokahi/image1.png) icon, and the "x" icon. If you want to delete the connection, click the “x”. In the Element and Contract, you can click on the "Connection"![](/assets/images/lokahi/image1.png) icon to see the [Step 1: "Make your connections"](<#define-a-connection-(make-your-connection)>) to start configuring the Element. In the Logit, when you click on an arrow connects from “Register” block to “Operation” block, it appears "x" and "Add Variable"![](/assets/images/lokahi/image14.png) icons and if you click on "Add Variable"![](/assets/images/lokahi/image14.png), it opens the “Variable” screen. When you click on an arrow connects from “Operation” block to “Register” block, it appears "x" and "Add Expression" ![](/assets/images/lokahi/image20.png)icons and if you click on "Add Expression", it opens the “Edit Expression” screen.  
-Case B: "In the "[Lock](#the-“lock”-status) state": You cannot configure an arrow when in the locked state. You can still click on a yellow arrow, but you cannot see the “x” icon. In the Element and Contract, you see the "Connection"![](/assets/images/lokahi/image1.png) icon and can click on to open "Step 1:Make your connection" and change the connection then define that port and complete the steps but once you reload the page it does not change anything. And in the Logit, you can click on the "Add Variable"![](/assets/images/lokahi/image14.png) icon to see a “Variable” screen or click on the "Add Expression" ![](/assets/images/lokahi/image20.png)icon to see a “Edit Expression” screen and can enter in those screens then save but once you reload the page it does not change anything.
+Case A: "Not in "[lock](#the-“lock”-status) state": When you click on an arrow, that arrow is highlighted, a blue rectangle box contains that arrow, and displays beside the "Connection"![](assets/images/image1.png) icon, and the "x" icon. If you want to delete the connection, click the “x”. In the Element and Contract, you can click on the "Connection"![](assets/images/image1.png) icon to see the [Step 1: "Make your connections"](<#define-a-connection-(make-your-connection)>) to start configuring the Element. In the Logit, when you click on an arrow connects from “Register” block to “Operation” block, it appears "x" and "Add Variable"![](assets/images/image14.png) icons and if you click on "Add Variable"![](assets/images/image14.png), it opens the “Variable” screen. When you click on an arrow connects from “Operation” block to “Register” block, it appears "x" and "Add Expression" ![](assets/images/image20.png)icons and if you click on "Add Expression", it opens the “Edit Expression” screen.  
+Case B: "In the "[Lock](#the-“lock”-status) state": You cannot configure an arrow when in the locked state. You can still click on a yellow arrow, but you cannot see the “x” icon. In the Element and Contract, you see the "Connection"![](assets/images/image1.png) icon and can click on to open "Step 1:Make your connection" and change the connection then define that port and complete the steps but once you reload the page it does not change anything. And in the Logit, you can click on the "Add Variable"![](assets/images/image14.png) icon to see a “Variable” screen or click on the "Add Expression" ![](assets/images/image20.png)icon to see a “Edit Expression” screen and can enter in those screens then save but once you reload the page it does not change anything.
 
 2.  When hovering over the port after clicking a yellow dot appears with a red border that will move on that port if we move the mouse pointer on that port.
 
@@ -1785,7 +1785,7 @@ Case B: "In the "[Lock](#the-“lock”-status) state": You cannot configure an 
 
 On the workboard you can use the mouse to highlight and select a group blocks and arrows on the workboard to configure and define that specific group.
 
-![](/assets/images/lokahi/image26.png)
+![](assets/images/image26.png)
 
 Figure 71
 
@@ -1795,22 +1795,22 @@ Procedure
 2.  Once the group is highlighted, an "Add Component" and "x" icon is displayed.
 
 3.  In the Element and Logit workboard we can  click on the "i" icon.
-4.  When click the "Add Component" ![](/assets/images/lokahi/image23.png) icon, a "Configure port and Component info" screen appears, with the process as chronicled in the [Edit Elements / Element Blocks on The Workboard](#edit-layer-on-the-workboard) section.
+4.  When click the "Add Component" ![](assets/images/image23.png) icon, a "Configure port and Component info" screen appears, with the process as chronicled in the [Edit Elements / Element Blocks on The Workboard](#edit-layer-on-the-workboard) section.
 5.  When you click the "x" icon it deletes that group.
 
 6.  We can move the group to a new area on the workboard as desired.
 
 #### Define A Connection (Make Your Connection)
 
-After you have clicked on the "Connection"![](/assets/images/lokahi/image1.png) icon on the workboard of any connection between 2 Logits or 2 Elements at Element/Contract’s workboard, the “Step 1: Make Your Connection” screen appears. You can then define the connection.
+After you have clicked on the "Connection"![](assets/images/image1.png) icon on the workboard of any connection between 2 Logits or 2 Elements at Element/Contract’s workboard, the “Step 1: Make Your Connection” screen appears. You can then define the connection.
 
-![](/assets/images/lokahi/image39.png)
+![](assets/images/image39.png)
 
 Figure 72
 
 Procedure Step 1 Make your connection
 
-1.  The next step is to configure the connection on the arrow between 2 components in the Element/Contract workboard to create the parameters for a deployment. [Click on the yellow arrow](#click-on-an-arrow) and a blue box will appear around the arrow, with an"Connection"![](/assets/images/lokahi/image1.png) icon that allows you to configure the connection. Click on the "Connection"![](/assets/images/lokahi/image1.png) icon.  The “Step 1: Make Your Connection” screen appears.  Two columns are displayed with inputs and outputs. You can click on each shape to see the description at the bottom of that screen that describes the function.
+1.  The next step is to configure the connection on the arrow between 2 components in the Element/Contract workboard to create the parameters for a deployment. [Click on the yellow arrow](#click-on-an-arrow) and a blue box will appear around the arrow, with an"Connection"![](assets/images/image1.png) icon that allows you to configure the connection. Click on the "Connection"![](assets/images/image1.png) icon.  The “Step 1: Make Your Connection” screen appears.  Two columns are displayed with inputs and outputs. You can click on each shape to see the description at the bottom of that screen that describes the function.
 2.  Next, drag an input shape in column 1 to the desired output shape in column 2 to define the input/output connection. With the condition below, it only allows you to:
 
 -   Only the input port can connect with the output port.
@@ -1841,7 +1841,7 @@ Attention:
 6.  Cannot create a connection between 2 “Register” blocks that have the type containing “String” type at the first field but different status auto-generate transactionID. For more information about transactionID, go to [Edit Markings](#edit-markings).
 7.  With the port has the requirement to connect with each other (by using hashtag at “Require Hashtag” input in “[Configure Port](#configure-port)” screen and “Component Hashtag” input in the “[Manage Hashtags](#manage-hashtags)” screen are set at the ports of the layers), it will appear at “Step 1 Make Your Connections” a “Suggested” frame to let you know which ports have to connect with each other. See in figure 72.
 
-![](/assets/images/lokahi/image89.png)
+![](assets/images/image89.png)
 
 Figure 73
 
@@ -1866,7 +1866,7 @@ Note:
 
 You can select a group and configure that group to create a new layer.
 
-![](/assets/images/lokahi/image47.png)
+![](assets/images/image47.png)
 
 Figure 74
 
@@ -1956,10 +1956,10 @@ Note:
 
 Procedure
 
-1.  The \[Define Type\] button ![](/assets/images/lokahi/image48.png) only appears in the "Add Component" sidebar menu on the workboard. At the very bottom of the “Add Component” menu, click on the \[Define Type\] button.
-2.  After clicking on the "Define Type" button ![](/assets/images/lokahi/image48.png), a screen appears in the middle of the Workboard page with a title "Define Type". The "Define Type" screen has 2 tables:
+1.  The \[Define Type\] button ![](assets/images/image48.png) only appears in the "Add Component" sidebar menu on the workboard. At the very bottom of the “Add Component” menu, click on the \[Define Type\] button.
+2.  After clicking on the "Define Type" button ![](assets/images/image48.png), a screen appears in the middle of the Workboard page with a title "Define Type". The "Define Type" screen has 2 tables:
 
-![](/assets/images/lokahi/image75.png)
+![](assets/images/image75.png)
 
 Figure 75
 
@@ -1995,15 +1995,15 @@ Attention:
 
 #### Edit Markings
 
-The “Edit Markings” feature allows you to choose the type of the “Register” block and add the messages (the data) for that “Register” block by clicking on the “Add Marking” ![](/assets/images/lokahi/image2.png)icon on the block and accessing “Edit Markings.”
+The “Edit Markings” feature allows you to choose the type of the “Register” block and add the messages (the data) for that “Register” block by clicking on the “Add Marking” ![](assets/images/image2.png)icon on the block and accessing “Edit Markings.”
 
-![](/assets/images/lokahi/image33.png)
+![](assets/images/image33.png)
 
 Figure 76
 
 Procedure
 
-1.  The "Markings" screen only appears on the Logit after you click on the “Register” block and then click on "Add Marking" ![](/assets/images/lokahi/image2.png)icon then choose the “Edit Markings” option.
+1.  The "Markings" screen only appears on the Logit after you click on the “Register” block and then click on "Add Marking" ![](assets/images/image2.png)icon then choose the “Edit Markings” option.
 2.  After clicking on the “Edit Markings” option, a screen appears in the middle of the Workboard page titled "Markings". The "Markings" screen has 2 tables:
 
 3.  The left table is "List Of Markings"". It includes the "Search" frame and a table with 2 columns "Number" and "Message". The table will contain all messages you have added on this “Register” block.
@@ -2024,7 +2024,7 @@ Procedure
 -   The field of "BLOCK_NUMBER" and "Sender" type is disabled and displays the sentences which are "@BLOCK_NUMBER@" and "@SENDER@".
 -   Other options may exist that were created for that project as well, with the associated information from the 4 basic types ({String; Int; Bool; Unit}) in the input fields.
 
-6.  The "!" ![](/assets/images/lokahi/image74.png) icon in each row can be hovered over to view a tooltip to show all types available in that field.
+6.  The "!" ![](assets/images/image74.png) icon in each row can be hovered over to view a tooltip to show all types available in that field.
 7.  If you want to edit a message has been added in the “List of Markings” table, hover on the row of the message and on the right side of the column a group button appears {Edit; Delete}. Hover on these icons, and click on \[Delete\] icon button to delete that message or click on \[Edit\] icon to edit that message.
 8.  When you click \[Edit\] icon button to edit the message, you can make the changes you prefer and then click the \[Save\] button to save the changes.
 9.  If you don’t want to add message at Logit, you can configure that “Register” block can add message in the Element or Contract by ticking 2 checkboxes are "Allow user to add data in Element" and "Allow user to add data in Contract" on the “Markings” screen. If you don't tick the checkboxes on the “Markings” screen of a “Register” block, at higher layer, when open the "Add Data" sidebar and choose that block in the workplace, it does not show the "[Add Data](#add-data-sidebar)" box of that “Register” block.
@@ -2039,13 +2039,13 @@ Procedure
 
 The “VARIABLE” feature allows you to choose the variables of the message of the “Register” block to make the condition for a transition to the “Edit Guard” feature of the “Operation” block at the Logit and the message returns after satisfied the condition (If the messages satisfy the condition, it allows those messages go through).
 
-![](/assets/images/lokahi/image56.png)
+![](assets/images/image56.png)
 
 Figure 77
 
 Procedure
 
-1.  Open Logit of a project. Drag a “Register” block and an “Operation” block to the workboard. Connect the “Register” block to the “Operation” block with an arrow with the root of the arrow at the “Register” block and the arrowhead at the “Operation” block. Click on the arrow between the two blocks, then click the "Add Variable"![](/assets/images/lokahi/image14.png)icon on the connected arrow.
+1.  Open Logit of a project. Drag a “Register” block and an “Operation” block to the workboard. Connect the “Register” block to the “Operation” block with an arrow with the root of the arrow at the “Register” block and the arrowhead at the “Operation” block. Click on the arrow between the two blocks, then click the "Add Variable"![](assets/images/image14.png)icon on the connected arrow.
 2.  The “Variables” screen appears:
 
 -   A sentence "Please choose the value of "{register's name}" to represent for variables in condition". Underneath, it always has a “TransactionID” field with the “Register” block have a type is different with “UNIT” type and if the type has the first field is “String” type, belong to the status “auto-generate transactionID” or not, the first field can be merge with the “TransactionID” field. For more information about transactionID, go to [Edit Markings](#edit-markings).
@@ -2062,14 +2062,14 @@ Note: With the variables which have the same name are defined at the different p
 
 The “Edit Guard” feature allows you to set the condition for transition of the variables of the message in the Register block. If the messages satisfy the condition of the “Operation” block, it allows those messages to go through.  If the messages aren't satisfied with the condition of the “Operation” block, those messages are still staying at the “Register” block which now contains them.
 
-![](/assets/images/lokahi/image5.png)
+![](assets/images/image5.png)
 
 Figure 78
 
 Procedure
 
-1.  Open Logit of a project. Drag a “Register” block and an “Operation” block to the workboard. Connect the “Register” block to the “Operation” block. Click on the “Operation” block. Click "Add Guard" ![](/assets/images/lokahi/image22.png) icon on the “Operation” block then choose the “Edit Guard” option.
-2.  Once clicked on that “Operation” block and then clicked the "Add Guard" ![](/assets/images/lokahi/image22.png)icon, the "Edit Guard" screen appears with a textbox, the \[Save\], the \[Close\], and \[Help Center\] buttons always enabled.
+1.  Open Logit of a project. Drag a “Register” block and an “Operation” block to the workboard. Connect the “Register” block to the “Operation” block. Click on the “Operation” block. Click "Add Guard" ![](assets/images/image22.png) icon on the “Operation” block then choose the “Edit Guard” option.
+2.  Once clicked on that “Operation” block and then clicked the "Add Guard" ![](assets/images/image22.png)icon, the "Edit Guard" screen appears with a textbox, the \[Save\], the \[Close\], and \[Help Center\] buttons always enabled.
 3.  Enter the condition using the IDs that have been chosen at the “Variables” screen. It has the suggestion feature that when having the variables have been defined at the arrow connected to this "Operation" block, it shows the default values and the variables have been defined. The default values are:
 
 -   Function: isTrue(a), isFalse(a), isEmpty(a).
@@ -2100,14 +2100,14 @@ Attention: If you do not add any condition to "Edit Guard", it still allows the 
 
 After the message goes through the “Operation” block, the “Edit Expression” feature regulates the output of the “Operation” block, by creating a new message and depending on the condition of the output the type of message can then be created. If the messages satisfy the condition of the Expression screen, it allows those messages to go through. If the messages aren't satisfied with the condition of the Expression screen and there is an “Else” case, those messages go through.  If the messages aren't satisfied with the condition of the Expression screen and there is no “Else” case, those messages disappear at the “Register” block which now contains them.
 
-![](/assets/images/lokahi/image70.png)
+![](assets/images/image70.png)
 
 Figure 79
 
 Procedure
 
-1.  Open Logit of a project. Drag a “Register” block and an “Operation” blocks to the workboard. Connect the “Operation” block to the “Register” block. Click on the arrow that connects the two blocks. Click "Add Expression"![](/assets/images/lokahi/image20.png) icon.
-2.  After clicking on the "Add Expression"![](/assets/images/lokahi/image20.png) icon, the "Edit Expression" screen appears with a combobox with the default value is "Return" option, the \[Add Else\], the \[Save\], the \[Close\], and \[Help Center\] buttons always enabled and one input is {If} if you change the combobox to "If" option, and the quantity of other inputs depend on the type of the arrow head (Register). Each field of the type of the arrow head will have an input in the "Message Then" form and the same input at the "Message Else" form. If the type of the arrow head contains the "UNIT" type, the input is disabled and contains default value is "UNIT". If the type of the arrow head contains anything other than "UNIT" type, the input is enabled. If you click on the \[Add else\] button, there are more available inputs in the "Message Else" form like the "Message Then" form. You can click the \[Delete\] icon button next to the "Message Else" form to close that input.
+1.  Open Logit of a project. Drag a “Register” block and an “Operation” blocks to the workboard. Connect the “Operation” block to the “Register” block. Click on the arrow that connects the two blocks. Click "Add Expression"![](assets/images/image20.png) icon.
+2.  After clicking on the "Add Expression"![](assets/images/image20.png) icon, the "Edit Expression" screen appears with a combobox with the default value is "Return" option, the \[Add Else\], the \[Save\], the \[Close\], and \[Help Center\] buttons always enabled and one input is {If} if you change the combobox to "If" option, and the quantity of other inputs depend on the type of the arrow head (Register). Each field of the type of the arrow head will have an input in the "Message Then" form and the same input at the "Message Else" form. If the type of the arrow head contains the "UNIT" type, the input is disabled and contains default value is "UNIT". If the type of the arrow head contains anything other than "UNIT" type, the input is enabled. If you click on the \[Add else\] button, there are more available inputs in the "Message Else" form like the "Message Then" form. You can click the \[Delete\] icon button next to the "Message Else" form to close that input.
 3.  Enter the condition using the IDs have been chosen on the “Variables” screen. It has the suggestion feature that when having the variables have been defined at the arrow connected to this "Operation" block, it shows the default values and the variables have been defined at the “Register” blocks connected to the “Operation” block which points to this “Register” block. The default values are:
 
 -   Function: isTrue(a), isFalse(a), isEmpty(a).
@@ -2219,14 +2219,14 @@ Procedure
 
 The “Define Hashtag” feature lets you create and define the hashtags of the “Register” block(s) and “Operation” block(s) on the Logit of a project. Then you can use that hashtag to add to a Logit or Element with the [Manage Hashtags function](#manage-hashtags). When you drag that Logit or Element block into the Element’s or Contract’s workboard, it will require you to connect the Logit or Element block required in order to finish the model. Or you can use the hashtag in checking the model by using [Global and Local Rule](#global-and-local-rule).
 
-![](/assets/images/lokahi/image90.png)
+![](assets/images/image90.png)
 
 Figure 80
 
 Procedure
 
-1.  The "Define Hashtag" button ![](/assets/images/lokahi/image44.png) appears on the "Add Component" sidebar menu on all layers: Open the  workboard. At the bottom of the “Add Component” sidebar menu, click the “Define Hashtag” button.
-2.  After clicking on the "Define Hashtag" button ![](/assets/images/lokahi/image44.png), a screen appears in the middle of the Workboard titled "Define Hashtag" with 2 tables:
+1.  The "Define Hashtag" button ![](assets/images/image44.png) appears on the "Add Component" sidebar menu on all layers: Open the  workboard. At the bottom of the “Add Component” sidebar menu, click the “Define Hashtag” button.
+2.  After clicking on the "Define Hashtag" button ![](assets/images/image44.png), a screen appears in the middle of the Workboard titled "Define Hashtag" with 2 tables:
 
 3.  The left table is "List Of Hashtag". It has a "Search" frame and a table with 2 columns "Hashtag" and "Description".
 4.  The right table is "Define Hashtag". It contains a "Hashtag's name" input field with a placeholder sentence "E.g shipping", a "Hashtag's Description" text input field with a placeholder "Description", and the \[Save\] button is inactive.
@@ -2247,7 +2247,7 @@ This setting will require you to connect Logit/Element blocks contain the input 
 
 The "Manage Tag" screen can be found by clicking on a "Register" or "Operation" block and then clicking on the “Manage tag” icon of that block and selecting “Manage Tags.”
 
-![](/assets/images/lokahi/image11.png)
+![](assets/images/image11.png)
 
 Figure 81
 
@@ -2296,7 +2296,7 @@ Note:
 
 The “Recommendation” feature reminds and guides you to finish the steps on the workboard. Once you complete all of the recommendation steps, you will be ready to deploy.
 
-![](/assets/images/lokahi/image30.png)
+![](assets/images/image30.png)
 
 Figure 82
 
@@ -2359,7 +2359,7 @@ The examples below do not include a comprehensive list of every possible recomme
 
 The “Flow Graph” feature allows you to configure the flow graph by connecting the lower layers. You can set the statement for your flow graph by clicking on the “Flow Graph” button at the bottom of the workboard. The “Flow Graph” statement is the condition of the shapes on the flow graph that allows those shapes to work and to allow the messages to go into the flow graph.
 
-![](/assets/images/lokahi/image78.png)
+![](assets/images/image78.png)
 
 Figure 83
 
@@ -2373,7 +2373,7 @@ Definition and Features of Flow Graph
 
 The shapes in the flow graph have 3 types which are a circle, a rectangle or a diamond. Those shapes in the flow graph have been called “State”.
 
-![](/assets/images/lokahi/image34.png)
+![](assets/images/image34.png)
 
 Figure 84
 
@@ -2400,7 +2400,7 @@ Figure 84
 2.  This occurs when you select both a "Start state shape" and another one of the 4 state shapes {"End state shape"; "Join state rectangle shape"; "Join state diamond shape"; “Join State Circle Shape”} at the same time using click and hold \[Command\]/\[Ctrl\] or \[Shift\].
 3.  The meaning of the "Eventually Active" option is the message that belongs to the State shape or the one connected to the "Start state shapes" must belong to one of 4 state shapes {"End state shape"; "Join state rectangle shape"; "Join state diamond shape" ; “Join State Circle Shape”}.
 
-![](/assets/images/lokahi/image62.png)
+![](assets/images/image62.png)
 
 Figure 85
 
@@ -2527,7 +2527,7 @@ Note:
 
 The “Global and Local rules” feature allows you to set the statement for the model to check if the message in the “Register” block can reach the other “Register” on the model or not. If the result of the statement is false, it will let you know you have to fix the model to satisfy your purpose by a recommendation.
 
-![](/assets/images/lokahi/image87.png)
+![](assets/images/image87.png)
 
 Figure 86
 
@@ -2626,7 +2626,7 @@ b. The logical operators
 
 28. Example:
 
-![](/assets/images/lokahi/image85.png)
+![](assets/images/image85.png)
 
 Figure 87
 
@@ -2662,7 +2662,7 @@ Example: "#a eventually active or #b eventually active". If #a eventually active
 
 The purpose of limiting the data can go to the next step of the model.
 
-![](/assets/images/lokahi/image80.png)
+![](assets/images/image80.png)
 
 Figure 88
 
@@ -2682,9 +2682,9 @@ Procedure for creating a Decision block at Logit layer
 
 \].
 
-3.  Goto Element layer, on the “Add Component” sidebar, appears that the “Decision” block is active and has changed the icon from the normal icon (“Logit”  icon) to the “Decision” icon![](/assets/images/lokahi/image59.png).
+3.  Goto Element layer, on the “Add Component” sidebar, appears that the “Decision” block is active and has changed the icon from the normal icon (“Logit”  icon) to the “Decision” icon![](assets/images/image59.png).
 
-![](/assets/images/lokahi/image65.png)
+![](assets/images/image65.png)
 
 Figure 89
 
@@ -2818,7 +2818,7 @@ Procedure to edit the Decision block
 
 Dapp is an interface to use smart-contract from Lokahi. Dapp displays the information of a contract after deploying successfully on a blockchain. It will inform us about the contract’s information, provide the interface for the account deployed, that contract can add more data, can execute methods, and track the flow of the message in the model. Each manipulation on the interface will require the blockchain, so you have to sign in with an account address through the Meta Mask with the right blockchain.
 
-![](/assets/images/lokahi/image41.png)
+![](assets/images/image41.png)
 
 Figure 90
 
@@ -2966,11 +2966,11 @@ Note:
 
 Procedure add permission for at Logit layer
 
-![](/assets/images/lokahi/image54.png)
+![](assets/images/image54.png)
 
 Figure 91
 
-1.  On the Logit layer, click on the “Register” block. Click on the “Add Permission”![](/assets/images/lokahi/image68.png) icon.
+1.  On the Logit layer, click on the “Register” block. Click on the “Add Permission”![](assets/images/image68.png) icon.
 2.  The "Add Permission" screen appears and has 2 tables.
 
 \+ The left table is "List Of Address". It has a "Search" frame and a table that has 1 column is "Address".
@@ -2988,13 +2988,13 @@ Figure 91
 4.  The \[Add\] button is enabled to click.
 5.  The address will appear on the left table. You can copy, edit or delete the addresses by hovering on each row, in the right side of the "Address" column, appear a group button {Copy; Edit; Delete}.
 
-\[Note: In the "Lock" state: you can click on the “Add Permission”![](/assets/images/lokahi/image68.png) icon to open the "Add Permission" screen and manipulate on this screen. But after you reload the page, it does not save anything that you have just edited.\]
+\[Note: In the "Lock" state: you can click on the “Add Permission”![](assets/images/image68.png) icon to open the "Add Permission" screen and manipulate on this screen. But after you reload the page, it does not save anything that you have just edited.\]
 
 #### Add Permission For Contract Has Been Deployed
 
 Once you deploy a contract at Workboard, in the “[Transactions](#view-deployment-history-of-a-contract-on-the-dashboard)” screen, as an owner of that contract you can add the user or organization as a member can see the information of the contracts that have been deployed.
 
-![](/assets/images/lokahi/image100.png)
+![](assets/images/image100.png)
 
 Figure 92
 
@@ -3025,7 +3025,7 @@ Procedure to add viewer for the deployed contract
 
 You can register an account at the user level on the “Sign Up” page of Lokahi by accessing the “Login” page and then click on the “Sign up” link below the \[Login\] button.
 
-![](/assets/images/lokahi/image40.png)
+![](assets/images/image40.png)
 
 Figure 93
 
@@ -3045,7 +3045,7 @@ Note:         The email verification link will no longer be valid until 
 
 You can log into an account on the “Login” page of Lokahi by using your username or your verified email address along with the password chosen during registration.
 
-![](/assets/images/lokahi/image81.png)
+![](assets/images/image81.png)
 
 Figure 94
 
@@ -3061,7 +3061,7 @@ Note:        If you used an account that was registered but has not been
 
 You can change an account’s password by accessing the “Login” page of Lokahi then click on the “Forgot Password?” link below the \[Login\] button. It will access the “Reset Password” page.
 
-![](/assets/images/lokahi/image24.png)
+![](assets/images/image24.png)
 
 Figure 95
 
@@ -3115,7 +3115,7 @@ There are 4 roles in Lokahi, with a Business User account, Advanced user account
 -   The Engineer has the ability to create and configure the Logit and Elements to promote Elements up a level for use on the layers above in contracts created by standard and advanced users to which the engineer is assigned or granted permission.
 -   An engineer can access the lower layers (Logit and Element) from the dashboard of the project or on the workboard in a project‘s layer dropdown list.
 
-![](/assets/images/lokahi/image63.png)
+![](assets/images/image63.png)
 
 Figure 96
 
@@ -3561,7 +3561,7 @@ Following the [Creating Projects](#creating-projects) process, if you are viewin
 
 For more detailed information about the layer’s types, see [Layer Levels & User Permissions](#layer-levels-&-user-permissions).
 
-![](/assets/images/lokahi/image31.png)
+![](assets/images/image31.png)
 
 Figure 1
 
@@ -3581,7 +3581,7 @@ Note: You can use the same name for multiple layers of this project. Also, if a 
 
 Once you have created a new Contract layer, you are now able to design a process on the workboard to  build the Contract using the pre-configured Element blocks from the ‘Add Component Menu’ in the sidebar. Contract is what gets created in the Contract layer.
 
-![](/assets/images/lokahi/image7.png)
+![](assets/images/image7.png)
 
 Figure 2
 
@@ -3590,7 +3590,7 @@ Procedure
 1.  After creating a Contract, access the Contract’s workboard to define the process.
 2.  To make a connection between two Element blocks, drag and drop one Element block from the “Add Component” sidebar on the left hand side of the screen onto the workboard.  Now drag and drop a 2nd Element block onto the workboard nearby.
 3.  To connect the two blocks, hover over the first Element block and ‘click and drag’ on one of the 4 squares that appear and drag the line to one of the 4 squares that appear on the 2nd block and release, which will create an arrow between the two blocks linking them together. For more information, see [Connecting Blocks on the Workboard](<#connecting-blocks-on-the-workboard-(drag-an-arrow)>).
-4.  The next step is to configure the connection on the arrow between 2 Elements at Element/Contract’s workboard to create the parameters for a deployment. [Click on the yellow arrow](#click-on-an-arrow) and a blue box will appear around the arrow, with an “Add Component” ![](/assets/images/lokahi/image23.png) icon that allows you to configure the connection. Click on the “Add Component” ![](/assets/images/lokahi/image23.png) icon.  The “Step 1: Make Your Connection” screen appears.  Two columns are displayed with inputs and outputs. You can click on each shape to see the description at the bottom of that screen that describes the function.
+4.  The next step is to configure the connection on the arrow between 2 Elements at Element/Contract’s workboard to create the parameters for a deployment. [Click on the yellow arrow](#click-on-an-arrow) and a blue box will appear around the arrow, with an “Add Component” ![](assets/images/image23.png) icon that allows you to configure the connection. Click on the “Add Component” ![](assets/images/image23.png) icon.  The “Step 1: Make Your Connection” screen appears.  Two columns are displayed with inputs and outputs. You can click on each shape to see the description at the bottom of that screen that describes the function.
 5.  Next, drag an input/output shape in column 1 to the desired output/input shape in column 2 to define the input/output connection. When a connection is successful, the table on the right side ("My connections" table), will list the connections that have been created. We need to connect at least 1 connection to enable the \[Next\] button at the bottom of the window.
 6.  Once connected, click the \[Next\] button. The “Step 2: Define your connection” screen appears.
 7.  In the left table, depending on your connection type you have made you will see the “[Variable](#variable)” screen, “[Edit Expression](#edit-expression)” screen or “Merge Component” screen. If you have more than 1 connection, you can then click on the next connection in the “My Connections” tab and repeat.  When you finish clicking on all the connections, the \[Done\] button will enable you to click.
@@ -3626,7 +3626,7 @@ Note: You can use the same name among multiple Elements in the same project. For
 
 #### Configuring An Element (Workboard)
 
-After you have [created a new Element](<#creating-a-new-element-layer-(dashboard)>), you are now able to configure the Element on the workboard. Element is what gets created in the Element layer.![](/assets/images/lokahi/image82.png)
+After you have [created a new Element](<#creating-a-new-element-layer-(dashboard)>), you are now able to configure the Element on the workboard. Element is what gets created in the Element layer.![](assets/images/image82.png)
 
 Figure 3
 
@@ -3636,9 +3636,9 @@ Procedure
 2.  To make a connection between two Logit blocks, drag and drop one Logit block from the “Add Component” sidebar on the left hand side of the screen onto the workboard.  Now drag and drop a 2nd Logit block onto the workboard nearby.
 3.  To connect the two blocks, hover over the first Logit block and ‘click and drag’ on one of the 4 squares that appear and drag the line to one of the 4 squares that appear on the 2nd block and release, which will create an arrow between the two blocks linking them together. For more information, see [Connecting Blocks on the Workboard](<#connecting-blocks-on-the-workboard-(drag-an-arrow)>).
 4.  To make a connection between two Logit blocks, drag and drop one Logit block from the “Add Component” sidebar on the left hand side of the screen onto the workboard.  Now drag and drop a 2nd Logit block onto the workboard nearby.
-5.  The next step is to configure the connection on the arrow between 2 Logits at Element workboard to create the parameters for a deployment. [Click on the yellow arrow](#click-on-an-arrow) and a blue box will appear around the arrow, with an “Add Component” ![](/assets/images/lokahi/image23.png) icon that allows you to configure the connection. Click on the “Add Component” ![](/assets/images/lokahi/image23.png) icon.  The “Step 1: Make Your Connection” screen appears.  Two columns are displayed with inputs and outputs. You can click on each shape to see the description at the bottom of that screen that describes the function.
+5.  The next step is to configure the connection on the arrow between 2 Logits at Element workboard to create the parameters for a deployment. [Click on the yellow arrow](#click-on-an-arrow) and a blue box will appear around the arrow, with an “Add Component” ![](assets/images/image23.png) icon that allows you to configure the connection. Click on the “Add Component” ![](assets/images/image23.png) icon.  The “Step 1: Make Your Connection” screen appears.  Two columns are displayed with inputs and outputs. You can click on each shape to see the description at the bottom of that screen that describes the function.
 
-![](/assets/images/lokahi/image61.png)
+![](assets/images/image61.png)
 
 Figure 4
 
@@ -3661,7 +3661,7 @@ For more information about the “Recommendation” feature, see [Recommendation
 
 Tip:  When you are on the Contract, you can quickly move down to the workplace of any Element by double clicking on any block icon on the workboard.
 
-Tip: You can group Elements by clicking and dragging to highlight any group of Element blocks to create a new Element.  Once you release the selection, the group of Elements will be highlighted in a blue box and you can click “Add Component” ![](/assets/images/lokahi/image23.png) icon which will bring up the [Configure Port](#configure-port) screen. You can configure inputs/outputs, name, category and choose an icon for the new Element and then click the \[Create\] button to finish the creation of a new Element process.
+Tip: You can group Elements by clicking and dragging to highlight any group of Element blocks to create a new Element.  Once you release the selection, the group of Elements will be highlighted in a blue box and you can click “Add Component” ![](assets/images/image23.png) icon which will bring up the [Configure Port](#configure-port) screen. You can configure inputs/outputs, name, category and choose an icon for the new Element and then click the \[Create\] button to finish the creation of a new Element process.
 
 ### Creating Logit
 
@@ -3697,14 +3697,14 @@ Procedure
 8.  Once you are finished, click the \[Save\] button and you will be returned to the workboard.  This automatically makes the Logit available at the Element layer.
 9.  Next, you can edit and configure your model.
 10. With the “Register” blocks, you can choose the types that are defined at “[Define Type](#define-type)” screen by clicking on the “Register” block then choose the “Edit Markings” option once clicked “Add Markings” icon. Then choose what “Register” block is allowed to [add data](#add-data-sidebar) at Element or Contract. For more details about the process to choose type and configure for a “Register” block,  go here [Edit Markings](#edit-markings).
-11. Click on the arrow connect from “Register” block to “Operation” block then click “Add Variable”![](/assets/images/lokahi/image14.png) icon, the “Variable” screen appears to let you choose the variables of the message of the “Register” block. For more details about the process to choose variable, go here [Variable](#variable).
-12. With the “Operation” blocks, you can set the condition for transition of the variables of the message in the “Register” block by clicking on “Operation” block then choose “Edit Guard” option once clicked “Add Guard” ![](/assets/images/lokahi/image22.png) icon. For more detail about the process to set the condition for transition, go here [Edit Guard](#edit-guard).
-13. Click on the arrow connect from “Operation” block to “Register” block then click “Add Expression”![](/assets/images/lokahi/image20.png) icon, the “Edit Expression” screen appears to let you regulate the output of the “Operation” block, by creating a new message and depending on the condition of the output, the type of message can then be created. For more detail about the process to regulate the output of the “Operation” block, go here [Edit Expression](#edit-expression).
+11. Click on the arrow connect from “Register” block to “Operation” block then click “Add Variable”![](assets/images/image14.png) icon, the “Variable” screen appears to let you choose the variables of the message of the “Register” block. For more details about the process to choose variable, go here [Variable](#variable).
+12. With the “Operation” blocks, you can set the condition for transition of the variables of the message in the “Register” block by clicking on “Operation” block then choose “Edit Guard” option once clicked “Add Guard” ![](assets/images/image22.png) icon. For more detail about the process to set the condition for transition, go here [Edit Guard](#edit-guard).
+13. Click on the arrow connect from “Operation” block to “Register” block then click “Add Expression”![](assets/images/image20.png) icon, the “Edit Expression” screen appears to let you regulate the output of the “Operation” block, by creating a new message and depending on the condition of the output, the type of message can then be created. For more detail about the process to regulate the output of the “Operation” block, go here [Edit Expression](#edit-expression).
 14. Now, you finish creating Logits which is what gets created in the Logit layer.
 
 Tip:  You can move between layers by double clicking on any block icon on the workboard.
 
-Tip: You can group a part of Logit by clicking and dragging to highlight any group of Logit’s blocks to create a new Logit.  Once you release the selection, the group of Logit’s blocks will be highlighted in a blue box and you can click “Add Component” ![](/assets/images/lokahi/image23.png) icon which will bring up the [Configure Port](#configure-port) screen. You can configure inputs/outputs, name, category and choose an icon for the new Logit and then click the \[Create\] button to finish the creation of a new Logit process.
+Tip: You can group a part of Logit by clicking and dragging to highlight any group of Logit’s blocks to create a new Logit.  Once you release the selection, the group of Logit’s blocks will be highlighted in a blue box and you can click “Add Component” ![](assets/images/image23.png) icon which will bring up the [Configure Port](#configure-port) screen. You can configure inputs/outputs, name, category and choose an icon for the new Logit and then click the \[Create\] button to finish the creation of a new Logit process.
 
 ## FORMALLY VERIFYING AGREEMENTS
 
@@ -3724,12 +3724,12 @@ Procedure
 2.  The “Recommendation” button in the bottom toolbar displays the number of recommendations to create a complete flow graph. Click on the \[Recommendation\] button at the bottom toolbar to open the “Recommendation” sidebar. For more information about the “Recommendation” feature, see [Recommendation](#recommendation-feature), including how to use the “Show” and the “Fix it” functions.
 3.  The “Recommendation” feature will require you to create a model of blocks in the workboard. The first time, you are required to “Drag at least one Logit/Element block onto the workboard”. The Logit created at the logit between “Register” block(s) and “Operation” block(s) could have hashtags and the Recommendation feature would inform you to define a relationship between blocks with hashtag requirements. For more information about the Hashtag, the way to define a hashtag and how to add a hashtag, see [Define Hashtag](#manage-hashtags) and [Manage Tag](#manage-hashtags).
 
-![](/assets/images/lokahi/image30.png)  
+![](assets/images/image30.png)  
 Figure 5
 
 4.  Once defined and you’ve resolved the recommendations, you can click the \[Flow Graph\] button in the bottom toolbar to open the “Flow Graph” screen. If that block in the workboard contains a model of “Register” and “Operation” blocks confirmed as valid, the “Flow Graph” screen will display a connection model of the shapes. For more definition about the State Shape(s), see [Flow](#flow-graph-overview) [Graph](#flow-graph-overview).
 
-![](/assets/images/lokahi/image17.png)
+![](assets/images/image17.png)
 
 Figure 6
 
@@ -3757,7 +3757,7 @@ Note: We can add more hashtags for a State shape in the “Flow Graph” screen 
 
 Now that you have [Created a Project](#creating-projects), [Created a Contract](#creating-contract) and [added the Business](<#add-business-logic-to-a-contract-layer-(workboard)>) [Logit](<#add-business-logic-to-a-contract-layer-(workboard)>) to the Contract you are ready to deploy. If once used an Element is invalid on the workboard of the Contract, then click the \[Deploy\] button, an error message under the \[Deploy\] button warning that "Deployed failed! Your model has not been completed. Please finish all the tasks on the recommendation list to deploy" to let you know you have to choose another Element block or have to finish all tasks on “Recommendation” sidebar.
 
-![](/assets/images/lokahi/image13.png)
+![](assets/images/image13.png)
 
 Figure 7
 
@@ -3786,7 +3786,7 @@ For more information about the “Show more transactions” window, go to [View 
 
 ### Menus & Buttons on the Dashboard
 
-![](/assets/images/lokahi/image97.png)
+![](assets/images/image97.png)
 
 Figure 8
 
@@ -3794,13 +3794,13 @@ Figure 8
 
 \-Easily create a [New Project](#create-new-project-on-the-dashboard) on the dashboard by clicking the circular (+) button.
 
-![](/assets/images/lokahi/image27.png)
+![](assets/images/image27.png)
 
 Figure 9
 
 #### (2) Project Menu
 
-![](/assets/images/lokahi/image36.png)
+![](assets/images/image36.png)
 
 Figure 10
 
@@ -3811,11 +3811,11 @@ Hover over any individual project on the Dashboard to reveal the “Project Menu
 
 #### (3) Search & Filter Projects
 
-![](/assets/images/lokahi/image28.png)
+![](assets/images/image28.png)
 
 Figure 11
 
-![](/assets/images/lokahi/image83.png)
+![](assets/images/image83.png)
 
 Figure 12
 
@@ -3826,7 +3826,7 @@ Figure 12
 
 #### (4) Layers Menu On Dashboard (Contract)
 
-![](/assets/images/lokahi/image84.png)  
+![](assets/images/image84.png)  
 Figure 13
 
 Manipulate layer within a project easily from dashboard view
@@ -3840,7 +3840,7 @@ Manipulate layer within a project easily from dashboard view
 
 #### (5) Elements Menu On Dashboard (Elements)
 
-![](/assets/images/lokahi/image105.png)  
+![](assets/images/image105.png)  
 Figure 15
 
 Manipulate Elements within a layer easily from the dashboard view
@@ -3852,7 +3852,7 @@ Manipulate Elements within a layer easily from the dashboard view
 
 #### (6) Adjust Themes
 
-![](/assets/images/lokahi/image102.png)
+![](assets/images/image102.png)
 
 Figure 16
 
@@ -3860,7 +3860,7 @@ Easily adjust the colour scheme of the Lokahi platform to suit your environment 
 
 #### (7) User Profile & Settings
 
-![](/assets/images/lokahi/image57.png)
+![](assets/images/image57.png)
 
 Figure 17  
 Configure your account and settings.
@@ -3875,12 +3875,12 @@ Configure your account and settings.
 
 On the Lokahi dashboard, you can create a new project by clicking on the \[New Project +\] button in the upper right hand side of the screen.
 
-![](/assets/images/lokahi/image27.png)  
+![](assets/images/image27.png)  
 Figure 18
 
 A “New Project” screen appears, where you can enter a name then you choose a source for the project:
 
-![](/assets/images/lokahi/image88.png)  
+![](assets/images/image88.png)  
 Figure 19
 
 Procedure
@@ -3944,7 +3944,7 @@ Creating layers on the dashboard can be done easily by navigating to a specific 
 
 After you have [created a project](#create-new-project-on-the-dashboard) on the dashboard the “Create New Component or Contract” screen is displayed and you can skip to step 2 below if you are at that point.  Starting with step 1 guides you through the process of creating a new Contract layer from any project on the dashboard.
 
-![](/assets/images/lokahi/image94.png)
+![](assets/images/image94.png)
 
 Figure 20
 
@@ -4096,7 +4096,7 @@ Note: You cannot reverse the Logit deletion, so consider carefully before deleti
 
 You can check the deployment history of a Contract that has deployed on the dashboard.
 
-![](/assets/images/lokahi/image45.png)  
+![](assets/images/image45.png)  
 Figure 21: The rocket icon indicates a Contract agreement has a deployment history
 
 Procedure
@@ -4105,7 +4105,7 @@ Procedure
 
 2.  A screen pops up with the title "Transactions". The default filter is set to ALL in the "Filter by:" section that includes 4 options {All; Success; Pending; Failed}.
 
-![](/assets/images/lokahi/image77.png)  
+![](assets/images/image77.png)  
 Figure 22
 
 3.  The view in the middle of the screen has 6 columns {Name; Version; Address/TxHash; Blockchain; Age; Status} with the following descriptions:  
@@ -4132,7 +4132,7 @@ You can filter the projects or layers by using the filter group on the Dashboard
 
 For more information about the layer’s types, see [Layer Levels & User Permissions](#layer-levels-&-user-permissions).
 
-![](/assets/images/lokahi/image29.png)
+![](assets/images/image29.png)
 
 Figure 23
 
@@ -4151,7 +4151,7 @@ Procedure
 
 You can search for project(s) or layer(s) by typing into the “Search” input frame at the top of the Dashboard page.
 
-![](/assets/images/lokahi/image3.png)
+![](assets/images/image3.png)
 
 Figure 24
 
@@ -4172,7 +4172,7 @@ Note: When the search doesn't return a result, the dashboard page won't display 
 
 The dashboard default view shows a limited number of projects per page, but you are able to change the number of rows displayed with the dropdown menu, or scroll right and left through the pages of projects.
 
-![](/assets/images/lokahi/image55.png)
+![](assets/images/image55.png)
 
 Figure 25
 
@@ -4187,7 +4187,7 @@ Procedure
 
 With the projects that have more than 6 layers on the Dashboard, you can scroll to the right to the 6th project and a frame will display the number of additional layers available.  Hover over the frame and click on “Show more” or click on project name and the project will expand to a full screen view of all the layers in that one project. The Project Full Screen page has a very similar layout and navigation to the dashboard functions.  Scroll to the right to reveal the last frame with the number of additional layers.
 
-![](/assets/images/lokahi/image4.png)  
+![](assets/images/image4.png)  
 Figure 26: Click ‘Show More’ to navigate to the Project Full Screen Page
 
 Procedure
@@ -4200,7 +4200,7 @@ Procedure
 
 You can filter layers by using the filter group on the Project Full Screen Page. The filter can be based on the layer type {Logit; Element; Contract}, the status of Contract {Deployed; Not Deployed}, the created date of the layer, the order by time and by alphabetical order of the layer’s name.
 
-![](/assets/images/lokahi/image51.png)  
+![](assets/images/image51.png)  
 Figure 27: Project Full Screen displays all layers in one project and Filter frame
 
 For more information about the layer’s types, see [Layer Levels & User Permissions](#layer-levels-&-user-permissions).
@@ -4241,7 +4241,7 @@ Procedure
 
 You can add the diagram and description for your project at Full Screen Page of that project.
 
-![](/assets/images/lokahi/image8.png)
+![](assets/images/image8.png)
 
 Figure 28
 
@@ -4265,19 +4265,19 @@ Procedure to change the password at “My Profile” tab
 
 1.  Click on the account icon at Dashboard page then choose “My Profile” option.
 
-![](/assets/images/lokahi/image43.png)
+![](assets/images/image43.png)
 
 Figure 29
 
 2.  Click on the sentence “Change Password”.
 
-![](/assets/images/lokahi/image64.png)
+![](assets/images/image64.png)
 
 Figure 30
 
 3.  A “Change Password” dialog appears.
 
-![](/assets/images/lokahi/image66.png)
+![](assets/images/image66.png)
 
 Figure 31
 
@@ -4300,14 +4300,14 @@ Procedure to add new user at “User Management” tab
 1.  Click on the account icon at Dashboard page then choose “My Profile” option.
 2.  Choose the “User Management” tab.
 
-![](/assets/images/lokahi/image25.png)
+![](assets/images/image25.png)
 
 Figure 32
 
 3.  Click on the \[Add New User\] button.
 4.  The next tab has a direction which is “User Management / Add User” displays.
 
-![](/assets/images/lokahi/image49.png)
+![](assets/images/image49.png)
 
 Figure 33
 
@@ -4354,20 +4354,20 @@ Procedure to add new organization at “Organizations” tab
 
 1.  Click on the account icon at Dashboard page then choose “Organizations” option.
 
-![](/assets/images/lokahi/image38.png)
+![](assets/images/image38.png)
 
 Figure 34
 
 2.  It opens the “Organizations” tab.
 
-![](/assets/images/lokahi/image37.png)
+![](assets/images/image37.png)
 
 Figure 35
 
 3.  Click on the \[Add Organization\] button.
 4.  It shows the "New Organizations" dialog box.
 
-![](/assets/images/lokahi/image15.png)
+![](assets/images/image15.png)
 
 Figure 36
 
@@ -4400,7 +4400,7 @@ Procedure to assign or revoke or remove member at “Organizations” tab
 3.  Hover on the row contains that organization’s information.
 4.  Click on the three dots icon button.
 
-![](/assets/images/lokahi/image73.png)
+![](assets/images/image73.png)
 
 Figure 37
 
@@ -4432,14 +4432,14 @@ Procedure to show more projects that organization owned at “Organizations” t
 3.  Hover on the row contains that organization’s information.
 4.  Click on the three dots icon button.
 
-![](/assets/images/lokahi/image101.png)
+![](assets/images/image101.png)
 
 Figure 38
 
 5.  Choose the “Show details” option. Or click on that organization name.
 6.  Once clicked on the "Show more" button at "Projects Owned by {Organization's name}" form, it accesses the "Projects" tab and shows all the projects of that organization is owning.
 
-![](/assets/images/lokahi/image35.png)
+![](assets/images/image35.png)
 
 Figure 39
 
@@ -4449,7 +4449,7 @@ At the “Projects” tab, you can see all projects of that account are created 
 
 Note: Only the user owned that project or the user as admin role of an organization owned that project can see the group of buttons \[Add Collaborator\], \[Transfer Project\], \[Delete Project\]. If it doesn't belong to any case above, it cannot do any feature of those buttons.
 
-![](/assets/images/lokahi/image12.png)
+![](assets/images/image12.png)
 
 Figure 40
 
@@ -4519,14 +4519,14 @@ Procedure to delete project is owned by a user or an organization at “Projects
 
 The Workboard is the primary area to design Contracts and Elements.
 
-![](/assets/images/lokahi/image104.png)
+![](assets/images/image104.png)
 
 Figure 41
 
 #### (1) Add Component: Groups Menu (Contract)
 
 On the Contract workboard, you can edit the name, icon, duplicate and delete Element blocks.  
-![](/assets/images/lokahi/image50.png)
+![](assets/images/image50.png)
 
 Figure 42
 
@@ -4540,7 +4540,7 @@ Figure 42
 
 On the Element workboard, you can edit the name, icon, duplicate and delete Elements.
 
-![](/assets/images/lokahi/image52.png)
+![](assets/images/image52.png)
 
 Figure 43
 
@@ -4552,7 +4552,7 @@ Figure 43
 
 #### (3) Add Component: Groups Menu (Logit Element)
 
-#### ![](/assets/images/lokahi/image99.png)
+#### ![](assets/images/image99.png)
 
 Figure 44
 
@@ -4560,7 +4560,7 @@ Figure 44
 
 On the Contract workboard Layers dropdown Menu you can create new and edit existing layers.
 
-![](/assets/images/lokahi/image93.png)
+![](assets/images/image93.png)
 
 Figure 45
 
@@ -4568,7 +4568,7 @@ Figure 45
 
 #### (5) Layers Dropdown Menu (Elements)
 
-![](/assets/images/lokahi/image16.png)
+![](assets/images/image16.png)
 
 Figure 46
 
@@ -4580,7 +4580,7 @@ Figure 46
 
 #### (6) Accessing The System Tray Icons
 
-![](/assets/images/lokahi/image18.png)
+![](assets/images/image18.png)
 
 Figure 47
 
@@ -4595,14 +4595,14 @@ Figure 47
 
 #### (7) Edit Logit Element Settings
 
-![](/assets/images/lokahi/image46.png)
+![](assets/images/image46.png)
 
 Figure 48  
 [Bottom Left Settings Icon on Workboard Screen](#h.qhwk13qfkym6)
 
 #### (8) Edit Element Settings
 
-![](/assets/images/lokahi/image46.png)
+![](assets/images/image46.png)
 
 Figure 49
 
@@ -4610,14 +4610,14 @@ Figure 49
 
 #### (9) Edit Contract Settings
 
-![](/assets/images/lokahi/image46.png)
+![](assets/images/image46.png)
 
 Figure 50  
 [Bottom Left Settings Icon on Workboard Screen](#h.qhwk13qfkym6)
 
 #### (10) Access Help Center
 
-![](/assets/images/lokahi/image42.png)
+![](assets/images/image42.png)
 
 Figure 51
 
@@ -4682,7 +4682,7 @@ Procedure
 1.  After creating a Contract layer, access the Contract’s workboard to define the process.
 2.  To make a connection between two Element blocks, drag and drop one Element block from the “Add Component” sidebar on the left hand side of the screen onto the workboard.  Now drag and drop a 2nd Element block onto the workboard nearby.  You can use the [Recommendation feature](#h.hn8dssee8jg2) to guide you.
 3.  To connect the two blocks, hover over the first Element block and ‘click and drag’ on one of the 4 squares that appear and drag the line to one of the 4 squares that appear on the 2nd block and release, which will create an arrow between the two blocks linking them together. For more information, see [Connecting Blocks on the Workboard](<#connecting-blocks-on-the-workboard-(drag-an-arrow)>).
-4.  The next step is to configure the connection created by the arrow to create the parameters for a deployment. [Click on the yellow arrow](#click-on-an-arrow) and a blue blox will appear around the arrow, with an “Add Component” ![](/assets/images/lokahi/image23.png) icon that allows you to configure the connection. Click on the “Add Component” ![](/assets/images/lokahi/image23.png) icon.  The “Step 1: Make Your Connection” screen appears.  Two columns are displayed with inputs and outputs. You can click on each shape to see the description at the bottom of that screen that describes the function.
+4.  The next step is to configure the connection created by the arrow to create the parameters for a deployment. [Click on the yellow arrow](#click-on-an-arrow) and a blue blox will appear around the arrow, with an “Add Component” ![](assets/images/image23.png) icon that allows you to configure the connection. Click on the “Add Component” ![](assets/images/image23.png) icon.  The “Step 1: Make Your Connection” screen appears.  Two columns are displayed with inputs and outputs. You can click on each shape to see the description at the bottom of that screen that describes the function.
 5.  Next, drag an input shape in column 1 to the desired output shape in column 2 to define the input/output connection. When a connection is successful, the table on the right side ("My connections" table), will list the connections that have been created. We need to connect at least 1 connection to enable the \[Next\] button at the bottom of the window.
 6.  Once connected, click the \[Next\] button. The “Step 2: Define your connection” screen appears.
 7.  In the left table, depending on your connection type you have made you will see the “[Variable](#variable)” screen, “[Edit Expression](#edit-expression)” screen or “Merge Component” screen. If you have more than 1 connection, you can then click on the next connection in the “My Connections” tab and repeat.  When you finish clicking on all the connections, the \[Done\] button will enable so you can click.
@@ -4712,7 +4712,7 @@ Procedure
 3.  To connect the two blocks, hover over the first Logit block and ‘click and drag’ on one of the 4 squares that appear and drag the line to one of the 4 squares that appear on the 2nd block and release, which will create an arrow between the two blocks linking them together. For more information, see [Connecting Blocks on the Workboard](<#connecting-blocks-on-the-workboard-(drag-an-arrow)>).
 4.  To make a connection between two Logit blocks, drag and drop one Logit block from the “Add Component” sidebar on the left hand side of the screen onto the workboard.  Now drag and drop a 2nd Logit block onto the workboard nearby.
 5.  To connect the two blocks, hover over the first Logit block and ‘click and drag’ on one of the 4 squares that appear and drag the line to one of the 4 squares that appear on the 2nd block and release, which will create an arrow between the two blocks linking them together. For more information, see [Connecting Blocks on the Workboard](<#connecting-blocks-on-the-workboard-(drag-an-arrow)>).
-6.  The next step is to configure the connection on the arrow between 2 Logit at Element’s workboard to create the parameters for a deployment. [Click on the yellow arrow](#click-on-an-arrow) and a blue box will appear around the arrow, with an “Add Component” ![](/assets/images/lokahi/image23.png) icon that allows you to configure the connection. Click on the “Add Component” ![](/assets/images/lokahi/image23.png) icon.  The “Step 1: Make Your Connection” screen appears.  Two columns are displayed with inputs and outputs. You can click on each shape to see the description at the bottom of that screen that describes the function.
+6.  The next step is to configure the connection on the arrow between 2 Logit at Element’s workboard to create the parameters for a deployment. [Click on the yellow arrow](#click-on-an-arrow) and a blue box will appear around the arrow, with an “Add Component” ![](assets/images/image23.png) icon that allows you to configure the connection. Click on the “Add Component” ![](assets/images/image23.png) icon.  The “Step 1: Make Your Connection” screen appears.  Two columns are displayed with inputs and outputs. You can click on each shape to see the description at the bottom of that screen that describes the function.
 7.  Next, drag an input shape in column 1 to the desired output shape in column 2 to define the input/output connection. When a connection is successful, the table on the right side ("My connections" table), will list the connections that have been created. We need to connect at least 1 connection to enable the \[Next\] button at the bottom of the window.
 8.  Once connected, click the \[Next\] button. The “Step 2: Define your connection” screen appears.
 9.  In the left table, depending on your connection type you have made you will see the “[Variable](#variable)” screen, “[Edit Expression](#edit-expression)” screen or “Merge Component” screen. If you have more than 1 connection, you can then click on the next connection in the “My Connections” tab and repeat.  When you finish clicking on all the connections, the \[Done\] button will enable so you can click.
@@ -4730,7 +4730,7 @@ For more information about the “Recommendation” feature, see [Recommendation
 15. Once you are finished, click the \[Save\] button and you will be returned to the workboard.  This automatically makes the Element available at the Contract for use at the Contract level.
 16. Now, you finish creating Elements which is what gets created in the Element.
 
-Tip:  When you are on the Contract, you can quickly move down to the workplace of any Element by double clicking on any block icon on the workboard.Tip: You can group Elements by clicking and dragging to highlight any group of Element blocks to create a new Element.  Once you release the selection, the group of Elements will be highlighted in a blue box and you can click “Add Component” ![](/assets/images/lokahi/image23.png) icon which will bring up the [Configure Port](#configure-port) screen.  You can configure inputs/outputs, name, category and choose an icon for the new Element and then click the \[Create\] button to finish the creation of a new Element process.
+Tip:  When you are on the Contract, you can quickly move down to the workplace of any Element by double clicking on any block icon on the workboard.Tip: You can group Elements by clicking and dragging to highlight any group of Element blocks to create a new Element.  Once you release the selection, the group of Elements will be highlighted in a blue box and you can click “Add Component” ![](assets/images/image23.png) icon which will bring up the [Configure Port](#configure-port) screen.  You can configure inputs/outputs, name, category and choose an icon for the new Element and then click the \[Create\] button to finish the creation of a new Element process.
 
 #### Configuring A Logit Layer On The Workboard
 
@@ -4750,13 +4750,13 @@ Attention: A valid model cannot have an “Operation” block at the end point o
 7.  At the top of the window, click on the “Component info” tab. You can rename and choose a group category and change the icon for the Element you are configuring.
 8.  Once you are finished, click the \[Save\] button and you will be returned to the workboard.  This automatically makes the Logit available at the Element layer.
 9.  Next, you can edit and configure your model.
-10. With the “Register” blocks, you can choose the types are defined at “[Define Type](#define-type)” screen by clicking on “Register” block then choose “Edit Markings” option once clicked “Add Marking” ![](/assets/images/lokahi/image2.png) icon. Then choose what “Register” block is allowed to [add data](#add-data-sidebar) at Element or Contract. For more details about the process to choose type and configure for a “Register” block,  go here [Edit Markings](#edit-markings).
-11. Click on the arrow connect from “Register” block to “Operation” block then click “Add Variable”![](/assets/images/lokahi/image14.png) icon, the “Variable” screen appears to let you choose the variables of the message of the “Register” block. For more details about the process to choose variables, go here [Variable](#variable).
-12. With the “Operation” blocks, you can set the condition for transition of the variables of the message in the “Register” block by clicking on “Operation” block then choose “Edit Guard” option once clicked “Add Guard” ![](/assets/images/lokahi/image22.png)icon. For more detail about the process to set the condition for transition, go here [Edit Guard](#edit-guard).
-13. Click on the arrow connect from “Operation” block to “Register” block then click “Add Expression”![](/assets/images/lokahi/image20.png) icon, the “Edit Expression” screen appears to let you regulate the output of the “Operation” block, by creating a new message and depending on the condition of the output, the type of message can then be created. For more detail about the process to regulate the output of the “Operation” block, go here [Edit Expression](#edit-expression).
+10. With the “Register” blocks, you can choose the types are defined at “[Define Type](#define-type)” screen by clicking on “Register” block then choose “Edit Markings” option once clicked “Add Marking” ![](assets/images/image2.png) icon. Then choose what “Register” block is allowed to [add data](#add-data-sidebar) at Element or Contract. For more details about the process to choose type and configure for a “Register” block,  go here [Edit Markings](#edit-markings).
+11. Click on the arrow connect from “Register” block to “Operation” block then click “Add Variable”![](assets/images/image14.png) icon, the “Variable” screen appears to let you choose the variables of the message of the “Register” block. For more details about the process to choose variables, go here [Variable](#variable).
+12. With the “Operation” blocks, you can set the condition for transition of the variables of the message in the “Register” block by clicking on “Operation” block then choose “Edit Guard” option once clicked “Add Guard” ![](assets/images/image22.png)icon. For more detail about the process to set the condition for transition, go here [Edit Guard](#edit-guard).
+13. Click on the arrow connect from “Operation” block to “Register” block then click “Add Expression”![](assets/images/image20.png) icon, the “Edit Expression” screen appears to let you regulate the output of the “Operation” block, by creating a new message and depending on the condition of the output, the type of message can then be created. For more detail about the process to regulate the output of the “Operation” block, go here [Edit Expression](#edit-expression).
 14. Now, you finish creating Logits which is what gets created in the Logit layer.
 
-Tip: You can group a part of Logit by clicking and dragging to highlight any group of Logit’s blocks to create a new Logit.  Once you release the selection, the group of Logit’s blocks will be highlighted in a blue box and you can click “Add Component” ![](/assets/images/lokahi/image23.png) icon which will bring up the [Configure Port](#configure-port) screen. You can configure inputs/outputs, name, category and choose an icon for the new Logit and then click the \[Create\] button to finish the creation of a new Logit process.
+Tip: You can group a part of Logit by clicking and dragging to highlight any group of Logit’s blocks to create a new Logit.  Once you release the selection, the group of Logit’s blocks will be highlighted in a blue box and you can click “Add Component” ![](assets/images/image23.png) icon which will bring up the [Configure Port](#configure-port) screen. You can configure inputs/outputs, name, category and choose an icon for the new Logit and then click the \[Create\] button to finish the creation of a new Logit process.
 
 #### Duplicate A Contract On The Workboard
 
@@ -4830,7 +4830,7 @@ Procedure
 
 The “Add Component” sidebar contains all of the Element blocks available within the project for use on the workboard.
 
-![](/assets/images/lokahi/image79.png)
+![](assets/images/image79.png)
 
 Figure 52
 
@@ -4851,7 +4851,7 @@ Procedure
 
 You can change the name, icon or category and configure the ports of the current component from the settings button in the bottom left hand corner of the Add Component sidebar.
 
-![](/assets/images/lokahi/image72.png)
+![](assets/images/image72.png)
 
 Figure 53
 
@@ -4863,7 +4863,7 @@ Case 1: After clicking the "Edit" button the "Configure Port and Component info"
 
 Case 2:  When you click the "Edit" button the "Configure Port and Component info" screen appears.  If you have placed component blocks on the workboard but have not configured a port yet,  the “Configure Port” screen will display the blocks on the left with the message "You must configure at least one input or output port. Please configure a port for one of these components". You can follow the [Configure Port](#configure-port) instructions to configure and then click the \[Save\] button, and when complete a popup displays the message "Update Successfully".
 
-![](/assets/images/lokahi/image32.png)
+![](assets/images/image32.png)
 
 Figure 54
 
@@ -4871,7 +4871,7 @@ Case 3:  After clicking the "Edit" button the "Configure Port and Component inf
 
 Additional: In the "Component info” tab, the name of the layer is used as the default in the "Name" field and the group is listed in the "Category” field.
 
-![](/assets/images/lokahi/image53.png)
+![](assets/images/image53.png)
 
 Figure 55
 
@@ -4898,7 +4898,7 @@ Procedure
 2.  Add your account address on the Ethereum blockchain or create a new one.
 3.  Access to the Lokahi, and it will appear a dialog to let you know that you have to connect “Lokahi” with the “Metamask”. Click the “Connect” button on the dialog to connect with the “Metamask”.
 
-![](/assets/images/lokahi/image58.png)
+![](assets/images/image58.png)
 
 4.  On the “Metamask” dialog, click on the selection box which is displaying the name of the blockchain. You can choose the Mainnet “Ethereum” or the other Testnet. Or you can add your private Ethereum.
 5.  To add the private Ethereum on the Metamask click on the selection box which is displaying the name of the blockchain.
@@ -4910,7 +4910,7 @@ Procedure
 
 You can deploy a Contract from the workboard once you have gone through formal verification, selected the blockchain destination and entered the pertinent account details \[address and private key for Ethereum, for example\] and click the “Deploy” button in the upper right hand corner of the workboard.
 
-![](/assets/images/lokahi/image67.png)
+![](assets/images/image67.png)
 
 Figure 56
 
@@ -4943,7 +4943,7 @@ Note:  If An Element is invalid on the Contract's workboard, and you click the 
 
 You can check the deployment history of a Contract from the workboard dashboard.
 
-![](/assets/images/lokahi/image19.png)
+![](assets/images/image19.png)
 
 Figure 57
 
@@ -4972,7 +4972,7 @@ Tip:  You can copy the Constract Address of a deployment by clicking on the doc
 
 The workboard toolbar is in the top right of the screen next to the Deploy button, and contains the “Download Icon”, “Formal Analysis Icon”, “Print/Save Icon” and the “Find Icon”.
 
-![](/assets/images/lokahi/image60.png)
+![](assets/images/image60.png)
 
 Figure 58
 
@@ -4991,7 +4991,7 @@ The workboard toolbar is in the top right of the screen next to the Deploy butto
 
 Procedure
 
-1.  Click on the “Transaction” icon ![](/assets/images/lokahi/image103.png)
+1.  Click on the “Transaction” icon ![](assets/images/image103.png)
 2.  Go to the [View Deployment History Of A Contract On The Dashboard](#view-deployment-history-of-a-contract-on-the-dashboard) to see the screen of Transaction history.
 
 #### Print / Save PDF Icon
@@ -5026,7 +5026,7 @@ Procedure
 
 You can zoom in or zoom out the workboard by using the zoom button in the bottom right part of the screen.
 
-![](/assets/images/lokahi/image86.png)
+![](assets/images/image86.png)
 
 Figure 59
 
@@ -5049,7 +5049,7 @@ Note: The default zoom area is the top-left of the workboard.
 
 This is recognized by a "Lock" icon appearing at the top of the "Add Component" menu and a message box in the workboard announce that "THIS PROJECT HAS BEEN LOCKED! You can not edit this project because another user is working on it.". There are some cases to become the “Lock” state:
 
-![](/assets/images/lokahi/image9.png)
+![](assets/images/image9.png)
 
 Figure 60
 
@@ -5113,7 +5113,7 @@ Procedure right click on a block
 
 1.  Right-click on a block in the workboard.  Four green squares appear on the top, bottom, left and right of that block and the block is invisible and disabled.
 
-![](/assets/images/lokahi/image21.png)
+![](assets/images/image21.png)
 
 Figure 61
 
@@ -5127,7 +5127,7 @@ Procedure hover on a block
 
 1.  The name of the block appears and four (4) small squares appear on the top, bottom, left and right of that block.
 
-![](/assets/images/lokahi/image10.png)
+![](assets/images/image10.png)
 
 Figure 62
 
@@ -5155,7 +5155,7 @@ Procedure rename for a block at Workplace
 4.  We can enter any character and blank space in that input and the input once clicked on the "Description" button. This description of the Register block will appear under the Register's name on the [Dapp](#dapp) page at the Contract tab.
 5.  You can change the name then click “tick” to save. Or click the “X” icon to close the dialog and don’t save the name.
 
-![](/assets/images/lokahi/image92.png)
+![](assets/images/image92.png)
 
 Figure 63
 
@@ -5167,7 +5167,7 @@ Procedure click on a block
 
 1.  When you click on a block a blue border surrounds that block and has "x" icon display.  Click the "x" icon to delete the block.
 
-![](/assets/images/lokahi/image96.png)
+![](assets/images/image96.png)
 
 Figure 64
 
@@ -5177,13 +5177,13 @@ You can click, or double click on a Logit block to manipulate or configure that 
 
 Procedure: click on a block
 
-1.  Case A: When you click on a block a blue border surrounds that block and has an "x" icon display.  Click the "x" icon to delete the block.  In the Element’s workboard, an "x" and "Add Component" ![](/assets/images/lokahi/image23.png) icons appear as well when you click on a block. Click the "Add Component" ![](/assets/images/lokahi/image23.png) icon, and a “Configure port and Component info” screen appears as described in [Edit Elements / Element Blocks on The Workboard](#edit-layer-on-the-workboard).
+1.  Case A: When you click on a block a blue border surrounds that block and has an "x" icon display.  Click the "x" icon to delete the block.  In the Element’s workboard, an "x" and "Add Component" ![](assets/images/image23.png) icons appear as well when you click on a block. Click the "Add Component" ![](assets/images/image23.png) icon, and a “Configure port and Component info” screen appears as described in [Edit Elements / Element Blocks on The Workboard](#edit-layer-on-the-workboard).
 
-![](/assets/images/lokahi/image95.png)
+![](assets/images/image95.png)
 
 Figure 65
 
-Case B: In the "[Lock](#the-“lock”-status) state:  A locked state means you cannot configure the block. When you still allow you to click on a block, but you cannot see the “x” icon. In the Element, and can click on the "Add Component" ![](/assets/images/lokahi/image23.png) icon to open “Configure port and Component info” screen but you cannot create new Logit from this block because it is locked.
+Case B: In the "[Lock](#the-“lock”-status) state:  A locked state means you cannot configure the block. When you still allow you to click on a block, but you cannot see the “x” icon. In the Element, and can click on the "Add Component" ![](assets/images/image23.png) icon to open “Configure port and Component info” screen but you cannot create new Logit from this block because it is locked.
 
 #### Definition Of A Register And Operation Block (At Logit Layer)
 
@@ -5193,7 +5193,7 @@ Definition of a “Register” block
 
 1.  The “Register” block is a place where you can add the message and contains the message is sent from the “Operation” block.
 
-![](/assets/images/lokahi/image69.png)
+![](assets/images/image69.png)
 
 Figure 66
 
@@ -5201,7 +5201,7 @@ Definition of a “Operation” block
 
 1.  The “Operation” block is a place where you can add the condition so if the message is satisfied, the message can go through from the “Register” blocks to the other.
 
-![](/assets/images/lokahi/image98.png)
+![](assets/images/image98.png)
 
 Figure 67
 
@@ -5211,15 +5211,15 @@ You can click, or right click on a “Register” or “Operation” block to ma
 
 Procedure: click on a block
 
-1.  Case A: When you click on a block a blue border surrounds that block and has an "x" icon display.  Click the "x" icon to delete the block.  In the Logit’s workboard, the "x", "Manage Hashtag"![](/assets/images/lokahi/image6.png), "Add Markings"![](/assets/images/lokahi/image2.png), "Add Component" ![](/assets/images/lokahi/image23.png) icons appear as well when you click on a “Register” block. And the "x", "Manage Hashtag"![](/assets/images/lokahi/image6.png), "Add Guard" ![](/assets/images/lokahi/image22.png)icons appear as well when you click on a “Operation” block. Click on "Manage Hashtag"![](/assets/images/lokahi/image6.png) and "Add Markings"![](/assets/images/lokahi/image2.png) to open the "Manage Hashtag" and "Edit Markings" screen. Click the "Add Component" ![](/assets/images/lokahi/image23.png) icon, and a “Configure port and Component info” screen appears as described in [Edit Elements / Element Blocks on The Workboard](#edit-layer-on-the-workboard).
+1.  Case A: When you click on a block a blue border surrounds that block and has an "x" icon display.  Click the "x" icon to delete the block.  In the Logit’s workboard, the "x", "Manage Hashtag"![](assets/images/image6.png), "Add Markings"![](assets/images/image2.png), "Add Component" ![](assets/images/image23.png) icons appear as well when you click on a “Register” block. And the "x", "Manage Hashtag"![](assets/images/image6.png), "Add Guard" ![](assets/images/image22.png)icons appear as well when you click on a “Operation” block. Click on "Manage Hashtag"![](assets/images/image6.png) and "Add Markings"![](assets/images/image2.png) to open the "Manage Hashtag" and "Edit Markings" screen. Click the "Add Component" ![](assets/images/image23.png) icon, and a “Configure port and Component info” screen appears as described in [Edit Elements / Element Blocks on The Workboard](#edit-layer-on-the-workboard).
 
-    Case B: In the "[Lock](#the-“lock”-status)" state: When you click on a block, you cannot see "x" icon at three layer types. In the Logit layer, you can see the icons: "Manage Hashtag"![](/assets/images/lokahi/image6.png), "Add Markings"![](/assets/images/lokahi/image2.png), "Add Guard"![](/assets/images/lokahi/image22.png), and "Add Component"![](/assets/images/lokahi/image23.png). You can click on "Add Component" ![](/assets/images/lokahi/image23.png) icon to open the “Configure port and Component info” screen but cannot create a new Logit layer or edit it from this block. And you can click on the "Manage Hashtag"![](/assets/images/lokahi/image6.png), "Add Markings"![](/assets/images/lokahi/image2.png), "Add Guard"![](/assets/images/lokahi/image22.png) icons to see and can edit but once reloaded the page it does not change anything.
+    Case B: In the "[Lock](#the-“lock”-status)" state: When you click on a block, you cannot see "x" icon at three layer types. In the Logit layer, you can see the icons: "Manage Hashtag"![](assets/images/image6.png), "Add Markings"![](assets/images/image2.png), "Add Guard"![](assets/images/image22.png), and "Add Component"![](assets/images/image23.png). You can click on "Add Component" ![](assets/images/image23.png) icon to open the “Configure port and Component info” screen but cannot create a new Logit layer or edit it from this block. And you can click on the "Manage Hashtag"![](assets/images/image6.png), "Add Markings"![](assets/images/image2.png), "Add Guard"![](assets/images/image22.png) icons to see and can edit but once reloaded the page it does not change anything.
 
 #### Connecting Blocks On The Workboard (Drag An Arrow)
 
 You can connect the blocks on the workboard by hovering over a block to reveal 4 squares and then ‘click and drag’ an arrow from any of the 4 squares to another block to create a connection.
 
-![](/assets/images/lokahi/image76.png)
+![](assets/images/image76.png)
 
 Figure 68
 
@@ -5239,7 +5239,7 @@ Note:
 
 You can adjust an arrow to add a corner or angle to the arrow by double clicking on the arrow to place a draggable spot on the arrow and then drag to adjust the shape.
 
-![](/assets/images/lokahi/image91.png)
+![](assets/images/image91.png)
 
 Figure 69
 
@@ -5252,7 +5252,7 @@ Procedure
 
 You can begin to define your connection when you click on an arrow.
 
-![](/assets/images/lokahi/image71.png)
+![](assets/images/image71.png)
 
 Figure 70
 
@@ -5260,8 +5260,8 @@ Procedure
 
 1.  On the workboard, when an arrow (port connection) between 2 blocks is yellow, it means the connection has not been defined yet.
 
-Case A: "Not in "[lock](#the-“lock”-status) state": When you click on an arrow, that arrow is highlighted, a blue rectangle box contains that arrow, and displays beside the "Connection"![](/assets/images/lokahi/image1.png) icon, and the "x" icon. If you want to delete the connection, click the “x”. In the Element and Contract, you can click on the "Connection"![](/assets/images/lokahi/image1.png) icon to see the [Step 1: "Make your connections"](<#define-a-connection-(make-your-connection)>) to start configuring the Element. In the Logit, when you click on an arrow connects from “Register” block to “Operation” block, it appears "x" and "Add Variable"![](/assets/images/lokahi/image14.png) icons and if you click on "Add Variable"![](/assets/images/lokahi/image14.png), it opens the “Variable” screen. When you click on an arrow connects from “Operation” block to “Register” block, it appears "x" and "Add Expression" ![](/assets/images/lokahi/image20.png)icons and if you click on "Add Expression", it opens the “Edit Expression” screen.  
-Case B: "In the "[Lock](#the-“lock”-status) state": You cannot configure an arrow when in the locked state. You can still click on a yellow arrow, but you cannot see the “x” icon. In the Element and Contract, you see the "Connection"![](/assets/images/lokahi/image1.png) icon and can click on to open "Step 1:Make your connection" and change the connection then define that port and complete the steps but once you reload the page it does not change anything. And in the Logit, you can click on the "Add Variable"![](/assets/images/lokahi/image14.png) icon to see a “Variable” screen or click on the "Add Expression" ![](/assets/images/lokahi/image20.png)icon to see a “Edit Expression” screen and can enter in those screens then save but once you reload the page it does not change anything.
+Case A: "Not in "[lock](#the-“lock”-status) state": When you click on an arrow, that arrow is highlighted, a blue rectangle box contains that arrow, and displays beside the "Connection"![](assets/images/image1.png) icon, and the "x" icon. If you want to delete the connection, click the “x”. In the Element and Contract, you can click on the "Connection"![](assets/images/image1.png) icon to see the [Step 1: "Make your connections"](<#define-a-connection-(make-your-connection)>) to start configuring the Element. In the Logit, when you click on an arrow connects from “Register” block to “Operation” block, it appears "x" and "Add Variable"![](assets/images/image14.png) icons and if you click on "Add Variable"![](assets/images/image14.png), it opens the “Variable” screen. When you click on an arrow connects from “Operation” block to “Register” block, it appears "x" and "Add Expression" ![](assets/images/image20.png)icons and if you click on "Add Expression", it opens the “Edit Expression” screen.  
+Case B: "In the "[Lock](#the-“lock”-status) state": You cannot configure an arrow when in the locked state. You can still click on a yellow arrow, but you cannot see the “x” icon. In the Element and Contract, you see the "Connection"![](assets/images/image1.png) icon and can click on to open "Step 1:Make your connection" and change the connection then define that port and complete the steps but once you reload the page it does not change anything. And in the Logit, you can click on the "Add Variable"![](assets/images/image14.png) icon to see a “Variable” screen or click on the "Add Expression" ![](assets/images/image20.png)icon to see a “Edit Expression” screen and can enter in those screens then save but once you reload the page it does not change anything.
 
 2.  When hovering over the port after clicking a yellow dot appears with a red border that will move on that port if we move the mouse pointer on that port.
 
@@ -5269,7 +5269,7 @@ Case B: "In the "[Lock](#the-“lock”-status) state": You cannot configure an 
 
 On the workboard you can use the mouse to highlight and select a group blocks and arrows on the workboard to configure and define that specific group.
 
-![](/assets/images/lokahi/image26.png)
+![](assets/images/image26.png)
 
 Figure 71
 
@@ -5279,22 +5279,22 @@ Procedure
 2.  Once the group is highlighted, an "Add Component" and "x" icon is displayed.
 
 3.  In the Element and Logit workboard we can  click on the "i" icon.
-4.  When click the "Add Component" ![](/assets/images/lokahi/image23.png) icon, a "Configure port and Component info" screen appears, with the process as chronicled in the [Edit Elements / Element Blocks on The Workboard](#edit-layer-on-the-workboard) section.
+4.  When click the "Add Component" ![](assets/images/image23.png) icon, a "Configure port and Component info" screen appears, with the process as chronicled in the [Edit Elements / Element Blocks on The Workboard](#edit-layer-on-the-workboard) section.
 5.  When you click the "x" icon it deletes that group.
 
 6.  We can move the group to a new area on the workboard as desired.
 
 #### Define A Connection (Make Your Connection)
 
-After you have clicked on the "Connection"![](/assets/images/lokahi/image1.png) icon on the workboard of any connection between 2 Logits or 2 Elements at Element/Contract’s workboard, the “Step 1: Make Your Connection” screen appears. You can then define the connection.
+After you have clicked on the "Connection"![](assets/images/image1.png) icon on the workboard of any connection between 2 Logits or 2 Elements at Element/Contract’s workboard, the “Step 1: Make Your Connection” screen appears. You can then define the connection.
 
-![](/assets/images/lokahi/image39.png)
+![](assets/images/image39.png)
 
 Figure 72
 
 Procedure Step 1 Make your connection
 
-1.  The next step is to configure the connection on the arrow between 2 components in the Element/Contract workboard to create the parameters for a deployment. [Click on the yellow arrow](#click-on-an-arrow) and a blue box will appear around the arrow, with an"Connection"![](/assets/images/lokahi/image1.png) icon that allows you to configure the connection. Click on the "Connection"![](/assets/images/lokahi/image1.png) icon.  The “Step 1: Make Your Connection” screen appears.  Two columns are displayed with inputs and outputs. You can click on each shape to see the description at the bottom of that screen that describes the function.
+1.  The next step is to configure the connection on the arrow between 2 components in the Element/Contract workboard to create the parameters for a deployment. [Click on the yellow arrow](#click-on-an-arrow) and a blue box will appear around the arrow, with an"Connection"![](assets/images/image1.png) icon that allows you to configure the connection. Click on the "Connection"![](assets/images/image1.png) icon.  The “Step 1: Make Your Connection” screen appears.  Two columns are displayed with inputs and outputs. You can click on each shape to see the description at the bottom of that screen that describes the function.
 2.  Next, drag an input shape in column 1 to the desired output shape in column 2 to define the input/output connection. With the condition below, it only allows you to:
 
 -   Only the input port can connect with the output port.
@@ -5325,7 +5325,7 @@ Attention:
 6.  Cannot create a connection between 2 “Register” blocks that have the type containing “String” type at the first field but different status auto-generate transactionID. For more information about transactionID, go to [Edit Markings](#edit-markings).
 7.  With the port has the requirement to connect with each other (by using hashtag at “Require Hashtag” input in “[Configure Port](#configure-port)” screen and “Component Hashtag” input in the “[Manage Hashtags](#manage-hashtags)” screen are set at the ports of the layers), it will appear at “Step 1 Make Your Connections” a “Suggested” frame to let you know which ports have to connect with each other. See in figure 72.
 
-![](/assets/images/lokahi/image89.png)
+![](assets/images/image89.png)
 
 Figure 73
 
@@ -5350,7 +5350,7 @@ Note:
 
 You can select a group and configure that group to create a new layer.
 
-![](/assets/images/lokahi/image47.png)
+![](assets/images/image47.png)
 
 Figure 74
 
@@ -5440,10 +5440,10 @@ Note:
 
 Procedure
 
-1.  The \[Define Type\] button ![](/assets/images/lokahi/image48.png) only appears in the "Add Component" sidebar menu on the workboard. At the very bottom of the “Add Component” menu, click on the \[Define Type\] button.
-2.  After clicking on the "Define Type" button ![](/assets/images/lokahi/image48.png), a screen appears in the middle of the Workboard page with a title "Define Type". The "Define Type" screen has 2 tables:
+1.  The \[Define Type\] button ![](assets/images/image48.png) only appears in the "Add Component" sidebar menu on the workboard. At the very bottom of the “Add Component” menu, click on the \[Define Type\] button.
+2.  After clicking on the "Define Type" button ![](assets/images/image48.png), a screen appears in the middle of the Workboard page with a title "Define Type". The "Define Type" screen has 2 tables:
 
-![](/assets/images/lokahi/image75.png)
+![](assets/images/image75.png)
 
 Figure 75
 
@@ -5479,15 +5479,15 @@ Attention:
 
 #### Edit Markings
 
-The “Edit Markings” feature allows you to choose the type of the “Register” block and add the messages (the data) for that “Register” block by clicking on the “Add Marking” ![](/assets/images/lokahi/image2.png)icon on the block and accessing “Edit Markings.”
+The “Edit Markings” feature allows you to choose the type of the “Register” block and add the messages (the data) for that “Register” block by clicking on the “Add Marking” ![](assets/images/image2.png)icon on the block and accessing “Edit Markings.”
 
-![](/assets/images/lokahi/image33.png)
+![](assets/images/image33.png)
 
 Figure 76
 
 Procedure
 
-1.  The "Markings" screen only appears on the Logit after you click on the “Register” block and then click on "Add Marking" ![](/assets/images/lokahi/image2.png)icon then choose the “Edit Markings” option.
+1.  The "Markings" screen only appears on the Logit after you click on the “Register” block and then click on "Add Marking" ![](assets/images/image2.png)icon then choose the “Edit Markings” option.
 2.  After clicking on the “Edit Markings” option, a screen appears in the middle of the Workboard page titled "Markings". The "Markings" screen has 2 tables:
 
 3.  The left table is "List Of Markings"". It includes the "Search" frame and a table with 2 columns "Number" and "Message". The table will contain all messages you have added on this “Register” block.
@@ -5508,7 +5508,7 @@ Procedure
 -   The field of "BLOCK_NUMBER" and "Sender" type is disabled and displays the sentences which are "@BLOCK_NUMBER@" and "@SENDER@".
 -   Other options may exist that were created for that project as well, with the associated information from the 4 basic types ({String; Int; Bool; Unit}) in the input fields.
 
-6.  The "!" ![](/assets/images/lokahi/image74.png) icon in each row can be hovered over to view a tooltip to show all types available in that field.
+6.  The "!" ![](assets/images/image74.png) icon in each row can be hovered over to view a tooltip to show all types available in that field.
 7.  If you want to edit a message has been added in the “List of Markings” table, hover on the row of the message and on the right side of the column a group button appears {Edit; Delete}. Hover on these icons, and click on \[Delete\] icon button to delete that message or click on \[Edit\] icon to edit that message.
 8.  When you click \[Edit\] icon button to edit the message, you can make the changes you prefer and then click the \[Save\] button to save the changes.
 9.  If you don’t want to add message at Logit, you can configure that “Register” block can add message in the Element or Contract by ticking 2 checkboxes are "Allow user to add data in Element" and "Allow user to add data in Contract" on the “Markings” screen. If you don't tick the checkboxes on the “Markings” screen of a “Register” block, at higher layer, when open the "Add Data" sidebar and choose that block in the workplace, it does not show the "[Add Data](#add-data-sidebar)" box of that “Register” block.
@@ -5523,13 +5523,13 @@ Procedure
 
 The “VARIABLE” feature allows you to choose the variables of the message of the “Register” block to make the condition for a transition to the “Edit Guard” feature of the “Operation” block at the Logit and the message returns after satisfied the condition (If the messages satisfy the condition, it allows those messages go through).
 
-![](/assets/images/lokahi/image56.png)
+![](assets/images/image56.png)
 
 Figure 77
 
 Procedure
 
-1.  Open Logit of a project. Drag a “Register” block and an “Operation” block to the workboard. Connect the “Register” block to the “Operation” block with an arrow with the root of the arrow at the “Register” block and the arrowhead at the “Operation” block. Click on the arrow between the two blocks, then click the "Add Variable"![](/assets/images/lokahi/image14.png)icon on the connected arrow.
+1.  Open Logit of a project. Drag a “Register” block and an “Operation” block to the workboard. Connect the “Register” block to the “Operation” block with an arrow with the root of the arrow at the “Register” block and the arrowhead at the “Operation” block. Click on the arrow between the two blocks, then click the "Add Variable"![](assets/images/image14.png)icon on the connected arrow.
 2.  The “Variables” screen appears:
 
 -   A sentence "Please choose the value of "{register's name}" to represent for variables in condition". Underneath, it always has a “TransactionID” field with the “Register” block have a type is different with “UNIT” type and if the type has the first field is “String” type, belong to the status “auto-generate transactionID” or not, the first field can be merge with the “TransactionID” field. For more information about transactionID, go to [Edit Markings](#edit-markings).
@@ -5546,14 +5546,14 @@ Note: With the variables which have the same name are defined at the different p
 
 The “Edit Guard” feature allows you to set the condition for transition of the variables of the message in the Register block. If the messages satisfy the condition of the “Operation” block, it allows those messages to go through.  If the messages aren't satisfied with the condition of the “Operation” block, those messages are still staying at the “Register” block which now contains them.
 
-![](/assets/images/lokahi/image5.png)
+![](assets/images/image5.png)
 
 Figure 78
 
 Procedure
 
-1.  Open Logit of a project. Drag a “Register” block and an “Operation” block to the workboard. Connect the “Register” block to the “Operation” block. Click on the “Operation” block. Click "Add Guard" ![](/assets/images/lokahi/image22.png) icon on the “Operation” block then choose the “Edit Guard” option.
-2.  Once clicked on that “Operation” block and then clicked the "Add Guard" ![](/assets/images/lokahi/image22.png)icon, the "Edit Guard" screen appears with a textbox, the \[Save\], the \[Close\], and \[Help Center\] buttons always enabled.
+1.  Open Logit of a project. Drag a “Register” block and an “Operation” block to the workboard. Connect the “Register” block to the “Operation” block. Click on the “Operation” block. Click "Add Guard" ![](assets/images/image22.png) icon on the “Operation” block then choose the “Edit Guard” option.
+2.  Once clicked on that “Operation” block and then clicked the "Add Guard" ![](assets/images/image22.png)icon, the "Edit Guard" screen appears with a textbox, the \[Save\], the \[Close\], and \[Help Center\] buttons always enabled.
 3.  Enter the condition using the IDs that have been chosen at the “Variables” screen. It has the suggestion feature that when having the variables have been defined at the arrow connected to this "Operation" block, it shows the default values and the variables have been defined. The default values are:
 
 -   Function: isTrue(a), isFalse(a), isEmpty(a).
@@ -5584,14 +5584,14 @@ Attention: If you do not add any condition to "Edit Guard", it still allows the 
 
 After the message goes through the “Operation” block, the “Edit Expression” feature regulates the output of the “Operation” block, by creating a new message and depending on the condition of the output the type of message can then be created. If the messages satisfy the condition of the Expression screen, it allows those messages to go through. If the messages aren't satisfied with the condition of the Expression screen and there is an “Else” case, those messages go through.  If the messages aren't satisfied with the condition of the Expression screen and there is no “Else” case, those messages disappear at the “Register” block which now contains them.
 
-![](/assets/images/lokahi/image70.png)
+![](assets/images/image70.png)
 
 Figure 79
 
 Procedure
 
-1.  Open Logit of a project. Drag a “Register” block and an “Operation” blocks to the workboard. Connect the “Operation” block to the “Register” block. Click on the arrow that connects the two blocks. Click "Add Expression"![](/assets/images/lokahi/image20.png) icon.
-2.  After clicking on the "Add Expression"![](/assets/images/lokahi/image20.png) icon, the "Edit Expression" screen appears with a combobox with the default value is "Return" option, the \[Add Else\], the \[Save\], the \[Close\], and \[Help Center\] buttons always enabled and one input is {If} if you change the combobox to "If" option, and the quantity of other inputs depend on the type of the arrow head (Register). Each field of the type of the arrow head will have an input in the "Message Then" form and the same input at the "Message Else" form. If the type of the arrow head contains the "UNIT" type, the input is disabled and contains default value is "UNIT". If the type of the arrow head contains anything other than "UNIT" type, the input is enabled. If you click on the \[Add else\] button, there are more available inputs in the "Message Else" form like the "Message Then" form. You can click the \[Delete\] icon button next to the "Message Else" form to close that input.
+1.  Open Logit of a project. Drag a “Register” block and an “Operation” blocks to the workboard. Connect the “Operation” block to the “Register” block. Click on the arrow that connects the two blocks. Click "Add Expression"![](assets/images/image20.png) icon.
+2.  After clicking on the "Add Expression"![](assets/images/image20.png) icon, the "Edit Expression" screen appears with a combobox with the default value is "Return" option, the \[Add Else\], the \[Save\], the \[Close\], and \[Help Center\] buttons always enabled and one input is {If} if you change the combobox to "If" option, and the quantity of other inputs depend on the type of the arrow head (Register). Each field of the type of the arrow head will have an input in the "Message Then" form and the same input at the "Message Else" form. If the type of the arrow head contains the "UNIT" type, the input is disabled and contains default value is "UNIT". If the type of the arrow head contains anything other than "UNIT" type, the input is enabled. If you click on the \[Add else\] button, there are more available inputs in the "Message Else" form like the "Message Then" form. You can click the \[Delete\] icon button next to the "Message Else" form to close that input.
 3.  Enter the condition using the IDs have been chosen on the “Variables” screen. It has the suggestion feature that when having the variables have been defined at the arrow connected to this "Operation" block, it shows the default values and the variables have been defined at the “Register” blocks connected to the “Operation” block which points to this “Register” block. The default values are:
 
 -   Function: isTrue(a), isFalse(a), isEmpty(a).
@@ -5703,14 +5703,14 @@ Procedure
 
 The “Define Hashtag” feature lets you create and define the hashtags of the “Register” block(s) and “Operation” block(s) on the Logit of a project. Then you can use that hashtag to add to a Logit or Element with the [Manage Hashtags function](#manage-hashtags). When you drag that Logit or Element block into the Element’s or Contract’s workboard, it will require you to connect the Logit or Element block required in order to finish the model. Or you can use the hashtag in checking the model by using [Global and Local Rule](#global-and-local-rule).
 
-![](/assets/images/lokahi/image90.png)
+![](assets/images/image90.png)
 
 Figure 80
 
 Procedure
 
-1.  The "Define Hashtag" button ![](/assets/images/lokahi/image44.png) appears on the "Add Component" sidebar menu on all layers: Open the  workboard. At the bottom of the “Add Component” sidebar menu, click the “Define Hashtag” button.
-2.  After clicking on the "Define Hashtag" button ![](/assets/images/lokahi/image44.png), a screen appears in the middle of the Workboard titled "Define Hashtag" with 2 tables:
+1.  The "Define Hashtag" button ![](assets/images/image44.png) appears on the "Add Component" sidebar menu on all layers: Open the  workboard. At the bottom of the “Add Component” sidebar menu, click the “Define Hashtag” button.
+2.  After clicking on the "Define Hashtag" button ![](assets/images/image44.png), a screen appears in the middle of the Workboard titled "Define Hashtag" with 2 tables:
 
 3.  The left table is "List Of Hashtag". It has a "Search" frame and a table with 2 columns "Hashtag" and "Description".
 4.  The right table is "Define Hashtag". It contains a "Hashtag's name" input field with a placeholder sentence "E.g shipping", a "Hashtag's Description" text input field with a placeholder "Description", and the \[Save\] button is inactive.
@@ -5731,7 +5731,7 @@ This setting will require you to connect Logit/Element blocks contain the input 
 
 The "Manage Tag" screen can be found by clicking on a "Register" or "Operation" block and then clicking on the “Manage tag” icon of that block and selecting “Manage Tags.”
 
-![](/assets/images/lokahi/image11.png)
+![](assets/images/image11.png)
 
 Figure 81
 
@@ -5780,7 +5780,7 @@ Note:
 
 The “Recommendation” feature reminds and guides you to finish the steps on the workboard. Once you complete all of the recommendation steps, you will be ready to deploy.
 
-![](/assets/images/lokahi/image30.png)
+![](assets/images/image30.png)
 
 Figure 82
 
@@ -5843,7 +5843,7 @@ The examples below do not include a comprehensive list of every possible recomme
 
 The “Flow Graph” feature allows you to configure the flow graph by connecting the lower layers. You can set the statement for your flow graph by clicking on the “Flow Graph” button at the bottom of the workboard. The “Flow Graph” statement is the condition of the shapes on the flow graph that allows those shapes to work and to allow the messages to go into the flow graph.
 
-![](/assets/images/lokahi/image78.png)
+![](assets/images/image78.png)
 
 Figure 83
 
@@ -5857,7 +5857,7 @@ Definition and Features of Flow Graph
 
 The shapes in the flow graph have 3 types which are a circle, a rectangle or a diamond. Those shapes in the flow graph have been called “State”.
 
-![](/assets/images/lokahi/image34.png)
+![](assets/images/image34.png)
 
 Figure 84
 
@@ -5884,7 +5884,7 @@ Figure 84
 2.  This occurs when you select both a "Start state shape" and another one of the 4 state shapes {"End state shape"; "Join state rectangle shape"; "Join state diamond shape"; “Join State Circle Shape”} at the same time using click and hold \[Command\]/\[Ctrl\] or \[Shift\].
 3.  The meaning of the "Eventually Active" option is the message that belongs to the State shape or the one connected to the "Start state shapes" must belong to one of 4 state shapes {"End state shape"; "Join state rectangle shape"; "Join state diamond shape" ; “Join State Circle Shape”}.
 
-![](/assets/images/lokahi/image62.png)
+![](assets/images/image62.png)
 
 Figure 85
 
@@ -6011,7 +6011,7 @@ Note:
 
 The “Global and Local rules” feature allows you to set the statement for the model to check if the message in the “Register” block can reach the other “Register” on the model or not. If the result of the statement is false, it will let you know you have to fix the model to satisfy your purpose by a recommendation.
 
-![](/assets/images/lokahi/image87.png)
+![](assets/images/image87.png)
 
 Figure 86
 
@@ -6110,7 +6110,7 @@ b. The logical operators
 
 28. Example:
 
-![](/assets/images/lokahi/image85.png)
+![](assets/images/image85.png)
 
 Figure 87
 
@@ -6146,7 +6146,7 @@ Example: "#a eventually active or #b eventually active". If #a eventually active
 
 The purpose of limiting the data can go to the next step of the model.
 
-![](/assets/images/lokahi/image80.png)
+![](assets/images/image80.png)
 
 Figure 88
 
@@ -6166,9 +6166,9 @@ Procedure for creating a Decision block at Logit layer
 
 \].
 
-3.  Goto Element layer, on the “Add Component” sidebar, appears that the “Decision” block is active and has changed the icon from the normal icon (“Logit”  icon) to the “Decision” icon![](/assets/images/lokahi/image59.png).
+3.  Goto Element layer, on the “Add Component” sidebar, appears that the “Decision” block is active and has changed the icon from the normal icon (“Logit”  icon) to the “Decision” icon![](assets/images/image59.png).
 
-![](/assets/images/lokahi/image65.png)
+![](assets/images/image65.png)
 
 Figure 89
 
@@ -6302,7 +6302,7 @@ Procedure to edit the Decision block
 
 Dapp is an interface to use smart-contract from Lokahi. Dapp displays the information of a contract after deploying successfully on a blockchain. It will inform us about the contract’s information, provide the interface for the account deployed, that contract can add more data, can execute methods, and track the flow of the message in the model. Each manipulation on the interface will require the blockchain, so you have to sign in with an account address through the Meta Mask with the right blockchain.
 
-![](/assets/images/lokahi/image41.png)
+![](assets/images/image41.png)
 
 Figure 90
 
@@ -6450,11 +6450,11 @@ Note:
 
 Procedure add permission for at Logit layer
 
-![](/assets/images/lokahi/image54.png)
+![](assets/images/image54.png)
 
 Figure 91
 
-1.  On the Logit layer, click on the “Register” block. Click on the “Add Permission”![](/assets/images/lokahi/image68.png) icon.
+1.  On the Logit layer, click on the “Register” block. Click on the “Add Permission”![](assets/images/image68.png) icon.
 2.  The "Add Permission" screen appears and has 2 tables.
 
 \+ The left table is "List Of Address". It has a "Search" frame and a table that has 1 column is "Address".
@@ -6472,13 +6472,13 @@ Figure 91
 4.  The \[Add\] button is enabled to click.
 5.  The address will appear on the left table. You can copy, edit or delete the addresses by hovering on each row, in the right side of the "Address" column, appear a group button {Copy; Edit; Delete}.
 
-\[Note: In the "Lock" state: you can click on the “Add Permission”![](/assets/images/lokahi/image68.png) icon to open the "Add Permission" screen and manipulate on this screen. But after you reload the page, it does not save anything that you have just edited.\]
+\[Note: In the "Lock" state: you can click on the “Add Permission”![](assets/images/image68.png) icon to open the "Add Permission" screen and manipulate on this screen. But after you reload the page, it does not save anything that you have just edited.\]
 
 #### Add Permission For Contract Has Been Deployed
 
 Once you deploy a contract at Workboard, in the “[Transactions](#view-deployment-history-of-a-contract-on-the-dashboard)” screen, as an owner of that contract you can add the user or organization as a member can see the information of the contracts that have been deployed.
 
-![](/assets/images/lokahi/image100.png)
+![](assets/images/image100.png)
 
 Figure 92
 
@@ -6509,7 +6509,7 @@ Procedure to add viewer for the deployed contract
 
 You can register an account at the user level on the “Sign Up” page of Lokahi by accessing the “Login” page and then click on the “Sign up” link below the \[Login\] button.
 
-![](/assets/images/lokahi/image40.png)
+![](assets/images/image40.png)
 
 Figure 93
 
@@ -6529,7 +6529,7 @@ Note:         The email verification link will no longer be valid until 
 
 You can log into an account on the “Login” page of Lokahi by using your username or your verified email address along with the password chosen during registration.
 
-![](/assets/images/lokahi/image81.png)
+![](assets/images/image81.png)
 
 Figure 94
 
@@ -6545,7 +6545,7 @@ Note:        If you used an account that was registered but has not been
 
 You can change an account’s password by accessing the “Login” page of Lokahi then click on the “Forgot Password?” link below the \[Login\] button. It will access the “Reset Password” page.
 
-![](/assets/images/lokahi/image24.png)
+![](assets/images/image24.png)
 
 Figure 95
 
@@ -6599,7 +6599,7 @@ There are 4 roles in Lokahi, with a Business User account, Advanced user account
 -   The Engineer has the ability to create and configure the Logit and Elements to promote Elements up a level for use on the layers above in contracts created by standard and advanced users to which the engineer is assigned or granted permission.
 -   An engineer can access the lower layers (Logit and Element) from the dashboard of the project or on the workboard in a project‘s layer dropdown list.
 
-![](/assets/images/lokahi/image63.png)
+![](assets/images/image63.png)
 
 Figure 96
 
