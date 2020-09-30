@@ -1354,7 +1354,7 @@ Figure 52
 
 Procedure
 
-1.  You can hide the “Add Component sidebar” menu by clicking on “x” icon to minimize the menu on the left hand side of the screen and clicking on the “Hamburger icon” (Three Horizontal lines) to re-open.
+1.  You can hide the “Add Component sidebar” menu by clicking on “x” icon to minimize the menu on the left hand side of the screen and clicking the Add component icon (the icon below the Lokahi logo) to reopen the sidebar.
 2.  Within the “Add Component sidebar” menu, there may be multiple categories available to minimize and maximize within a drop down list that shows all blocks available for use on the workboard.
 3.  You can create a new Element in an existing group category in the “Add Component sidebar” by:
 
@@ -1367,7 +1367,7 @@ Procedure
 
 #### Edit Layer In The Add Component Sidebar On The Workboard
 
-You can change the name, icon or category and configure the ports of the current component from the settings button in the bottom left hand corner of the Add Component sidebar.
+You can change the name, icon or category and configure the ports of the current component from the settings button in the bottom right-hand corner sidebar of the screen.
 
 ![](assets/images/image72.png)
 
@@ -1385,7 +1385,7 @@ Case 2:  When you click the "Edit" button the "Configure Port and Component inf
 
 Figure 54
 
-Case 3:  After clicking the "Edit" button the "Configure Port and Component info" screen appears. If you have blocks on the workboard and have configured ports, the "Configure port" tab will display all blocks in the left table and in the right table displays a “Configure port” header with the number of blocks selected and it lists each type of port {input, output, both and none port} with the number of each type. After you [configure the port(s)](#configure-port) click the \[Save\] button, a popup displays the message "Update Successfully".
+Case 3:  After clicking the "Edit" button the "Configure Port and Component info" screen appears. If you have blocks on the workboard and have configured ports, the "Configure port" tab will display all blocks in the left table and in the right table displays a “Configure port” header with the number of blocks selected and it lists each type of port {input port, output port} with the number of each type. After you [configure the port(s)](#configure-port) click the \[Save\] button, a popup displays the message "Update Successfully".
 
 Additional: In the "Component info” tab, the name of the layer is used as the default in the "Name" field and the group is listed in the "Category” field.
 
@@ -1400,7 +1400,7 @@ You can deploy a Contract to the private blockchain that you want by adding a ne
 Procedure
 
 1.  Click the \[Deploy\] button on the toolbar to open the deployment form.
-2.  Click on the “Deploy to blockchain” selection box.
+2.  Click on the “Deploy to” selection box.
 3.  Click on the \[Custom Blockchain\] option.
 4.  Type in the “Name” input and the “URL” input the link of the blockchain server which you want to deploy to.
 5.  Click the \[Save\] button to save the new option of blockchain on the web.
@@ -1474,14 +1474,13 @@ Procedure
 Figure 79
 
 3.  The view in the middle of the screen has 7 columns {Name; Manage User; Version; Address/TxHash; Network; Age; Status} with the following descriptions:  
-    \+ Name: the name of contract in the Deployment process. If a name was not input during the deployment, the name will automatically default to the name of the Contract.
-    \+ Manage user: It shows the avatar of the user that has been added to this contract.You can click on the icon to add users or organizations to contract.
-    \+ Version: The newest version of the contract. If a version was not provided during deployment, it will automatically default to "0".  
+    \+ Name: the name of contract in the Deployment process. If a name was not input during the deployment, the name will automatically default to the name of the Contract.    
+    \+ Manage user: It shows the avatar of the user that has been added to this contract.You can click on the icon to add users or organizations to contract.    
+    \+ Version: The newest version of the contract. If a version was not provided during deployment, it will automatically default to "0".     
     \+ Address/TxHash: The Hash address or contract address from the blockchain server.  
     \+ Network: It displays which blockchains were chosen during Deployment.  
     \+ Age: The time counts from the time when the web has received the contract address to the current time.  
-    \+ Status: Displays the current status of that contract. The 3 status options are {Pending; Success; Incomplete}.
-
+    \+ Status: Displays the current status of that contract. The 3 status options are {Pending; Success; Incomplete}.    
     + "Pending" when the TxHash was received but is still waiting for the contract address. The next to Pending status is the Help icon. When hovering on the Help icon , it will display the tooltip with the message “The deployment process to blockchain may take a new minute. Please way a moment!”
     + "Incomplete" when the blockchain server can't send back the contract address. The next to incomplete status is the Help icon. When hovering on the Help icon, it will display the tooltip with the message "Server is getting something wrong now. Please try later!".
     + "Success" when the blockchain server sent back the contract address.
@@ -1645,48 +1644,47 @@ There are some rules and some attentions to follow when you edit the model:
 
 1.  Update:
 
-1.  Can [change the name of the instance](#change-the-name-of-block) by clicking on the pen icon next to the name of that instance on the workplace, and when [going inside of the instance](<#double-click-on-a-block-(at-contract-or-element)>), the instance name appears on the toolbar under the type name of the layer.
-1.  Can change the name of the original block, but don't affect the name of instances that are dragged on the workplace if you haven’t changed the instance’s name on the workplace.
-1.  Can [change the type of a Register block](#edit-markings) inside of the instance, but don't affect that Register block inside the original block. And after that, when changing something relates to that Register block inside the original block, it cannot affect that Register block inside the instance.
-1.  Can change the type of a Register block inside of the original block, it will affect the instance if you don't change anything like [adding a message](#edit-markings), [changing the type](#define-type), [changing the port](#configure-port), [adding a hashtag](#manage-hashtags),.... relates to that Register block inside of the instance. And it won't affect if we change at least one thing related to that Register block of the instance. Once the type for that Register block is changed, all messages have been added at the Logit/Element instance and the Contract layer will be cleared.
-1.  Can add or change the messages, the [expression](#edit-expression) and the [variable](#variable) at some places inside of the instance, but don't affect the same places inside of the original block.
-1.  When adding data on the [“Add Data” sidebar](#add-data-sidebar) at the Contract layer for an instance, it affects the Logit layer’s data of that instance.
-1.  Can add a message or add an expression or change the variable at some places inside of the original block, it will affect the instance if it doesn't change anything related to those places inside of the instance. And it won't affect if we change at least one thing related to those places inside of the instance.
-1.  The changes inside the instance don't affect the original block. But the changes inside of the original block will affect the instance.
-1.  Cannot change the status (Yes/No) of the connection from [Decision](#decision-block) block to other block inside instance. But you can change the status (Yes/No) with the connection creates from the new component (between Decision blocks and normal blocks) inside the instance (drag new block inside the instance then create some connections with that block then set the status)
-1.  Cannot change the port of the connection from a normal block to a Decision block inside an instance. So when opening the ["Choose Represent Value Data"](#decision-block) screen, it disables the selection box for the port to connect with the Decision block, not allowing it to change.
-1.  Can create more connections inside the instance. Can change like the “Expression” screen at Step 2 (the expression in the fields).
-1.  Cannot delete at Step 1 with the connections are created in the root block. If hover on the "Delete" icon of that connection, the "Delete" icon will be disabled and it appears a tooltip is "We cannot delete this connection because it's extended from meta type".
+    A. Can [change the name of the instance](#change-the-name-of-block) by clicking on the pen icon next to the name of that instance on the workplace, and when [going inside of the instance](<#double-click-on-a-block-(at-contract-or-element)>), the instance name appears on the toolbar under the type name of the layer.    
+    B. Can change the name of the original block, but don't affect the name of instances that are dragged on the workplace if you haven’t changed the instance’s name on the workplace.    
+    C. Can [change the type of a Register block](#edit-markings) inside of the instance, but don't affect that Register block inside the original block. And after that, when changing something relates to that Register block inside the original block, it cannot affect that Register block inside the instance.    
+    D. Can change the type of a Register block inside of the original block, it will affect the instance if you don't change anything like [adding a message](#edit-markings), [changing the type](#define-type), [changing the port](#configure-port), [adding a hashtag](#manage-hashtags),.... relates to that Register block inside of the instance. And it won't affect if we change at least one thing related to that Register block of the instance. Once the type for that Register block is changed, all messages have been added at the Logit/Element instance and the Contract layer will be cleared.    
+    E. Can add or change the messages, the [expression](#edit-expression) and the [variable](#variable) at some places inside of the instance, but don't affect the same places inside of the original block.    
+    F. When adding data on the [“Add Data” sidebar](#add-data-sidebar) at the Contract layer for an instance, it affects the Logit layer’s data of that instance.    
+    G. Can add a message or add an expression or change the variable at some places inside of the original block, it will affect the instance if it doesn't change anything related to those places inside of the instance. And it won't affect if we change at least one thing related to those places inside of the instance.    
+    H. The changes inside the instance don't affect the original block. But the changes inside of the original block will affect the instance.    
+    I. Cannot change the status (Yes/No) of the connection from [Decision](#decision-block) block to other block inside instance. But you can change the status (Yes/No) with the connection creates from the new component (between Decision blocks and normal blocks) inside the instance (drag new block inside the instance then create some connections with that block then set the status)    
+    J. Cannot change the port of the connection from a normal block to a Decision block inside an instance. So when opening the ["Choose Represent Value Data"](#decision-block) screen, it disables the selection box for the port to connect with the Decision block, not allowing it to change.    
+    K. Can create more connections inside the instance. Can change like the “Expression” screen at Step 2 (the expression in the fields).    
+    L. Cannot delete at Step 1 with the connections are created in the root block. If hover on the "Delete" icon of that connection, the "Delete" icon will be disabled and it appears a tooltip is "We cannot delete this connection because it's extended from meta type".
 
-1.  Delete
+2.  Delete
 
-1.  Can delete the instance in the workplace, but doesn’t affect the original block.
-1.  Can delete the original block on the “Add Component” sidebar and “Layer” dropdown list and the instance that was dragged on the workplace will be disappeared.
-1.  Can delete the new part or change by adding the block on the model inside of the instance, but don't affect the original block. And cannot delete the part of the model as the model of the original block for the first time creating the instance. After that, when changing something inside of the original block, it still affects the instance.
-1.  Can delete or change the model inside of the original block, it will affect the instance. And it won't affect the places of the instance that are different from that original block.
+    A. Can delete the instance in the workplace, but doesn’t affect the original block.    
+    B. Can delete the original block on the “Add Component” sidebar and “Layer” dropdown list and the instance that was dragged on the workplace will be disappeared.    
+    C. Can delete the new part or change by adding the block on the model inside of the instance, but don't affect the original block. And cannot delete the part of the model as the model of the original block for the first time creating the instance. After that, when changing something inside of the original block, it still affects the instance.    
+    D. Can delete or change the model inside of the original block, it will affect the instance. And it won't affect the places of the instance that are different from that original block.
 
-1.  Configure Port
+3.  Configure Port
 
-1.  Can change the instance by adding some new port inside of the instance or clear those new ports once defined. The ports of the instance are the same as the original block, cannot clear those ports, can only rename those original block's ports and doesn’rsquo;t affect the original block.
-1.  Once changed something inside the instance, when changing something inside of the original block, it cannot affect like changing the name of the port to the instance but if change the type of port at Original block, it will clear the old type of port at instance block and keep as the original block’s port.
-1.  Can change the port inside of the original block, it will affect the instance.
+    A. Can change the instance by adding some new port inside of the instance or clear those new ports once defined. The ports of the instance are the same as the original block, cannot clear those ports, can only rename those original block's ports and doesn’rsquo;t affect the original block.    
+    B.  Once changed something inside the instance, when changing something inside of the original block, it cannot affect like changing the name of the port to the instance but if change the type of port at Original block, it will clear the old type of port at instance block and keep as the original block’s port.    
+    C.  Can change the port inside of the original block, it will affect the instance.
 
-1.  Access to instance layer
+4.  Access to instance layer
 
-1.  At the higher layer's workplace double click on the instance, we access the workplace of that instance.
-1.  At the higher layer's workplace double click on the original block on the “Add Component” sidebar, we access the workplace of that original block and can see the “Layer” dropdown list.
-1.  Inside the workplace of that instance, on the toolbar, it displays the name of the instance under the type name of the layer, and doesn't see the “Layer” dropdown list anymore. Next is the “PARENT NAME” with the name of the higher layer containing that instance. The last is the “META TYPE” with the name of the original block of the instance.
-1.  Once clicked on the name at the “PARENT NAME” at the toolbar once went inside the instance, it returns to the higher layer that contains that instance. And in the toolbar, appears the “Layer” dropdown list.
-1.  Once clicked on the name at the “META TYPE” at the toolbar once went inside the instance, it returns to the original block of the instance. And in the toolbar, appears the “Layer” dropdown list.
+    A.  At the higher layer's workplace double click on the instance, we access the workplace of that instance.    
+    B.  At the higher layer's workplace double click on the original block on the “Add Component” sidebar, we access the workplace of that original block and can see the “Layer” dropdown list.    
+    C.  Inside the workplace of that instance, on the toolbar, it displays the name of the instance under the type name of the layer, and doesn't see the “Layer” dropdown list anymore. Next is the “PARENT NAME” with the name of the higher layer containing that instance. The last is the “META TYPE” with the name of the original block of the instance.
+    D.  Once clicked on the name at the “PARENT NAME” at the toolbar once went inside the instance, it returns to the higher layer that contains that instance. And in the toolbar, appears the “Layer” dropdown list.
+    E.  Once clicked on the name at the “META TYPE” at the toolbar once went inside the instance, it returns to the original block of the instance. And in the toolbar, appears the “Layer” dropdown list.
 
-1.  Create new layer from an instance
+5.  Create new layer from an instance    
+    You can [create a layer from the instance's model](#select-a-group), and that layer will appear on the “Layer” dropdown list.        
 
-1.  You can [create a layer from the instance's model](#select-a-group), and that layer will appear on the “Layer” dropdown list.
+6.  Category
 
-1.  Category
-
-1.  When adding or changing the category on the instance, it will save in the “Component Info” screen of that instance and don't affect the original block, but cannot see that category in the “Add Component” sidebar of the higher layer.
-1.  When adding or changing the category on the original block, it will save in the “Component Info” screen of that original block and affect the instance and can see that category in the “Add Component” sidebar of the higher layer.
+    A.  When adding or changing the category on the instance, it will save in the “Component Info” screen of that instance and don't affect the original block, but cannot see that category in the “Add Component” sidebar of the higher layer.    
+    B.  When adding or changing the category on the original block, it will save in the “Component Info” screen of that original block and affect the instance and can see that category in the “Add Component” sidebar of the higher layer.
 
 #### Right Click On A Block
 
@@ -2213,7 +2211,7 @@ The Extra API functions are used in the “Expression”, input and output scree
 
 The Extra API can only be used on the “Add Extra API” input of the “Expression”, input and output screen of the “Decision” block. In the  “Add Extra API” input can use only one  “Extra API” function.
 
-Table of the Extra API function and constant can be used:
+Table of the Extra API function and constant can be used:    
 
 No.
 
@@ -2433,7 +2431,7 @@ Figure 83
 
 Attention:
 
--   The \[Flow Graph\] button and the "Flow Graph" screen is only available on the Element and Contract. Even if you don't have any blocks on the workboard, the \[Flow Graph\] button will still appear on the bottom toolbar but the flow graph will just be blank when you click on it.
+-   The \[Flow Graph\] button and the "Flow Graph" screen is only available on the Element and Contract. Even if you don't have any blocks on the workboard, the \[Flow Graph\] button will still appear  on the sidebar on the right of the workboard but the flow graph will just be blank when you click on it.
 
 -   Engineering note:  To draw a flow graph, the model has to be a [valid model](#definition-basic-of-the-unit-block-and-the-logit-flow-on-the-lowest-layer).
 
@@ -2494,7 +2492,7 @@ Figure 85
     Note:  You can untick the options to delete.  Or you can delete the statements by clicking on the “Delete” icon next to those statements.
 4)  Once you tick the radio box, it changes the color from black to orange and in the body of the Flow Graph screen and it will display a combination of the State shapes that have been selected with this option.
 
-    Note:  You are allowed to group State(s) with more than one option of the 3 options {Eventually All Active; Eventually At Least One Active; Exclusive}, but the options in the combination cannot be impacting each other.
+Note:  You are allowed to group State(s) with more than one option of the 3 options {Eventually All Active; Eventually At Least One Active; Exclusive}, but the options in the combination cannot be impacting each other.
 
 5)  Move Feature:  Click and hold at the same time to move in the body of the "Flow Graph" screen:
 
@@ -2572,7 +2570,7 @@ Procedure
 1.  If you want to add a message at Element or Contract, you have to tick 2 checkboxes are "Allow user to add data in Element" and "Allow user to add data in Contract" on the “[Markings](#edit-markings)” screen of the “Register” block which you want to add.
 2.  Open Element/Contract’s workboard.
 3.  Drag a valid Logit/Element block into the workboard. A layer is valid when it has a valid model inside. For more information about a valid model, go to [A Logit Flow On Lokahi](#definition-basic-of-the-unit-block-and-the-logit-flow-on-the-lowest-layer).
-4.  Click on the \[Add Data\] button at the bottom toolbar.
+4.  Click on the \[Add Data\] button at the right sidebar of the workboard.
 5.  Once dragged some valid blocks into the workplace, even if it has not created a valid model on that layer, it opens on the right side of the workboard page a “Add Data” sidebar. And show the boxes corresponding with all the “Register” blocks are allowed to add data on Element/Contract belonging to the valid model of the Logit/Element block.
 6.  Once clicked the box of Logit block on the "Add Data" sidebar of Element, it shows all of the "Register" blocks of Logit block has “Register” blocks have been ticked the "Allow to add data in Element/Contract" checkboxes will be displayed by a box has the name of the "Register" block.
 7.  If at Element or Contract has defined connection between 2 “Register” blocks - it means in "Step 2: Define your connection" screen, you have chosen to merge those 2 “Register” blocks have been merged into one “Register” block, it will display the “Register” name has been chosen to represent for both “Register” blocks. Once click on the “Register” box in the “Add Data” sidebar, it shows all “Register” blocks have been merged with at maximum 3 messages in the list of message if it has added and that “Register” box is just only appeared under the Logit box contains that “Register” block has been chosen as a representation, and in the Logit box contains the “Register” block didn't be chosen as a representation will be disappeared.
@@ -2740,14 +2738,12 @@ Procedure for creating a Decision block at Logit layer
 2.  Drag only 2 "Operation" blocks on the Logit's workplace.
 
 \[
-
 -   Note: Ignore the announcement at the “[Recommendation](#recommendation-feature)” button and sidebar.
 
 -   Attention:
 
 -   If you drag only "[Operation](<#definition-of-a-register-and-operation-block-(at-logit-layer)>)" blocks but more than 2 blocks, it does not create a “Decision” block, even a valid block.
 -   If you drag only 2 "Operation" blocks but you make a valid Logit layer by connecting with another “[Register](<#definition-of-a-register-and-operation-block-(at-logit-layer)>)” block and adding some ports for that Logit layer, it will create a normal Logit block and won’t have the functions of a “Decision” block on the Element layer.
-
 \].
 
 3.  Goto Element layer, on the “Add Component” sidebar, appears that the “Decision” block is active and has changed the icon from the normal icon (“Logit”  icon) to the “Decision” icon![](assets/images/image59.png).
@@ -2761,15 +2757,11 @@ Procedure for creating a Decision block at Element layer
 1.  After you have created a “Decision” block. Create a new Element layer. Go to the workboard of that Element layer.
 2.  Drag only 1 "Decision" block on the Element's workplace.
 
-\[
-
--   Note: Ignore the announcement at the “Recommendation” button and sidebar.
-
--   Attention:
-
--   If you drag only "Decision" blocks but more than 2 blocks, it does not create a “Decision” block, even a valid block.
--   If you drag only 1 "Decision" block but you make a valid Element layer by connecting with another valid Layer block and adding some ports for that Element layer, it will create a normal Element block and won’t have the functions of a “Decision” block on the Contract layer.
-
+\[    
+\-   Note: Ignore the announcement at the “Recommendation” button and sidebar.    
+\-   Attention:    
+    +   If you drag only "Decision" blocks but more than 2 blocks, it does not create a “Decision” block, even a valid block.    
+    +   If you drag only 1 "Decision" block but you make a valid Element layer by connecting with another valid Layer block and adding some ports for that Element layer, it will create a normal Element block and won’t have the functions of a “Decision” block on the Contract layer.    
 \].
 
 3.  Click on that Decision block, and click on the “Edit Decision” icon. The “Edit Decision” screen appears and types a name.
@@ -3078,68 +3070,6 @@ Your transaction has been failed! Please check again your contract before doing 
 23. If the account address is not allowed to execute the transaction, when you click the \[Approve\] button, a red pop up says "Approve transaction failure!" will show.
 
 \[Note: + When you deploy in a blockchain A and there is a transaction need to approve but then you change to the blockchain B, then once clicked \[Approve\] button on the Pending box at "Transaction Activity" sidebar at Dapp page, a dialog "Approve transaction" appears and give a warning is "We found your current blockchain network ID is not equal to this contract network ID. Are you sure you want to approve?".\]
-
-#### Add Permission to Add Data For An Account On Blockchain
-
-The “Add Permission” allows you to add the user’s address account on the blockchain into the “Register” block(s) which have permission “Allow to add data” on the Logit of a project. Then except the user who owns the contract, the user's address account can have permission to add data on the contract’s [Dapp](#h.932d6iw0gppo) interface page.
-
-Note:
-
--   The user who has deployed the contract will be added data on the contract’s [Dapp](#h.932d6iw0gppo) interface page even if that user’s address has not added the permission.
--   You have to tick 2 checkboxes are "Allow user to add data in Element" and "Allow user to add data in Contract" on the “[Markings](#edit-markings)” screen of the “Register” block before you add some account’s address to have permission to add data. Because when you don’t allow to add data, even if the account’s address has been added permission, they cannot add data.
-
-Procedure add permission for at Logit layer
-
-![](assets/images/image54.png)
-
-Figure 91
-
-1.  On the Logit layer, click on the “Register” block. Click on the “Add Permission”![](assets/images/image68.png) icon.
-2.  The "Add Permission" screen appears and has 2 tables.
-
-\+ The left table is "List Of Address". It has a "Search" frame and a table that has 1 column is "Address".
-
-\+ The right table is "Add User Address". It has a blank "Address" textbox with placeholder is "E.g 0x45a61BD2E494f78Aa73bD7C1BF8EFF470799d14C", the \[Close\] button enables, and the \[Add\] button disables.
-
-3.  Enter the address in the “Address” textbox.
-
-\[Note:
-
--   The “Address” textbox allows entering the letters, the number, if enter just one valid character, the \[Save\] button will be enabled. But don't allow only blank space. If enter only blank space, special character, interrupting in the new line and entering blank space, a red message below the "Address" input announces that "Address is invalid!" and \[Add\] button disables.
--   The address is entered in the "Address" input should be a string has the letters are started  from "a" to "f" or from "A" to "F" and "x" and the number is started from "0” to "9" and has exactly 42 characters and right format "0x....". Ex: 0x72D9Ca808747b01e97c38C9Fc95E99FdC0a8Ab1b.
--   When you add the addresses that aren't right with the address format, once clicked \[Deploy\] button, it will display a red warning at the "[Deployment](#h.3ew3d88u4eb6)" form is "Deployed failed. Try again later!".\]
-
-4.  The \[Add\] button is enabled to click.
-5.  The address will appear on the left table. You can copy, edit or delete the addresses by hovering on each row, in the right side of the "Address" column, appear a group button {Copy; Edit; Delete}.
-
-\[Note: In the "Lock" state: you can click on the “Add Permission”![](assets/images/image68.png) icon to open the "Add Permission" screen and manipulate on this screen. But after you reload the page, it does not save anything that you have just edited.\]
-
-#### Add Permission For Contract Has Been Deployed
-
-Once you deploy a contract at Workboard, in the “[Transactions](#view-deployment-history-of-a-contract-on-the-dashboard)” screen, as an owner of that contract you can add the user or organization as a member can see the information of the contracts that have been deployed.
-
-![](assets/images/image100.png)
-
-Figure 92
-
-Attention:
-
-1\. Only the user has deployed that contract or the user or organization has ["Write" or "Delete" access](#projects) (include the cases that the user or organization has been added collaborator or transferred the project) can see the icon "Add User" and can add the other user or organization for that contract.
-
-2\. The User or Organization has "Read" access, they can see the project and all the contracts of that project. They only see how many users or organizations and can only see on that contract at the Contracts page and Dapp interface, but they can execute or add data if that user has the account address on the blockchain of the user who has deployed that contract. For more information about the Access ("Read" or "Write" or "Delete"), goto [Projects](#projects).
-
-3\. With the user or organization are added on the contract, they only see how many users or organizations and only can see on that contract at the Contracts page and [Dapp](#dapp) interface, but they can execute or add data if that user has the account address on the blockchain of the user who has deployed that contract.
-
-Procedure to add viewer for the deployed contract
-
-1.  Go to the workboard of a Contract layer. Then click the \[Transaction\] button in the toolbar.
-2.  Enter in the “Deployment” form the name and version of the Contract will deploy.
-3.  Click on the icon "Add User" at the "Manage Users" column of the “the name of the contract at the “Transactions” screen.
-4.  The "Add User or Organization To Contract" dialog appears. The "Add User To Contract" dialog has the list of users or organizations that can see the contract. It will show the label "Owner" is next to the user who owns the contract in the list of users or organizations of the "Add User To Contract" dialog.
-5.  The "ADD USER OR ORGANIZATION TO CONTRACT" form contains the input "Search and select Users or Organizations". Type on the input. You can search by email, username, and organization’s name.
-6.  Once clicked on the user or organization option, it disappears on the dropdown list and appears a label button has the name of that user or organization in the input Combobox. And the \[Add\] button is enabled.
-7.  Once clicked \[Add\] button, those users or organizations in the input Combobox will appear on the list of the "Add User To Contract" dialog.
-8.  Now, the users or organizations can manipulate that contract.
 
 ## REGISTRATION
 
@@ -3565,10 +3495,6 @@ Lokahi is often used to model Logit for combination of blockchain smart contract
 [Decision Block](#decision-block) [128](#decision-block)
 
 [Dapp](#dapp) [133](#dapp)
-
-[Add Permission to Add Data For An Account On Blockchain](#add-permission-to-add-data-for-an-account-on-blockchain) [137](#add-permission-to-add-data-for-an-account-on-blockchain)
-
-[Add Permission For Contract Has Been Deployed](#add-permission-for-contract-has-been-deployed) [139](#add-permission-for-contract-has-been-deployed)
 
 [REGISTRATION](#registration) [140](#registration)
 
