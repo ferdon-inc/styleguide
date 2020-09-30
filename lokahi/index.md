@@ -2140,14 +2140,14 @@ Procedure
 3.  Enter the condition using the IDs that have been chosen at the “Variables” screen. It has the suggestion feature that when having the variables have been defined at the arrow connected to this "Operation" block, it shows the default values and the variables have been defined. The default values are:
 
 -   Function: isTrue(a), isFalse(a), isEmpty(a).
--   logital operator: and ; or ; xor; ! - not.
+-   Logical operator: and ; or ; xor; ! - not.
 -   Constant variable: True, False, NULL.
 -   Mathematical operator: +, -, \*, /, %
 -   Comparison operator: > < >= <= = <>
 
 4.  If we don't enter enough for the elements of the expression it has a warning that appears under the text box "It isn't an expression!". If we enter not enough elements of an operator, a warning appears under the text box. Can enter only variables that have or has not been defined.
 5.  Click the \[Save\] button, the content inside that textbox has been saved. After opening the "Edit Guard" screen again, the content is still there.
-6.  Once you click on the "Help Center" button, a "Help Center" dialog appears that has a "Search" frame and a content recommendation about The Expressions, Writing Expressions, adn Common Functions. Once entered in the "Search" frame, it appears in the other content about Function, logital Operator, Constant Variable, Mathematical Operator, Comparison Operator, Variable.
+6.  Once you click on the "Help Center" button, a "Help Center" dialog appears that has a "Search" frame and a content recommendation about The Expressions, Writing Expressions, adn Common Functions. Once entered in the "Search" frame, it appears in the other content about Function, logictal Operator, Constant Variable, Mathematical Operator, Comparison Operator, Variable.
 
 Attention: If you do not add any condition to "Edit Guard", it still allows the message to go through.
 
@@ -2178,7 +2178,7 @@ Procedure
 3.  Enter the condition using the IDs have been chosen on the “Variables” screen. It has the suggestion feature that when having the variables have been defined at the arrow connected to this "Operation" block, it shows the default values and the variables have been defined at the “Register” blocks connected to the “Operation” block which points to this “Register” block. The default values are:
 
 -   Function: isTrue(a), isFalse(a), isEmpty(a).
--   logital operator: and ; or ; xor; ! - not.
+-   Logical operator: and ; or ; xor; ! - not.
 -   Constant variable: True, False, NULL.
 -   Mathematical operator: +, -, \*, /, %
 -   Comparison operator: > < >= <= = <>
@@ -2191,7 +2191,7 @@ Procedure
 
 7.  If you want to use some [Extra API functions](#add-extra-api-function) to execute once you deploy the contract, click the \[Add Extra API\] button and type one API function that you want to use.
 8.  Click the \[Save\] button, the content inside that textbox has been saved. After opening the "Edit Expression" screen again, the content is still there.
-9.  Once you click on the "Help Center" button, a "Help Center" dialog appears that has a "Search" frame and a content which recommends about The Expressions, Writing Expressions, adn Common Functions. Once entered in the "Search" frame, it appears another contents about Function, logital Operator, Constant Variable, Mathematical Operator, Comparison Operator, Variable.
+9.  Once you click on the "Help Center" button, a "Help Center" dialog appears that has a "Search" frame and a content which recommends about The Expressions, Writing Expressions, adn Common Functions. Once entered in the "Search" frame, it appears another contents about Function, logical Operator, Constant Variable, Mathematical Operator, Comparison Operator, Variable.
 
 Attention: If you do not have any condition in the "Edit Expression" screen, it still returns a response that the messages belong to "Unit" Type.
 
@@ -2611,7 +2611,7 @@ Definition for the Global and Local Rules
 
 \[Note: the normal hashtag corresponds with the hashtag containing prefix “now”. Ex: #a is equal #now_a\]
 
-5.  The hashtag will use the temporal logit and logital operators to make an statement (expression) with the hashtags have prefix:
+5.  The hashtag will use the temporal logit and logical operators to make an statement (expression) with the hashtags have prefix:
 
 a. Temporal operators
 
@@ -2634,7 +2634,7 @@ a. Temporal operators
 
 \+ A point of time is an action in the model that has the messages move from one Register to another Register.\]
 
-b. The logital operators
+b. The logical operators
 
 -   and
 -   or
@@ -3310,7 +3310,7 @@ Lokahi allows entire sub-systems that may include blockchain, IoT and web servic
 
 #### Deployment Plans
 
-Lokahi design is at the logital layer. Deployment plans allow the same logital design to be deployed to various blockchain technologies, IoT devices and web servers. This means that the same design could be deployed across several systems running different hardware, or different flavors of blockchain or instance. Technology changes down the road are painless and often only require a redeployment.
+Lokahi design is at the logical layer. Deployment plans allow the same logical design to be deployed to various blockchain technologies, IoT devices and web servers. This means that the same design could be deployed across several systems running different hardware, or different flavors of blockchain or instance. Technology changes down the road are painless and often only require a redeployment.
 
 #### Immutable Deployments and Hardware Pinning IoT and Blockchain
 
